@@ -1,0 +1,746 @@
+{
+  "config": {
+    "max_steps": 15,
+    "goal_indices": [
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68
+    ],
+    "num_goals_in_catalog": 6910,
+    "num_indices_run": 7,
+    "goals_shuffle_seed": 233,
+    "runs_per_goal": 1
+  },
+  "summary": {
+    "overall_avg_reward": 0.47866419294990725,
+    "success_rate": 0.2857142857142857,
+    "total_cost": 0.011040000000000001
+  },
+  "per_goal_avg": [
+    {
+      "goal_idx": 62,
+      "avg_reward": 1.0
+    },
+    {
+      "goal_idx": 63,
+      "avg_reward": 0.0
+    },
+    {
+      "goal_idx": 64,
+      "avg_reward": 0.0
+    },
+    {
+      "goal_idx": 65,
+      "avg_reward": 0.0
+    },
+    {
+      "goal_idx": 66,
+      "avg_reward": 0.6363636363636364
+    },
+    {
+      "goal_idx": 67,
+      "avg_reward": 1.0
+    },
+    {
+      "goal_idx": 68,
+      "avg_reward": 0.7142857142857143
+    }
+  ],
+  "all_results": [
+    {
+      "goal": {
+        "asin": "B07S7HDC88",
+        "category": "fashion",
+        "query": "men's loafers & slip-ons",
+        "name": "VanciLin Mens Casual Leather Fashion Slip-on Loafers",
+        "product_category": "Clothing, Shoes & Jewelry \u203a Men \u203a Shoes \u203a Loafers & Slip-Ons",
+        "instruction_text": "Find me slip resistant, non slip men's loafers & slip-ons with rubber outsole, rubber sole with color: r.brown-hole228, and size: 14, and price lower than 70.00 dollars",
+        "attributes": [
+          "slip resistant",
+          "non slip",
+          "rubber outsole",
+          "rubber sole"
+        ],
+        "price_upper": 70.0,
+        "goal_options": {
+          "color": "r.brown-hole228",
+          "size": "14"
+        },
+        "weight": 0.0020847525614866476
+      },
+      "goal_idx": 62,
+      "run_idx": 0,
+      "instruction": "Find me slip resistant, non slip men's loafers & slip-ons with rubber outsole, rubber sole with color: r.brown-hole228, and size: 14, and price lower than 70.00 dollars",
+      "reward": 1.0,
+      "steps": 5,
+      "cost": 0.00055,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me slip resistant, non slip men's loafers & slip-ons with rubber outsole, rubber sole with color: r.brown-hole228, and size: 14, and price lower than 60.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[slip resistant non slip men's loafers rubber outsole r.brown-hole228 size 14 under 60.00]",
+          "observation": "\n[Back to Search] \nPage 1 (Total results: 10) \n[B07S7HDC88] \nVanciLin Mens Casual Leather Fashion Slip-on Loafers \n$33.99 to $35.99 \n[B07HP6LVRS] \nMCICI Mens Loafers Moccasin Driving Shoes Premium Genuine Leather Casual Slip On Flats Fashion Slipper Breathable Big Size \n$15.99 to $32.99 \n[B07CN9RZ1C] \nEcco Men's Melbourne Plain Toe Slip on Loafer \n$114.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B07S7HDC88]",
+          "observation": "\n[Back to Search] \n[< Prev] \nsize [6.5][7][8][8.5][9][9.5][10][10.5][11][11.5][12][13][14]\ncolor [1877black][1877blue][228black][black137][blue137][l.brown137][r.brown137][1877r.brown][228blue][r.brown-hole228][1877brown][228r.brown-a][y.brown-hole228][black-hole228][228l.brown][r.brown2070][228r.brown][black2070][r.brown2626][r.brown-hole1887][black2626][black1901][r.brown2060][l.brown2060]\nVanciLin Mens Casual Leather Fashion Slip-on Loafers \nPrice: $33.99 to $35.99 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[r.brown-hole228]",
+          "observation": "You have clicked r.brown-hole228.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "click[14]",
+          "observation": "You have clicked 14.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 5,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 1.0",
+          "reward": 1.0,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B09R9YCM6R",
+        "category": "fashion",
+        "query": "men's henleys",
+        "name": "XXBR Summer T-shirts for Mens, Soldier Short Sleeve 3D Street Vintage Printed Shirt Slim Fit Muscle Casual Tee Tops",
+        "product_category": "Clothing, Shoes & Jewelry \u203a Men \u203a Clothing \u203a Active \u203a Sets \u203a Active Tracksuits",
+        "instruction_text": "Find me slim fit men's henleys with short sleeve with color: 157- yellow, and size: xx-large, and price lower than 50.00 dollars",
+        "attributes": [
+          "slim fit",
+          "short sleeve"
+        ],
+        "price_upper": 50.0,
+        "goal_options": {
+          "color": "157- yellow",
+          "size": "xx-large"
+        },
+        "weight": 0.001141326354588161
+      },
+      "goal_idx": 63,
+      "run_idx": 0,
+      "instruction": "Find me slim fit men's henleys with short sleeve with color: 157- yellow, and size: xx-large, and price lower than 50.00 dollars",
+      "reward": 0.0,
+      "steps": 15,
+      "cost": 0.0033099999999999996,
+      "invalid_actions": 13,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me slim fit men's henleys with short sleeve with color: 157- yellow, and size: xx-large, and price lower than 50.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[slim fit men's henleys short sleeve color 157 yellow size xx-large under 50]",
+          "observation": "\n[Back to Search] \nPage 1 (Total results: 10) \n[B09R9YCM6R] \nXXBR Summer T-shirts for Mens, Soldier Short Sleeve 3D Street Vintage Printed Shirt Slim Fit Muscle Casual Tee Tops \n$8.98 to $11.99 \n[B09HGFV91W] \nZHDD Tops for Mens, Men's Knight Punk Vintage Style Long Sleeve Asymmetric Hem Cowl Neck Teen Boys Gothic Pullover \n$4.98 to $7.99 \n[B09QQP3356] \nHAUKLIE Men's Sports Waffle Ribbed Polo Shirts Summer Short Sleeve Cotton Muscle Quarter-Zip Henley T-Shirt Tunics Tops \n$10.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "search[slim fit men's henleys short sleeve yellow xx-large under 50]",
+          "observation": "Your action search[slim fit men's henleys short sleeve yellow xx-large under 50] is Invalid. Here is the current webpage: \n[Back to Search] \nPage 1 (Total results: 10) \n[B09R9YCM6R] \nXXBR Summer T-shirts for Mens, Soldier Short Sleeve 3D Street Vintage Printed Shirt Slim Fit Muscle Casual Tee Tops \n$8.98 to $11.99 \n[B09HGFV91W] \nZHDD Tops for Mens, Men's Knight Punk Vintage Style Long Sleeve Asymmetric Hem Cowl Neck Teen Boys Gothic Pullover \n$4.98 to $7.99 \n[B09QQP3356] \nHAUKLIE Men's Sports Waffle Ribbed Polo Shirts Summer Short Sleeve Cotton Muscle Quarter-Zip Henley T-Shirt Tunics Tops \n$10.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "search[slim fit men's henleys short sleeve yellow xx-large]",
+          "observation": "Your action search[slim fit men's henleys short sleeve yellow xx-large] is Invalid. Here is the current webpage: \n[Back to Search] \nPage 1 (Total results: 10) \n[B09R9YCM6R] \nXXBR Summer T-shirts for Mens, Soldier Short Sleeve 3D Street Vintage Printed Shirt Slim Fit Muscle Casual Tee Tops \n$8.98 to $11.99 \n[B09HGFV91W] \nZHDD Tops for Mens, Men's Knight Punk Vintage Style Long Sleeve Asymmetric Hem Cowl Neck Teen Boys Gothic Pullover \n$4.98 to $7.99 \n[B09QQP3356] \nHAUKLIE Men's Sports Waffle Ribbed Polo Shirts Summer Short Sleeve Cotton Muscle Quarter-Zip Henley T-Shirt Tunics Tops \n$10.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "search[slim fit men's henleys short sleeve yellow]",
+          "observation": "Your action search[slim fit men's henleys short sleeve yellow] is Invalid. Here is the current webpage: \n[Back to Search] \nPage 1 (Total results: 10) \n[B09R9YCM6R] \nXXBR Summer T-shirts for Mens, Soldier Short Sleeve 3D Street Vintage Printed Shirt Slim Fit Muscle Casual Tee Tops \n$8.98 to $11.99 \n[B09HGFV91W] \nZHDD Tops for Mens, Men's Knight Punk Vintage Style Long Sleeve Asymmetric Hem Cowl Neck Teen Boys Gothic Pullover \n$4.98 to $7.99 \n[B09QQP3356] \nHAUKLIE Men's Sports Waffle Ribbed Polo Shirts Summer Short Sleeve Cotton Muscle Quarter-Zip Henley T-Shirt Tunics Tops \n$10.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 5,
+          "action": "search[slim fit men's henleys]",
+          "observation": "Your action search[slim fit men's henleys] is Invalid. Here is the current webpage: \n[Back to Search] \nPage 1 (Total results: 10) \n[B09R9YCM6R] \nXXBR Summer T-shirts for Mens, Soldier Short Sleeve 3D Street Vintage Printed Shirt Slim Fit Muscle Casual Tee Tops \n$8.98 to $11.99 \n[B09HGFV91W] \nZHDD Tops for Mens, Men's Knight Punk Vintage Style Long Sleeve Asymmetric Hem Cowl Neck Teen Boys Gothic Pullover \n$4.98 to $7.99 \n[B09QQP3356] \nHAUKLIE Men's Sports Waffle Ribbed Polo Shirts Summer Short Sleeve Cotton Muscle Quarter-Zip Henley T-Shirt Tunics Tops \n$10.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 6,
+          "action": "think[It seems that I cannot find the specific slim fit men's henleys with the required attributes. I will try to find a different approach or check the available options.]",
+          "observation": "OK.  Here is the current webpage: \n[Back to Search] \nPage 1 (Total results: 10) \n[B09R9YCM6R] \nXXBR Summer T-shirts for Mens, Soldier Short Sleeve 3D Street Vintage Printed Shirt Slim Fit Muscle Casual Tee Tops \n$8.98 to $11.99 \n[B09HGFV91W] \nZHDD Tops for Mens, Men's Knight Punk Vintage Style Long Sleeve Asymmetric Hem Cowl Neck Teen Boys Gothic Pullover \n$4.98 to $7.99 \n[B09QQP3356] \nHAUKLIE Men's Sports Waffle Ribbed Polo Shirts Summer Short Sleeve Cotton Muscle Quarter-Zip Henley T-Shirt Tunics Tops \n$10.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 7,
+          "action": "search[men's henleys]",
+          "observation": "Your action search[men's henleys] is Invalid. Here is the current webpage: \n[Back to Search] \nPage 1 (Total results: 10) \n[B09R9YCM6R] \nXXBR Summer T-shirts for Mens, Soldier Short Sleeve 3D Street Vintage Printed Shirt Slim Fit Muscle Casual Tee Tops \n$8.98 to $11.99 \n[B09HGFV91W] \nZHDD Tops for Mens, Men's Knight Punk Vintage Style Long Sleeve Asymmetric Hem Cowl Neck Teen Boys Gothic Pullover \n$4.98 to $7.99 \n[B09QQP3356] \nHAUKLIE Men's Sports Waffle Ribbed Polo Shirts Summer Short Sleeve Cotton Muscle Quarter-Zip Henley T-Shirt Tunics Tops \n$10.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 8,
+          "action": "search[men's henleys short sleeve]",
+          "observation": "Your action search[men's henleys short sleeve] is Invalid. Here is the current webpage: \n[Back to Search] \nPage 1 (Total results: 10) \n[B09R9YCM6R] \nXXBR Summer T-shirts for Mens, Soldier Short Sleeve 3D Street Vintage Printed Shirt Slim Fit Muscle Casual Tee Tops \n$8.98 to $11.99 \n[B09HGFV91W] \nZHDD Tops for Mens, Men's Knight Punk Vintage Style Long Sleeve Asymmetric Hem Cowl Neck Teen Boys Gothic Pullover \n$4.98 to $7.99 \n[B09QQP3356] \nHAUKLIE Men's Sports Waffle Ribbed Polo Shirts Summer Short Sleeve Cotton Muscle Quarter-Zip Henley T-Shirt Tunics Tops \n$10.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 9,
+          "action": "search[men's short sleeve henleys]",
+          "observation": "Your action search[men's short sleeve henleys] is Invalid. Here is the current webpage: \n[Back to Search] \nPage 1 (Total results: 10) \n[B09R9YCM6R] \nXXBR Summer T-shirts for Mens, Soldier Short Sleeve 3D Street Vintage Printed Shirt Slim Fit Muscle Casual Tee Tops \n$8.98 to $11.99 \n[B09HGFV91W] \nZHDD Tops for Mens, Men's Knight Punk Vintage Style Long Sleeve Asymmetric Hem Cowl Neck Teen Boys Gothic Pullover \n$4.98 to $7.99 \n[B09QQP3356] \nHAUKLIE Men's Sports Waffle Ribbed Polo Shirts Summer Short Sleeve Cotton Muscle Quarter-Zip Henley T-Shirt Tunics Tops \n$10.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 10,
+          "action": "search[men's casual t-shirts]",
+          "observation": "Your action search[men's casual t-shirts] is Invalid. Here is the current webpage: \n[Back to Search] \nPage 1 (Total results: 10) \n[B09R9YCM6R] \nXXBR Summer T-shirts for Mens, Soldier Short Sleeve 3D Street Vintage Printed Shirt Slim Fit Muscle Casual Tee Tops \n$8.98 to $11.99 \n[B09HGFV91W] \nZHDD Tops for Mens, Men's Knight Punk Vintage Style Long Sleeve Asymmetric Hem Cowl Neck Teen Boys Gothic Pullover \n$4.98 to $7.99 \n[B09QQP3356] \nHAUKLIE Men's Sports Waffle Ribbed Polo Shirts Summer Short Sleeve Cotton Muscle Quarter-Zip Henley T-Shirt Tunics Tops \n$10.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 11,
+          "action": "search[men's t-shirts]",
+          "observation": "Your action search[men's t-shirts] is Invalid. Here is the current webpage: \n[Back to Search] \nPage 1 (Total results: 10) \n[B09R9YCM6R] \nXXBR Summer T-shirts for Mens, Soldier Short Sleeve 3D Street Vintage Printed Shirt Slim Fit Muscle Casual Tee Tops \n$8.98 to $11.99 \n[B09HGFV91W] \nZHDD Tops for Mens, Men's Knight Punk Vintage Style Long Sleeve Asymmetric Hem Cowl Neck Teen Boys Gothic Pullover \n$4.98 to $7.99 \n[B09QQP3356] \nHAUKLIE Men's Sports Waffle Ribbed Polo Shirts Summer Short Sleeve Cotton Muscle Quarter-Zip Henley T-Shirt Tunics Tops \n$10.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 12,
+          "action": "search[men's summer t-shirts]",
+          "observation": "Your action search[men's summer t-shirts] is Invalid. Here is the current webpage: \n[Back to Search] \nPage 1 (Total results: 10) \n[B09R9YCM6R] \nXXBR Summer T-shirts for Mens, Soldier Short Sleeve 3D Street Vintage Printed Shirt Slim Fit Muscle Casual Tee Tops \n$8.98 to $11.99 \n[B09HGFV91W] \nZHDD Tops for Mens, Men's Knight Punk Vintage Style Long Sleeve Asymmetric Hem Cowl Neck Teen Boys Gothic Pullover \n$4.98 to $7.99 \n[B09QQP3356] \nHAUKLIE Men's Sports Waffle Ribbed Polo Shirts Summer Short Sleeve Cotton Muscle Quarter-Zip Henley T-Shirt Tunics Tops \n$10.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 13,
+          "action": "search[men's muscle t-shirts]",
+          "observation": "Your action search[men's muscle t-shirts] is Invalid. Here is the current webpage: \n[Back to Search] \nPage 1 (Total results: 10) \n[B09R9YCM6R] \nXXBR Summer T-shirts for Mens, Soldier Short Sleeve 3D Street Vintage Printed Shirt Slim Fit Muscle Casual Tee Tops \n$8.98 to $11.99 \n[B09HGFV91W] \nZHDD Tops for Mens, Men's Knight Punk Vintage Style Long Sleeve Asymmetric Hem Cowl Neck Teen Boys Gothic Pullover \n$4.98 to $7.99 \n[B09QQP3356] \nHAUKLIE Men's Sports Waffle Ribbed Polo Shirts Summer Short Sleeve Cotton Muscle Quarter-Zip Henley T-Shirt Tunics Tops \n$10.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 14,
+          "action": "search[XXBR Summer T-shirts for Mens]",
+          "observation": "Your action search[XXBR Summer T-shirts for Mens] is Invalid. Here is the current webpage: \n[Back to Search] \nPage 1 (Total results: 10) \n[B09R9YCM6R] \nXXBR Summer T-shirts for Mens, Soldier Short Sleeve 3D Street Vintage Printed Shirt Slim Fit Muscle Casual Tee Tops \n$8.98 to $11.99 \n[B09HGFV91W] \nZHDD Tops for Mens, Men's Knight Punk Vintage Style Long Sleeve Asymmetric Hem Cowl Neck Teen Boys Gothic Pullover \n$4.98 to $7.99 \n[B09QQP3356] \nHAUKLIE Men's Sports Waffle Ribbed Polo Shirts Summer Short Sleeve Cotton Muscle Quarter-Zip Henley T-Shirt Tunics Tops \n$10.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 15,
+          "action": "search[men's slim fit henleys]",
+          "observation": "Your action search[men's slim fit henleys] is Invalid. Here is the current webpage: \n[Back to Search] \nPage 1 (Total results: 10) \n[B09R9YCM6R] \nXXBR Summer T-shirts for Mens, Soldier Short Sleeve 3D Street Vintage Printed Shirt Slim Fit Muscle Casual Tee Tops \n$8.98 to $11.99 \n[B09HGFV91W] \nZHDD Tops for Mens, Men's Knight Punk Vintage Style Long Sleeve Asymmetric Hem Cowl Neck Teen Boys Gothic Pullover \n$4.98 to $7.99 \n[B09QQP3356] \nHAUKLIE Men's Sports Waffle Ribbed Polo Shirts Summer Short Sleeve Cotton Muscle Quarter-Zip Henley T-Shirt Tunics Tops \n$10.99 ",
+          "reward": 0.0,
+          "done": false
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B09NPML43M",
+        "category": "fashion",
+        "query": "women's tops, tees & blouses",
+        "name": "Womens Short Sleeve Tops, Womens Casual Dandelion Printing T-Shirts Loose O-Neck Blouse Tops Funny Graphic Tee Shirts",
+        "product_category": "Clothing, Shoes & Jewelry \u203a Women \u203a Clothing \u203a Tops, Tees & Blouses \u203a T-Shirts",
+        "instruction_text": "Find me loose fit, day comfort, hand wash women's tops, tees & blouses with short sleeve, polyester spandex for teen girls with color: b17-red, and size: medium, and price lower than 30.00 dollars",
+        "attributes": [
+          "loose fit",
+          "day comfort",
+          "hand wash",
+          "short sleeve",
+          "polyester spandex",
+          "teen girls"
+        ],
+        "price_upper": 30.0,
+        "goal_options": {
+          "color": "b17-red",
+          "size": "medium"
+        },
+        "weight": 0.001680865775131393
+      },
+      "goal_idx": 64,
+      "run_idx": 0,
+      "instruction": "Find me loose fit, day comfort, hand wash women's tops, tees & blouses with short sleeve, polyester spandex for teen girls with color: b17-red, and size: medium, and price lower than 30.00 dollars",
+      "reward": 0.0,
+      "steps": 15,
+      "cost": 0.0034599999999999995,
+      "invalid_actions": 14,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me loose fit, day comfort, hand wash women's tops, tees & blouses with short sleeve, polyester spandex for teen girls with color: b17-red, and size: medium, and price lower than 40.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[loose fit day comfort hand wash women's tops tees blouses short sleeve polyester spandex teen girls b17-red medium under 40.00]",
+          "observation": "\n[Back to Search] \nPage 1 (Total results: 10) \n[B09NPML43M] \nWomens Short Sleeve Tops, Womens Casual Dandelion Printing T-Shirts Loose O-Neck Blouse Tops Funny Graphic Tee Shirts \n$1.01 to $1.74 \n[B09QGK5XHZ] \nWENKOMG1 Men's Long Sleeve Undershirt with Mask Turtleneck Hooded T-Shirt Solid Color Workout Tops Zipper Side Slit Shirts Slim Fit Sweatshirt Spring/Summer Tee Shirts(Gray,) \n$8.39 \n[B09QQP3356] \nHAUKLIE Men's Sports Waffle Ribbed Polo Shirts Summer Short Sleeve Cotton Muscle Quarter-Zip Henley T-Shirt Tunics Tops \n$10.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "search[loose fit day comfort hand wash women's tops tees blouses short sleeve polyester spandex teen girls b17-red medium under 30.00]",
+          "observation": "Your action search[loose fit day comfort hand wash women's tops tees blouses short sleeve polyester spandex teen girls b17-red medium under 30.00] is Invalid. Here is the current webpage: \n[Back to Search] \nPage 1 (Total results: 10) \n[B09NPML43M] \nWomens Short Sleeve Tops, Womens Casual Dandelion Printing T-Shirts Loose O-Neck Blouse Tops Funny Graphic Tee Shirts \n$1.01 to $1.74 \n[B09QGK5XHZ] \nWENKOMG1 Men's Long Sleeve Undershirt with Mask Turtleneck Hooded T-Shirt Solid Color Workout Tops Zipper Side Slit Shirts Slim Fit Sweatshirt Spring/Summer Tee Shirts(Gray,) \n$8.39 \n[B09QQP3356] \nHAUKLIE Men's Sports Waffle Ribbed Polo Shirts Summer Short Sleeve Cotton Muscle Quarter-Zip Henley T-Shirt Tunics Tops \n$10.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "search[loose fit day comfort hand wash women's tops tees blouses short sleeve polyester spandex teen girls b17-red medium under 40.00]",
+          "observation": "Your action search[loose fit day comfort hand wash women's tops tees blouses short sleeve polyester spandex teen girls b17-red medium under 40.00] is Invalid. Here is the current webpage: \n[Back to Search] \nPage 1 (Total results: 10) \n[B09NPML43M] \nWomens Short Sleeve Tops, Womens Casual Dandelion Printing T-Shirts Loose O-Neck Blouse Tops Funny Graphic Tee Shirts \n$1.01 to $1.74 \n[B09QGK5XHZ] \nWENKOMG1 Men's Long Sleeve Undershirt with Mask Turtleneck Hooded T-Shirt Solid Color Workout Tops Zipper Side Slit Shirts Slim Fit Sweatshirt Spring/Summer Tee Shirts(Gray,) \n$8.39 \n[B09QQP3356] \nHAUKLIE Men's Sports Waffle Ribbed Polo Shirts Summer Short Sleeve Cotton Muscle Quarter-Zip Henley T-Shirt Tunics Tops \n$10.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "search[loose fit women's tops tees blouses short sleeve polyester spandex teen girls b17-red medium under 30.00]",
+          "observation": "Your action search[loose fit women's tops tees blouses short sleeve polyester spandex teen girls b17-red medium under 30.00] is Invalid. Here is the current webpage: \n[Back to Search] \nPage 1 (Total results: 10) \n[B09NPML43M] \nWomens Short Sleeve Tops, Womens Casual Dandelion Printing T-Shirts Loose O-Neck Blouse Tops Funny Graphic Tee Shirts \n$1.01 to $1.74 \n[B09QGK5XHZ] \nWENKOMG1 Men's Long Sleeve Undershirt with Mask Turtleneck Hooded T-Shirt Solid Color Workout Tops Zipper Side Slit Shirts Slim Fit Sweatshirt Spring/Summer Tee Shirts(Gray,) \n$8.39 \n[B09QQP3356] \nHAUKLIE Men's Sports Waffle Ribbed Polo Shirts Summer Short Sleeve Cotton Muscle Quarter-Zip Henley T-Shirt Tunics Tops \n$10.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 5,
+          "action": "search[loose fit women's tops tees blouses short sleeve polyester spandex teen girls b17-red medium]",
+          "observation": "Your action search[loose fit women's tops tees blouses short sleeve polyester spandex teen girls b17-red medium] is Invalid. Here is the current webpage: \n[Back to Search] \nPage 1 (Total results: 10) \n[B09NPML43M] \nWomens Short Sleeve Tops, Womens Casual Dandelion Printing T-Shirts Loose O-Neck Blouse Tops Funny Graphic Tee Shirts \n$1.01 to $1.74 \n[B09QGK5XHZ] \nWENKOMG1 Men's Long Sleeve Undershirt with Mask Turtleneck Hooded T-Shirt Solid Color Workout Tops Zipper Side Slit Shirts Slim Fit Sweatshirt Spring/Summer Tee Shirts(Gray,) \n$8.39 \n[B09QQP3356] \nHAUKLIE Men's Sports Waffle Ribbed Polo Shirts Summer Short Sleeve Cotton Muscle Quarter-Zip Henley T-Shirt Tunics Tops \n$10.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 6,
+          "action": "search[loose fit women's tops tees blouses short sleeve polyester spandex teen girls b17-red]",
+          "observation": "Your action search[loose fit women's tops tees blouses short sleeve polyester spandex teen girls b17-red] is Invalid. Here is the current webpage: \n[Back to Search] \nPage 1 (Total results: 10) \n[B09NPML43M] \nWomens Short Sleeve Tops, Womens Casual Dandelion Printing T-Shirts Loose O-Neck Blouse Tops Funny Graphic Tee Shirts \n$1.01 to $1.74 \n[B09QGK5XHZ] \nWENKOMG1 Men's Long Sleeve Undershirt with Mask Turtleneck Hooded T-Shirt Solid Color Workout Tops Zipper Side Slit Shirts Slim Fit Sweatshirt Spring/Summer Tee Shirts(Gray,) \n$8.39 \n[B09QQP3356] \nHAUKLIE Men's Sports Waffle Ribbed Polo Shirts Summer Short Sleeve Cotton Muscle Quarter-Zip Henley T-Shirt Tunics Tops \n$10.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 7,
+          "action": "search[loose fit women's tops tees blouses short sleeve polyester spandex teen girls]",
+          "observation": "Your action search[loose fit women's tops tees blouses short sleeve polyester spandex teen girls] is Invalid. Here is the current webpage: \n[Back to Search] \nPage 1 (Total results: 10) \n[B09NPML43M] \nWomens Short Sleeve Tops, Womens Casual Dandelion Printing T-Shirts Loose O-Neck Blouse Tops Funny Graphic Tee Shirts \n$1.01 to $1.74 \n[B09QGK5XHZ] \nWENKOMG1 Men's Long Sleeve Undershirt with Mask Turtleneck Hooded T-Shirt Solid Color Workout Tops Zipper Side Slit Shirts Slim Fit Sweatshirt Spring/Summer Tee Shirts(Gray,) \n$8.39 \n[B09QQP3356] \nHAUKLIE Men's Sports Waffle Ribbed Polo Shirts Summer Short Sleeve Cotton Muscle Quarter-Zip Henley T-Shirt Tunics Tops \n$10.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 8,
+          "action": "search[loose fit women's tops tees blouses short sleeve polyester spandex]",
+          "observation": "Your action search[loose fit women's tops tees blouses short sleeve polyester spandex] is Invalid. Here is the current webpage: \n[Back to Search] \nPage 1 (Total results: 10) \n[B09NPML43M] \nWomens Short Sleeve Tops, Womens Casual Dandelion Printing T-Shirts Loose O-Neck Blouse Tops Funny Graphic Tee Shirts \n$1.01 to $1.74 \n[B09QGK5XHZ] \nWENKOMG1 Men's Long Sleeve Undershirt with Mask Turtleneck Hooded T-Shirt Solid Color Workout Tops Zipper Side Slit Shirts Slim Fit Sweatshirt Spring/Summer Tee Shirts(Gray,) \n$8.39 \n[B09QQP3356] \nHAUKLIE Men's Sports Waffle Ribbed Polo Shirts Summer Short Sleeve Cotton Muscle Quarter-Zip Henley T-Shirt Tunics Tops \n$10.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 9,
+          "action": "search[loose fit women's tops tees blouses short sleeve]",
+          "observation": "Your action search[loose fit women's tops tees blouses short sleeve] is Invalid. Here is the current webpage: \n[Back to Search] \nPage 1 (Total results: 10) \n[B09NPML43M] \nWomens Short Sleeve Tops, Womens Casual Dandelion Printing T-Shirts Loose O-Neck Blouse Tops Funny Graphic Tee Shirts \n$1.01 to $1.74 \n[B09QGK5XHZ] \nWENKOMG1 Men's Long Sleeve Undershirt with Mask Turtleneck Hooded T-Shirt Solid Color Workout Tops Zipper Side Slit Shirts Slim Fit Sweatshirt Spring/Summer Tee Shirts(Gray,) \n$8.39 \n[B09QQP3356] \nHAUKLIE Men's Sports Waffle Ribbed Polo Shirts Summer Short Sleeve Cotton Muscle Quarter-Zip Henley T-Shirt Tunics Tops \n$10.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 10,
+          "action": "search[loose fit women's tops tees blouses]",
+          "observation": "Your action search[loose fit women's tops tees blouses] is Invalid. Here is the current webpage: \n[Back to Search] \nPage 1 (Total results: 10) \n[B09NPML43M] \nWomens Short Sleeve Tops, Womens Casual Dandelion Printing T-Shirts Loose O-Neck Blouse Tops Funny Graphic Tee Shirts \n$1.01 to $1.74 \n[B09QGK5XHZ] \nWENKOMG1 Men's Long Sleeve Undershirt with Mask Turtleneck Hooded T-Shirt Solid Color Workout Tops Zipper Side Slit Shirts Slim Fit Sweatshirt Spring/Summer Tee Shirts(Gray,) \n$8.39 \n[B09QQP3356] \nHAUKLIE Men's Sports Waffle Ribbed Polo Shirts Summer Short Sleeve Cotton Muscle Quarter-Zip Henley T-Shirt Tunics Tops \n$10.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 11,
+          "action": "search[womens short sleeve tops]",
+          "observation": "Your action search[womens short sleeve tops] is Invalid. Here is the current webpage: \n[Back to Search] \nPage 1 (Total results: 10) \n[B09NPML43M] \nWomens Short Sleeve Tops, Womens Casual Dandelion Printing T-Shirts Loose O-Neck Blouse Tops Funny Graphic Tee Shirts \n$1.01 to $1.74 \n[B09QGK5XHZ] \nWENKOMG1 Men's Long Sleeve Undershirt with Mask Turtleneck Hooded T-Shirt Solid Color Workout Tops Zipper Side Slit Shirts Slim Fit Sweatshirt Spring/Summer Tee Shirts(Gray,) \n$8.39 \n[B09QQP3356] \nHAUKLIE Men's Sports Waffle Ribbed Polo Shirts Summer Short Sleeve Cotton Muscle Quarter-Zip Henley T-Shirt Tunics Tops \n$10.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 12,
+          "action": "search[womens casual dandelion printing t-shirts]",
+          "observation": "Your action search[womens casual dandelion printing t-shirts] is Invalid. Here is the current webpage: \n[Back to Search] \nPage 1 (Total results: 10) \n[B09NPML43M] \nWomens Short Sleeve Tops, Womens Casual Dandelion Printing T-Shirts Loose O-Neck Blouse Tops Funny Graphic Tee Shirts \n$1.01 to $1.74 \n[B09QGK5XHZ] \nWENKOMG1 Men's Long Sleeve Undershirt with Mask Turtleneck Hooded T-Shirt Solid Color Workout Tops Zipper Side Slit Shirts Slim Fit Sweatshirt Spring/Summer Tee Shirts(Gray,) \n$8.39 \n[B09QQP3356] \nHAUKLIE Men's Sports Waffle Ribbed Polo Shirts Summer Short Sleeve Cotton Muscle Quarter-Zip Henley T-Shirt Tunics Tops \n$10.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 13,
+          "action": "search[womens short sleeve tops tees blouses b17-red]",
+          "observation": "Your action search[womens short sleeve tops tees blouses b17-red] is Invalid. Here is the current webpage: \n[Back to Search] \nPage 1 (Total results: 10) \n[B09NPML43M] \nWomens Short Sleeve Tops, Womens Casual Dandelion Printing T-Shirts Loose O-Neck Blouse Tops Funny Graphic Tee Shirts \n$1.01 to $1.74 \n[B09QGK5XHZ] \nWENKOMG1 Men's Long Sleeve Undershirt with Mask Turtleneck Hooded T-Shirt Solid Color Workout Tops Zipper Side Slit Shirts Slim Fit Sweatshirt Spring/Summer Tee Shirts(Gray,) \n$8.39 \n[B09QQP3356] \nHAUKLIE Men's Sports Waffle Ribbed Polo Shirts Summer Short Sleeve Cotton Muscle Quarter-Zip Henley T-Shirt Tunics Tops \n$10.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 14,
+          "action": "search[womens tops tees blouses b17-red medium under 30]",
+          "observation": "Your action search[womens tops tees blouses b17-red medium under 30] is Invalid. Here is the current webpage: \n[Back to Search] \nPage 1 (Total results: 10) \n[B09NPML43M] \nWomens Short Sleeve Tops, Womens Casual Dandelion Printing T-Shirts Loose O-Neck Blouse Tops Funny Graphic Tee Shirts \n$1.01 to $1.74 \n[B09QGK5XHZ] \nWENKOMG1 Men's Long Sleeve Undershirt with Mask Turtleneck Hooded T-Shirt Solid Color Workout Tops Zipper Side Slit Shirts Slim Fit Sweatshirt Spring/Summer Tee Shirts(Gray,) \n$8.39 \n[B09QQP3356] \nHAUKLIE Men's Sports Waffle Ribbed Polo Shirts Summer Short Sleeve Cotton Muscle Quarter-Zip Henley T-Shirt Tunics Tops \n$10.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 15,
+          "action": "search[womens casual dandelion printing t-shirts short sleeve]",
+          "observation": "Your action search[womens casual dandelion printing t-shirts short sleeve] is Invalid. Here is the current webpage: \n[Back to Search] \nPage 1 (Total results: 10) \n[B09NPML43M] \nWomens Short Sleeve Tops, Womens Casual Dandelion Printing T-Shirts Loose O-Neck Blouse Tops Funny Graphic Tee Shirts \n$1.01 to $1.74 \n[B09QGK5XHZ] \nWENKOMG1 Men's Long Sleeve Undershirt with Mask Turtleneck Hooded T-Shirt Solid Color Workout Tops Zipper Side Slit Shirts Slim Fit Sweatshirt Spring/Summer Tee Shirts(Gray,) \n$8.39 \n[B09QQP3356] \nHAUKLIE Men's Sports Waffle Ribbed Polo Shirts Summer Short Sleeve Cotton Muscle Quarter-Zip Henley T-Shirt Tunics Tops \n$10.99 ",
+          "reward": 0.0,
+          "done": false
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B0969G2DH8",
+        "category": "fashion",
+        "query": "men's dress shirts",
+        "name": "The cool twins just showed up T-Shirt",
+        "product_category": "Clothing, Shoes & Jewelry \u203a Novelty & More \u203a Clothing \u203a Novelty \u203a Women \u203a Tops & Tees \u203a T-Shirts",
+        "instruction_text": "Find me machine wash men's dress shirts with polyester heathers, heathers cotton, cotton heather, needle sleeve, classic fit with color: black, and fit type: youth, and size: 3t, and price lower than 40.00 dollars",
+        "attributes": [
+          "machine wash",
+          "polyester heathers",
+          "heathers cotton",
+          "cotton heather",
+          "needle sleeve",
+          "classic fit"
+        ],
+        "price_upper": 40.0,
+        "goal_options": {
+          "color": "black",
+          "fit type": "youth",
+          "size": "3t"
+        },
+        "weight": 0.0007773492690577492
+      },
+      "goal_idx": 65,
+      "run_idx": 0,
+      "instruction": "Find me machine wash men's dress shirts with polyester heathers, heathers cotton, cotton heather, needle sleeve, classic fit with color: black, and fit type: youth, and size: 3t, and price lower than 40.00 dollars",
+      "reward": 0.0,
+      "steps": 15,
+      "cost": 0.0028000000000000004,
+      "invalid_actions": 12,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me machine wash men's dress shirts with polyester heathers, heathers cotton, cotton heather, needle sleeve, classic fit with color: black, and fit type: youth, and size: 3t, and price lower than 50.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[machine wash men's dress shirts polyester heathers black youth 3t under 50]",
+          "observation": "\n[Back to Search] \nPage 1 (Total results: 10) \n[B09P39QN2W] \nI Tackled 100 Day Of School Football Boy 100th Day School T-Shirt \n$16.99 \n[B07JVVDJ6L] \nCanadian Tuxedo T Shirt - Novelty Denim Tux T-Shirt \n$19.99 \n[B08HF132PN] \nFlamingo Pink waterbird costume Gift Premium T-Shirt \n$19.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "search[machine wash men's dress shirts polyester heathers black youth 3t under 40]",
+          "observation": "Your action search[machine wash men's dress shirts polyester heathers black youth 3t under 40] is Invalid. Here is the current webpage: \n[Back to Search] \nPage 1 (Total results: 10) \n[B09P39QN2W] \nI Tackled 100 Day Of School Football Boy 100th Day School T-Shirt \n$16.99 \n[B07JVVDJ6L] \nCanadian Tuxedo T Shirt - Novelty Denim Tux T-Shirt \n$19.99 \n[B08HF132PN] \nFlamingo Pink waterbird costume Gift Premium T-Shirt \n$19.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "search[machine wash men's dress shirts black youth 3t under 50]",
+          "observation": "Your action search[machine wash men's dress shirts black youth 3t under 50] is Invalid. Here is the current webpage: \n[Back to Search] \nPage 1 (Total results: 10) \n[B09P39QN2W] \nI Tackled 100 Day Of School Football Boy 100th Day School T-Shirt \n$16.99 \n[B07JVVDJ6L] \nCanadian Tuxedo T Shirt - Novelty Denim Tux T-Shirt \n$19.99 \n[B08HF132PN] \nFlamingo Pink waterbird costume Gift Premium T-Shirt \n$19.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "search[machine wash men's dress shirts black youth 3t]",
+          "observation": "Your action search[machine wash men's dress shirts black youth 3t] is Invalid. Here is the current webpage: \n[Back to Search] \nPage 1 (Total results: 10) \n[B09P39QN2W] \nI Tackled 100 Day Of School Football Boy 100th Day School T-Shirt \n$16.99 \n[B07JVVDJ6L] \nCanadian Tuxedo T Shirt - Novelty Denim Tux T-Shirt \n$19.99 \n[B08HF132PN] \nFlamingo Pink waterbird costume Gift Premium T-Shirt \n$19.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 5,
+          "action": "think[It seems that there are no results for the specific dress shirt criteria. I should try a broader search.]",
+          "observation": "OK.  Here is the current webpage: \n[Back to Search] \nPage 1 (Total results: 10) \n[B09P39QN2W] \nI Tackled 100 Day Of School Football Boy 100th Day School T-Shirt \n$16.99 \n[B07JVVDJ6L] \nCanadian Tuxedo T Shirt - Novelty Denim Tux T-Shirt \n$19.99 \n[B08HF132PN] \nFlamingo Pink waterbird costume Gift Premium T-Shirt \n$19.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 6,
+          "action": "search[machine wash men's dress shirts black youth]",
+          "observation": "Your action search[machine wash men's dress shirts black youth] is Invalid. Here is the current webpage: \n[Back to Search] \nPage 1 (Total results: 10) \n[B09P39QN2W] \nI Tackled 100 Day Of School Football Boy 100th Day School T-Shirt \n$16.99 \n[B07JVVDJ6L] \nCanadian Tuxedo T Shirt - Novelty Denim Tux T-Shirt \n$19.99 \n[B08HF132PN] \nFlamingo Pink waterbird costume Gift Premium T-Shirt \n$19.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 7,
+          "action": "search[machine wash men's dress shirts]",
+          "observation": "Your action search[machine wash men's dress shirts] is Invalid. Here is the current webpage: \n[Back to Search] \nPage 1 (Total results: 10) \n[B09P39QN2W] \nI Tackled 100 Day Of School Football Boy 100th Day School T-Shirt \n$16.99 \n[B07JVVDJ6L] \nCanadian Tuxedo T Shirt - Novelty Denim Tux T-Shirt \n$19.99 \n[B08HF132PN] \nFlamingo Pink waterbird costume Gift Premium T-Shirt \n$19.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 8,
+          "action": "search[machine wash shirts]",
+          "observation": "Your action search[machine wash shirts] is Invalid. Here is the current webpage: \n[Back to Search] \nPage 1 (Total results: 10) \n[B09P39QN2W] \nI Tackled 100 Day Of School Football Boy 100th Day School T-Shirt \n$16.99 \n[B07JVVDJ6L] \nCanadian Tuxedo T Shirt - Novelty Denim Tux T-Shirt \n$19.99 \n[B08HF132PN] \nFlamingo Pink waterbird costume Gift Premium T-Shirt \n$19.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 9,
+          "action": "search[men's dress shirts]",
+          "observation": "Your action search[men's dress shirts] is Invalid. Here is the current webpage: \n[Back to Search] \nPage 1 (Total results: 10) \n[B09P39QN2W] \nI Tackled 100 Day Of School Football Boy 100th Day School T-Shirt \n$16.99 \n[B07JVVDJ6L] \nCanadian Tuxedo T Shirt - Novelty Denim Tux T-Shirt \n$19.99 \n[B08HF132PN] \nFlamingo Pink waterbird costume Gift Premium T-Shirt \n$19.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 10,
+          "action": "search[shirts]",
+          "observation": "Your action search[shirts] is Invalid. Here is the current webpage: \n[Back to Search] \nPage 1 (Total results: 10) \n[B09P39QN2W] \nI Tackled 100 Day Of School Football Boy 100th Day School T-Shirt \n$16.99 \n[B07JVVDJ6L] \nCanadian Tuxedo T Shirt - Novelty Denim Tux T-Shirt \n$19.99 \n[B08HF132PN] \nFlamingo Pink waterbird costume Gift Premium T-Shirt \n$19.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 11,
+          "action": "search[clothing]",
+          "observation": "Your action search[clothing] is Invalid. Here is the current webpage: \n[Back to Search] \nPage 1 (Total results: 10) \n[B09P39QN2W] \nI Tackled 100 Day Of School Football Boy 100th Day School T-Shirt \n$16.99 \n[B07JVVDJ6L] \nCanadian Tuxedo T Shirt - Novelty Denim Tux T-Shirt \n$19.99 \n[B08HF132PN] \nFlamingo Pink waterbird costume Gift Premium T-Shirt \n$19.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 12,
+          "action": "think[It seems that there are no valid search results for the dress shirts I am looking for. I will need to consider other options or categories.]",
+          "observation": "OK.  Here is the current webpage: \n[Back to Search] \nPage 1 (Total results: 10) \n[B09P39QN2W] \nI Tackled 100 Day Of School Football Boy 100th Day School T-Shirt \n$16.99 \n[B07JVVDJ6L] \nCanadian Tuxedo T Shirt - Novelty Denim Tux T-Shirt \n$19.99 \n[B08HF132PN] \nFlamingo Pink waterbird costume Gift Premium T-Shirt \n$19.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 13,
+          "action": "search[boys clothing]",
+          "observation": "Your action search[boys clothing] is Invalid. Here is the current webpage: \n[Back to Search] \nPage 1 (Total results: 10) \n[B09P39QN2W] \nI Tackled 100 Day Of School Football Boy 100th Day School T-Shirt \n$16.99 \n[B07JVVDJ6L] \nCanadian Tuxedo T Shirt - Novelty Denim Tux T-Shirt \n$19.99 \n[B08HF132PN] \nFlamingo Pink waterbird costume Gift Premium T-Shirt \n$19.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 14,
+          "action": "search[children's clothing]",
+          "observation": "Your action search[children's clothing] is Invalid. Here is the current webpage: \n[Back to Search] \nPage 1 (Total results: 10) \n[B09P39QN2W] \nI Tackled 100 Day Of School Football Boy 100th Day School T-Shirt \n$16.99 \n[B07JVVDJ6L] \nCanadian Tuxedo T Shirt - Novelty Denim Tux T-Shirt \n$19.99 \n[B08HF132PN] \nFlamingo Pink waterbird costume Gift Premium T-Shirt \n$19.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 15,
+          "action": "search[boys shirts]",
+          "observation": "Your action search[boys shirts] is Invalid. Here is the current webpage: \n[Back to Search] \nPage 1 (Total results: 10) \n[B09P39QN2W] \nI Tackled 100 Day Of School Football Boy 100th Day School T-Shirt \n$16.99 \n[B07JVVDJ6L] \nCanadian Tuxedo T Shirt - Novelty Denim Tux T-Shirt \n$19.99 \n[B08HF132PN] \nFlamingo Pink waterbird costume Gift Premium T-Shirt \n$19.99 ",
+          "reward": 0.0,
+          "done": false
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B09P39QN2W",
+        "category": "fashion",
+        "query": "men's shirts",
+        "name": "I Tackled 100 Day Of School Football Boy 100th Day School T-Shirt",
+        "product_category": "Clothing, Shoes & Jewelry \u203a Novelty & More \u203a Clothing \u203a Novelty \u203a Women \u203a Tops & Tees \u203a T-Shirts",
+        "instruction_text": "Find me wash cold, machine wash men's shirts with polyester heathers, heathers cotton, cotton heather, needle sleeve, classic fit with color: black, and fit type: women, and size: 2t, and price lower than 50.00 dollars",
+        "attributes": [
+          "wash cold",
+          "machine wash",
+          "polyester heathers",
+          "heathers cotton",
+          "cotton heather",
+          "needle sleeve",
+          "classic fit"
+        ],
+        "price_upper": 50.0,
+        "goal_options": {
+          "color": "black",
+          "fit type": "women",
+          "size": "2t"
+        },
+        "weight": 0.0009191438741101819
+      },
+      "goal_idx": 66,
+      "run_idx": 0,
+      "instruction": "Find me wash cold, machine wash men's shirts with polyester heathers, heathers cotton, cotton heather, needle sleeve, classic fit with color: black, and fit type: women, and size: 2t, and price lower than 50.00 dollars",
+      "reward": 0.6363636363636364,
+      "steps": 3,
+      "cost": 0.00028000000000000003,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me wash cold, machine wash men's shirts with polyester heathers, heathers cotton, cotton heather, needle sleeve, classic fit with color: black, and fit type: women, and size: 2t, and price lower than 40.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[machine wash men's shirts polyester heathers cotton heather black women size 2t under 40.00]",
+          "observation": "\n[Back to Search] \nPage 1 (Total results: 10) \n[B07JVVDJ6L] \nCanadian Tuxedo T Shirt - Novelty Denim Tux T-Shirt \n$19.99 \n[B09P39QN2W] \nI Tackled 100 Day Of School Football Boy 100th Day School T-Shirt \n$16.99 \n[B08HF132PN] \nFlamingo Pink waterbird costume Gift Premium T-Shirt \n$19.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B07JVVDJ6L]",
+          "observation": "\n[Back to Search] \n[< Prev] \nfit type [men][women][youth]\ncolor [royal blue][baby blue][heather grey][heather blue]\nsize [small][medium][large][x-large][xx-large][3x-large][2t][3t][4t][x-small]\nCanadian Tuxedo T Shirt - Novelty Denim Tux T-Shirt \nPrice: $19.99 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 0.6363636363636364",
+          "reward": 0.6363636363636364,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B01EX1BWE4",
+        "category": "fashion",
+        "query": "men's boots",
+        "name": "Milwaukee Leather MBM9075 Men's Black 6-inch Plain Toe Dual Zipper Lock Leather Boots",
+        "product_category": "Clothing, Shoes & Jewelry \u203a Men \u203a Shoes \u203a Boots \u203a Motorcycle & Combat",
+        "instruction_text": "Find me long lasting, moisture wicking men's boots for daily wear with size: 7.5, and price lower than 140.00 dollars",
+        "attributes": [
+          "long lasting",
+          "moisture wicking",
+          "daily wear"
+        ],
+        "price_upper": 140.0,
+        "goal_options": {
+          "size": "7.5"
+        },
+        "weight": 0.006475533888929126
+      },
+      "goal_idx": 67,
+      "run_idx": 0,
+      "instruction": "Find me long lasting, moisture wicking men's boots for daily wear with size: 7.5, and price lower than 140.00 dollars",
+      "reward": 1.0,
+      "steps": 4,
+      "cost": 0.00037,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me long lasting, moisture wicking men's boots for daily wear with size: 7.5, and price lower than 150.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[men's moisture wicking boots size 7.5 under 150.00]",
+          "observation": "\n[Back to Search] \nPage 1 (Total results: 10) \n[B01EX1BWE4] \nMilwaukee Leather MBM9075 Men's Black 6-inch Plain Toe Dual Zipper Lock Leather Boots \n$99.82 to $134.99 \n[B09P5V8ZSK] \nWomen's High Heel Sandals Sexy Patent Leather Peep Toe Breathable Ankle Boots Minimalistic Thick High Heels Rear Zipper Sandals Casual Ladies Pump \n$32.99 to $40.99 \n[B01JJR8GJG] \nCat Footwear Men's Carnaby Canvas Fashion Sneaker \n$79.95 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B01EX1BWE4]",
+          "observation": "\n[Back to Search] \n[< Prev] \nsize [7][7.5][8][8.5][9][9.5][10][10.5][11 wide][11.5][12][13][14][15]\nMilwaukee Leather MBM9075 Men's Black 6-inch Plain Toe Dual Zipper Lock Leather Boots \nPrice: $99.82 to $134.99 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[7.5]",
+          "observation": "You have clicked 7.5.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 1.0",
+          "reward": 1.0,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B09ND8P2QR",
+        "category": "fashion",
+        "query": "men's sleep & lounge",
+        "name": "InterestPrint Deer and Stars Men's Loungewear Pajama Sets - Long Sleeve Tee and Jogger Pant",
+        "product_category": "Clothing, Shoes & Jewelry \u203a Men \u203a Clothing \u203a Sleep & Lounge \u203a Sleep Sets",
+        "instruction_text": "Find me hand wash men's sleep & lounge with long sleeve, elastic waistband for daily wear with color: multi 10, and size: xx-large, and price lower than 80.00 dollars",
+        "attributes": [
+          "hand wash",
+          "long sleeve",
+          "elastic waistband",
+          "daily wear"
+        ],
+        "price_upper": 80.0,
+        "goal_options": {
+          "color": "multi 10",
+          "size": "xx-large"
+        },
+        "weight": 0.00234314368150314
+      },
+      "goal_idx": 68,
+      "run_idx": 0,
+      "instruction": "Find me hand wash men's sleep & lounge with long sleeve, elastic waistband for daily wear with color: multi 10, and size: xx-large, and price lower than 80.00 dollars",
+      "reward": 0.7142857142857143,
+      "steps": 3,
+      "cost": 0.00027,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me hand wash men's sleep & lounge with long sleeve, elastic waistband for daily wear with color: multi 10, and size: xx-large, and price lower than 70.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[hand wash men's sleep & lounge long sleeve elastic waistband multi 10 xx-large under 70.00]",
+          "observation": "\n[Back to Search] \nPage 1 (Total results: 10) \n[B09ND8P2QR] \nInterestPrint Deer and Stars Men's Loungewear Pajama Sets - Long Sleeve Tee and Jogger Pant \n$43.59 \n[B09ND9DP7J] \nInterestPrint Gold Horse Pattern Men's 2-Piece Sleepwear Set, Long Sleeve Shirt with Pants Loungewear \n$43.59 \n[B09QW2HQRK] \nCandyMan Lace Pajama and Lounge Pants for Men \n$31.0 to $69.0 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B09ND8P2QR]",
+          "observation": "\n[Back to Search] \n[< Prev] \nsize [small][medium][large][x-large][xx-large]\ncolor [multi 1][multi 10][multi 2][multi 3][multi 4][multi 5][multi 6][multi 7][multi 8][multi 9]\nInterestPrint Deer and Stars Men's Loungewear Pajama Sets - Long Sleeve Tee and Jogger Pant \nPrice: $43.59 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 0.7142857142857143",
+          "reward": 0.7142857142857143,
+          "done": true
+        }
+      ]
+    }
+  ]
+}

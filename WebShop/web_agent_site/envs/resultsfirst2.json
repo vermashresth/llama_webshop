@@ -1,0 +1,871 @@
+{
+  "config": {
+    "max_steps": 15,
+    "goal_indices": [
+      0,
+      1
+    ],
+    "num_goals": 2,
+    "runs_per_goal": 3
+  },
+  "summary": {
+    "overall_avg_reward": 0.0,
+    "success_rate": 0.0,
+    "total_cost": 0.009230000000000002
+  },
+  "per_goal_avg": [
+    {
+      "goal_idx": 0,
+      "avg_reward": 0.0
+    },
+    {
+      "goal_idx": 1,
+      "avg_reward": 0.0
+    }
+  ],
+  "all_results": [
+    {
+      "goal": {
+        "asin": "B07B6DVG41",
+        "category": "beauty",
+        "query": "shampoo & conditioner",
+        "name": "100% PURE Glossy Locks: Repair Shampoo (13.5 Fl Oz), Sulfate Free Shampoo, Restores Damaged Hair, Moisturizing, Improves Hair Growth, Made with Biotin, Coconut Oil",
+        "product_category": "Beauty & Personal Care \u203a Hair Care \u203a Shampoo & Conditioner \u203a Shampoos",
+        "instruction_text": "Find me sulfate free, paraben free shampoo & conditioner with hyaluronic acid, coconut oil for damaged hair, hair growth, hair loss, and price lower than 70.00 dollars",
+        "attributes": [
+          "sulfate free",
+          "paraben free",
+          "hyaluronic acid",
+          "coconut oil",
+          "damaged hair",
+          "hair growth",
+          "hair loss"
+        ],
+        "price_upper": 70.0,
+        "goal_options": {},
+        "weight": 0.35748761042878685
+      },
+      "goal_idx": 0,
+      "run_idx": 0,
+      "instruction": "Find me sulfate free, paraben free shampoo & conditioner with hyaluronic acid, coconut oil for damaged hair, hair growth, hair loss, and price lower than 70.00 dollars",
+      "reward": 0.0,
+      "steps": 15,
+      "cost": 0.0015500000000000004,
+      "invalid_actions": 14,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \ni am looking for blue color toothbrushes that helps to maintain my oral hygiene, and price lower than 60.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[blue color toothbrushes oral hygiene]",
+          "observation": "\n[Back to Search] \nPage 1 (Total results: 50) \n[Next >] \n[B09MW563KN] \nSWAGOFKGys Travel Toothbrushes\uff0c Double Side Tongue Cleaner Brush for Tongue Cleaning Oral Care Tool Silicone Tongue Scraper Toothbrush Fresh Breath (Color : Yellow) \n$22.9 \n[B08GXD5MDG] \nPortable Case Orthodontic Care Kit Orthodontic Toothbrush Kit for Braces for Orthodontic Patient Travel Oral Care Kit Dental Travel Kit Interdental Brush Dental Wax Dental Floss (8 Pcs/Pack)-Red \n$14.59 \n[B07S8JZJ6Y] \nHello Kitty Inspired 4pc Bright Smile Oral Hygiene Set! (1) Hello Kitty Soft Manual Toothbrush with Caps (1) Crest Kids Toothpaste Bundle Bonus Matching Mouth Wash Rinse Cup! \n$14.9 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "search[blue color toothbrushes]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "search[blue toothbrushes]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "search[blue color toothbrushes]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 5,
+          "action": "search[blue toothbrushes oral hygiene]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 6,
+          "action": "search[blue toothbrushes]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 7,
+          "action": "search[blue toothbrushes for oral hygiene]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 8,
+          "action": "search[blue toothbrushes for oral hygiene]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 9,
+          "action": "search[blue toothbrushes]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 10,
+          "action": "search[blue toothbrushes for oral hygiene]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 11,
+          "action": "search[blue toothbrushes]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 12,
+          "action": "search[blue toothbrushes]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 13,
+          "action": "search[blue toothbrushes]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 14,
+          "action": "search[blue toothbrushes]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 15,
+          "action": "search[blue toothbrushes]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B07B6DVG41",
+        "category": "beauty",
+        "query": "shampoo & conditioner",
+        "name": "100% PURE Glossy Locks: Repair Shampoo (13.5 Fl Oz), Sulfate Free Shampoo, Restores Damaged Hair, Moisturizing, Improves Hair Growth, Made with Biotin, Coconut Oil",
+        "product_category": "Beauty & Personal Care \u203a Hair Care \u203a Shampoo & Conditioner \u203a Shampoos",
+        "instruction_text": "Find me sulfate free, paraben free shampoo & conditioner with hyaluronic acid, coconut oil for damaged hair, hair growth, hair loss, and price lower than 70.00 dollars",
+        "attributes": [
+          "sulfate free",
+          "paraben free",
+          "hyaluronic acid",
+          "coconut oil",
+          "damaged hair",
+          "hair growth",
+          "hair loss"
+        ],
+        "price_upper": 70.0,
+        "goal_options": {},
+        "weight": 0.35748761042878685
+      },
+      "goal_idx": 0,
+      "run_idx": 1,
+      "instruction": "Find me sulfate free, paraben free shampoo & conditioner with hyaluronic acid, coconut oil for damaged hair, hair growth, hair loss, and price lower than 70.00 dollars",
+      "reward": 0.0,
+      "steps": 15,
+      "cost": 0.0015500000000000004,
+      "invalid_actions": 14,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \ni am looking for blue color toothbrushes that helps to maintain my oral hygiene, and price lower than 60.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[blue color toothbrushes oral hygiene]",
+          "observation": "\n[Back to Search] \nPage 1 (Total results: 50) \n[Next >] \n[B09MW563KN] \nSWAGOFKGys Travel Toothbrushes\uff0c Double Side Tongue Cleaner Brush for Tongue Cleaning Oral Care Tool Silicone Tongue Scraper Toothbrush Fresh Breath (Color : Yellow) \n$22.9 \n[B08GXD5MDG] \nPortable Case Orthodontic Care Kit Orthodontic Toothbrush Kit for Braces for Orthodontic Patient Travel Oral Care Kit Dental Travel Kit Interdental Brush Dental Wax Dental Floss (8 Pcs/Pack)-Red \n$14.59 \n[B07S8JZJ6Y] \nHello Kitty Inspired 4pc Bright Smile Oral Hygiene Set! (1) Hello Kitty Soft Manual Toothbrush with Caps (1) Crest Kids Toothpaste Bundle Bonus Matching Mouth Wash Rinse Cup! \n$14.9 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "search[blue color toothbrushes]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "search[blue toothbrushes]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "search[blue color toothbrushes]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 5,
+          "action": "search[blue toothbrushes oral hygiene]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 6,
+          "action": "search[blue toothbrushes]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 7,
+          "action": "search[blue toothbrushes for oral hygiene]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 8,
+          "action": "search[blue toothbrushes for oral hygiene]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 9,
+          "action": "search[blue toothbrushes for oral hygiene]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 10,
+          "action": "search[blue toothbrushes]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 11,
+          "action": "search[blue toothbrushes]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 12,
+          "action": "search[blue toothbrushes]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 13,
+          "action": "search[blue toothbrushes]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 14,
+          "action": "search[blue toothbrushes for oral hygiene]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 15,
+          "action": "search[blue toothbrushes]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B07B6DVG41",
+        "category": "beauty",
+        "query": "shampoo & conditioner",
+        "name": "100% PURE Glossy Locks: Repair Shampoo (13.5 Fl Oz), Sulfate Free Shampoo, Restores Damaged Hair, Moisturizing, Improves Hair Growth, Made with Biotin, Coconut Oil",
+        "product_category": "Beauty & Personal Care \u203a Hair Care \u203a Shampoo & Conditioner \u203a Shampoos",
+        "instruction_text": "Find me sulfate free, paraben free shampoo & conditioner with hyaluronic acid, coconut oil for damaged hair, hair growth, hair loss, and price lower than 70.00 dollars",
+        "attributes": [
+          "sulfate free",
+          "paraben free",
+          "hyaluronic acid",
+          "coconut oil",
+          "damaged hair",
+          "hair growth",
+          "hair loss"
+        ],
+        "price_upper": 70.0,
+        "goal_options": {},
+        "weight": 0.35748761042878685
+      },
+      "goal_idx": 0,
+      "run_idx": 2,
+      "instruction": "Find me sulfate free, paraben free shampoo & conditioner with hyaluronic acid, coconut oil for damaged hair, hair growth, hair loss, and price lower than 70.00 dollars",
+      "reward": 0.0,
+      "steps": 15,
+      "cost": 0.0015600000000000004,
+      "invalid_actions": 14,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \ni am looking for blue color toothbrushes that helps to maintain my oral hygiene, and price lower than 60.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[blue color toothbrushes oral hygiene]",
+          "observation": "\n[Back to Search] \nPage 1 (Total results: 50) \n[Next >] \n[B09MW563KN] \nSWAGOFKGys Travel Toothbrushes\uff0c Double Side Tongue Cleaner Brush for Tongue Cleaning Oral Care Tool Silicone Tongue Scraper Toothbrush Fresh Breath (Color : Yellow) \n$22.9 \n[B08GXD5MDG] \nPortable Case Orthodontic Care Kit Orthodontic Toothbrush Kit for Braces for Orthodontic Patient Travel Oral Care Kit Dental Travel Kit Interdental Brush Dental Wax Dental Floss (8 Pcs/Pack)-Red \n$14.59 \n[B07S8JZJ6Y] \nHello Kitty Inspired 4pc Bright Smile Oral Hygiene Set! (1) Hello Kitty Soft Manual Toothbrush with Caps (1) Crest Kids Toothpaste Bundle Bonus Matching Mouth Wash Rinse Cup! \n$14.9 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "search[blue color toothbrushes]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "search[blue toothbrushes]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "search[blue color toothbrushes]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 5,
+          "action": "search[blue toothbrushes oral hygiene]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 6,
+          "action": "search[blue toothbrushes]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 7,
+          "action": "search[blue toothbrushes for oral hygiene]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 8,
+          "action": "search[blue toothbrushes for oral hygiene]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 9,
+          "action": "search[blue toothbrushes for oral hygiene]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 10,
+          "action": "search[blue toothbrushes for oral care]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 11,
+          "action": "search[blue toothbrushes oral care]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 12,
+          "action": "search[blue toothbrushes for oral hygiene]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 13,
+          "action": "search[blue toothbrushes]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 14,
+          "action": "search[blue toothbrushes for oral hygiene]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 15,
+          "action": "search[blue toothbrushes for oral hygiene]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B087TR48KK",
+        "category": "beauty",
+        "query": "shave & hair removal",
+        "name": "Minkissy Eyebrow Hair Razors Eyebrow Trimmer Portable Facial Hair Remover Facail Hair Trimmer Hair Beauty Grooming Tool for Women and Men 4pcs",
+        "product_category": "Beauty & Personal Care \u203a Shave & Hair Removal \u203a Men's \u203a Eyebrow Trimmers",
+        "instruction_text": "Find me non slip shave & hair removal with stainless steel, and price lower than 50.00 dollars",
+        "attributes": [
+          "non slip",
+          "stainless steel"
+        ],
+        "price_upper": 50.0,
+        "goal_options": {},
+        "weight": 0.014424260325899671
+      },
+      "goal_idx": 1,
+      "run_idx": 0,
+      "instruction": "Find me non slip shave & hair removal with stainless steel, and price lower than 50.00 dollars",
+      "reward": 0.0,
+      "steps": 15,
+      "cost": 0.0015300000000000005,
+      "invalid_actions": 14,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nplace order for a pack of 12 blue diamond almonds that is gluten free and has the pecan flavor, and price lower than 70.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[12 pack blue diamond almonds gluten free pecan flavor]",
+          "observation": "\n[Back to Search] \nPage 1 (Total results: 50) \n[Next >] \n[B003I567W4] \nBlue Diamond Almonds Nut Thins Gluten Free Cracker Crisps, Hint of Sea Salt, 4.25 Oz Boxes (Pack of 12) \n$34.44 \n[B09DBYG4XD] \nItalian Herb Nuts - Vegan, Kosher, Gluten-free, GMO-free - 12oz (PACK OF 3 BAGS), Satisfaction Guarantee \n$17.95 \n[B07HYF111T] \nKETO BARS : The Original High Fat, Low Carb, Ketogenic Bar. Gluten Free, Vegan, Homemade with simple ingredients. [Chocolate Peanut Butter, 10 Pack] \n$29.95 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "search[12 pack blue diamond almonds gluten free pecan]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "search[12 pack blue diamond almonds pecan flavor]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "search[12 pack blue diamond almonds gluten free]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 5,
+          "action": "search[blue diamond almonds gluten free pecan]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 6,
+          "action": "search[blue diamond almonds pecan flavor]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 7,
+          "action": "search[blue diamond almonds]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 8,
+          "action": "search[blue diamond almonds gluten free]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 9,
+          "action": "search[blue diamond almonds gluten free pecan flavor]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 10,
+          "action": "search[blue diamond almonds gluten free pecan]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 11,
+          "action": "search[blue diamond almonds pecan]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 12,
+          "action": "search[blue diamond almonds]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 13,
+          "action": "search[blue diamond almonds gluten free pecan flavor]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 14,
+          "action": "search[blue diamond almonds gluten free]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 15,
+          "action": "search[blue diamond almonds]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B087TR48KK",
+        "category": "beauty",
+        "query": "shave & hair removal",
+        "name": "Minkissy Eyebrow Hair Razors Eyebrow Trimmer Portable Facial Hair Remover Facail Hair Trimmer Hair Beauty Grooming Tool for Women and Men 4pcs",
+        "product_category": "Beauty & Personal Care \u203a Shave & Hair Removal \u203a Men's \u203a Eyebrow Trimmers",
+        "instruction_text": "Find me non slip shave & hair removal with stainless steel, and price lower than 50.00 dollars",
+        "attributes": [
+          "non slip",
+          "stainless steel"
+        ],
+        "price_upper": 50.0,
+        "goal_options": {},
+        "weight": 0.014424260325899671
+      },
+      "goal_idx": 1,
+      "run_idx": 1,
+      "instruction": "Find me non slip shave & hair removal with stainless steel, and price lower than 50.00 dollars",
+      "reward": 0.0,
+      "steps": 15,
+      "cost": 0.0015100000000000005,
+      "invalid_actions": 14,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nplace order for a pack of 12 blue diamond almonds that is gluten free and has the pecan flavor, and price lower than 70.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[12 pack blue diamond almonds gluten free pecan flavor]",
+          "observation": "\n[Back to Search] \nPage 1 (Total results: 50) \n[Next >] \n[B003I567W4] \nBlue Diamond Almonds Nut Thins Gluten Free Cracker Crisps, Hint of Sea Salt, 4.25 Oz Boxes (Pack of 12) \n$34.44 \n[B09DBYG4XD] \nItalian Herb Nuts - Vegan, Kosher, Gluten-free, GMO-free - 12oz (PACK OF 3 BAGS), Satisfaction Guarantee \n$17.95 \n[B07HYF111T] \nKETO BARS : The Original High Fat, Low Carb, Ketogenic Bar. Gluten Free, Vegan, Homemade with simple ingredients. [Chocolate Peanut Butter, 10 Pack] \n$29.95 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "search[12 pack blue diamond almonds gluten free pecan]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "search[12 pack blue diamond almonds gluten free]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "search[blue diamond almonds gluten free pecan]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 5,
+          "action": "search[blue diamond almonds pecan flavor]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 6,
+          "action": "search[12 pack blue diamond almonds pecan flavor]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 7,
+          "action": "search[12 pack blue diamond almonds gluten free]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 8,
+          "action": "search[blue diamond almonds gluten free]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 9,
+          "action": "search[blue diamond almonds]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 10,
+          "action": "search[blue diamond almonds pecan]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 11,
+          "action": "search[blue diamond almonds gluten free pecan flavor]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 12,
+          "action": "search[blue diamond almonds gluten free pecan]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 13,
+          "action": "search[blue diamond almonds gluten free pecan]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 14,
+          "action": "search[blue diamond almonds gluten free pecan flavor]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 15,
+          "action": "search[blue diamond almonds]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B087TR48KK",
+        "category": "beauty",
+        "query": "shave & hair removal",
+        "name": "Minkissy Eyebrow Hair Razors Eyebrow Trimmer Portable Facial Hair Remover Facail Hair Trimmer Hair Beauty Grooming Tool for Women and Men 4pcs",
+        "product_category": "Beauty & Personal Care \u203a Shave & Hair Removal \u203a Men's \u203a Eyebrow Trimmers",
+        "instruction_text": "Find me non slip shave & hair removal with stainless steel, and price lower than 50.00 dollars",
+        "attributes": [
+          "non slip",
+          "stainless steel"
+        ],
+        "price_upper": 50.0,
+        "goal_options": {},
+        "weight": 0.014424260325899671
+      },
+      "goal_idx": 1,
+      "run_idx": 2,
+      "instruction": "Find me non slip shave & hair removal with stainless steel, and price lower than 50.00 dollars",
+      "reward": 0.0,
+      "steps": 15,
+      "cost": 0.0015300000000000005,
+      "invalid_actions": 14,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nplace order for a pack of 12 blue diamond almonds that is gluten free and has the pecan flavor, and price lower than 70.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[12 pack blue diamond almonds gluten free pecan flavor]",
+          "observation": "\n[Back to Search] \nPage 1 (Total results: 50) \n[Next >] \n[B003I567W4] \nBlue Diamond Almonds Nut Thins Gluten Free Cracker Crisps, Hint of Sea Salt, 4.25 Oz Boxes (Pack of 12) \n$34.44 \n[B09DBYG4XD] \nItalian Herb Nuts - Vegan, Kosher, Gluten-free, GMO-free - 12oz (PACK OF 3 BAGS), Satisfaction Guarantee \n$17.95 \n[B07HYF111T] \nKETO BARS : The Original High Fat, Low Carb, Ketogenic Bar. Gluten Free, Vegan, Homemade with simple ingredients. [Chocolate Peanut Butter, 10 Pack] \n$29.95 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "search[12 pack blue diamond almonds gluten free pecan]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "search[blue diamond almonds gluten free pecan]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "search[blue diamond almonds gluten free]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 5,
+          "action": "search[blue diamond almonds pecan flavor]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 6,
+          "action": "search[blue diamond almonds gluten free pecan flavor]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 7,
+          "action": "search[12 pack blue diamond almonds gluten free]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 8,
+          "action": "search[blue diamond almonds]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 9,
+          "action": "search[blue diamond almonds gluten free pecan]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 10,
+          "action": "search[blue diamond almonds gluten free pecan flavor]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 11,
+          "action": "search[blue diamond almonds gluten free pecan flavor]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 12,
+          "action": "search[blue diamond almonds gluten free pecan flavor]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 13,
+          "action": "search[blue diamond almonds gluten free]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 14,
+          "action": "search[blue diamond almonds]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 15,
+          "action": "search[blue diamond almonds gluten free]",
+          "observation": "Invalid action!",
+          "reward": 0.0,
+          "done": false
+        }
+      ]
+    }
+  ]
+}

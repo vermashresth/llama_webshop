@@ -1,0 +1,3688 @@
+{
+  "config": {
+    "max_steps": 15,
+    "goal_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    "num_goals_in_catalog": 6910,
+    "num_indices_run": 50,
+    "goals_shuffle_seed": 233,
+    "runs_per_goal": 1
+  },
+  "summary": {
+    "overall_avg_reward": 0.6473215728715729,
+    "success_rate": 0.34,
+    "total_cost": 0.03228
+  },
+  "per_goal_avg": [
+    {
+      "goal_idx": 0,
+      "avg_reward": 0.8
+    },
+    {
+      "goal_idx": 1,
+      "avg_reward": 0.8
+    },
+    {
+      "goal_idx": 2,
+      "avg_reward": 0.2
+    },
+    {
+      "goal_idx": 3,
+      "avg_reward": 0.04000000000000001
+    },
+    {
+      "goal_idx": 4,
+      "avg_reward": 0.4166666666666667
+    },
+    {
+      "goal_idx": 5,
+      "avg_reward": 1.0
+    },
+    {
+      "goal_idx": 6,
+      "avg_reward": 1.0
+    },
+    {
+      "goal_idx": 7,
+      "avg_reward": 0.42857142857142855
+    },
+    {
+      "goal_idx": 8,
+      "avg_reward": 0.2222222222222222
+    },
+    {
+      "goal_idx": 9,
+      "avg_reward": 0.044444444444444446
+    },
+    {
+      "goal_idx": 10,
+      "avg_reward": 1.0
+    },
+    {
+      "goal_idx": 11,
+      "avg_reward": 0.42857142857142855
+    },
+    {
+      "goal_idx": 12,
+      "avg_reward": 0.020000000000000004
+    },
+    {
+      "goal_idx": 13,
+      "avg_reward": 0.0625
+    },
+    {
+      "goal_idx": 14,
+      "avg_reward": 1.0
+    },
+    {
+      "goal_idx": 15,
+      "avg_reward": 0.8571428571428571
+    },
+    {
+      "goal_idx": 16,
+      "avg_reward": 1.0
+    },
+    {
+      "goal_idx": 17,
+      "avg_reward": 0.08333333333333334
+    },
+    {
+      "goal_idx": 18,
+      "avg_reward": 0.05
+    },
+    {
+      "goal_idx": 19,
+      "avg_reward": 0.42857142857142855
+    },
+    {
+      "goal_idx": 20,
+      "avg_reward": 1.0
+    },
+    {
+      "goal_idx": 21,
+      "avg_reward": 1.0
+    },
+    {
+      "goal_idx": 22,
+      "avg_reward": 1.0
+    },
+    {
+      "goal_idx": 23,
+      "avg_reward": 1.0
+    },
+    {
+      "goal_idx": 24,
+      "avg_reward": 0.16666666666666666
+    },
+    {
+      "goal_idx": 25,
+      "avg_reward": 0.8
+    },
+    {
+      "goal_idx": 26,
+      "avg_reward": 0.8571428571428571
+    },
+    {
+      "goal_idx": 27,
+      "avg_reward": 1.0
+    },
+    {
+      "goal_idx": 28,
+      "avg_reward": 0.6666666666666666
+    },
+    {
+      "goal_idx": 29,
+      "avg_reward": 0.8333333333333334
+    },
+    {
+      "goal_idx": 30,
+      "avg_reward": 0.8333333333333334
+    },
+    {
+      "goal_idx": 31,
+      "avg_reward": 0.3333333333333333
+    },
+    {
+      "goal_idx": 32,
+      "avg_reward": 1.0
+    },
+    {
+      "goal_idx": 33,
+      "avg_reward": 0.8571428571428571
+    },
+    {
+      "goal_idx": 34,
+      "avg_reward": 1.0
+    },
+    {
+      "goal_idx": 35,
+      "avg_reward": 1.0
+    },
+    {
+      "goal_idx": 36,
+      "avg_reward": 1.0
+    },
+    {
+      "goal_idx": 37,
+      "avg_reward": 0.4444444444444444
+    },
+    {
+      "goal_idx": 38,
+      "avg_reward": 0.8
+    },
+    {
+      "goal_idx": 39,
+      "avg_reward": 0.0
+    },
+    {
+      "goal_idx": 40,
+      "avg_reward": 1.0
+    },
+    {
+      "goal_idx": 41,
+      "avg_reward": 0.8571428571428571
+    },
+    {
+      "goal_idx": 42,
+      "avg_reward": 0.8333333333333334
+    },
+    {
+      "goal_idx": 43,
+      "avg_reward": 0.8181818181818182
+    },
+    {
+      "goal_idx": 44,
+      "avg_reward": 0.25
+    },
+    {
+      "goal_idx": 45,
+      "avg_reward": 0.0
+    },
+    {
+      "goal_idx": 46,
+      "avg_reward": 0.3
+    },
+    {
+      "goal_idx": 47,
+      "avg_reward": 0.8333333333333334
+    },
+    {
+      "goal_idx": 48,
+      "avg_reward": 1.0
+    },
+    {
+      "goal_idx": 49,
+      "avg_reward": 1.0
+    }
+  ],
+  "all_results": [
+    {
+      "goal": {
+        "asin": "B09T756KQ5",
+        "category": "fashion",
+        "query": "men's tuxedo shirts",
+        "name": "WENKOMG1 Men's Crewneck Goth Tee Shirts Skull Print Tops Spring/Summer Long Sleeve Sports T-Shirt Baggy Y2K Soft Streetwear",
+        "product_category": "Clothing, Shoes & Jewelry \u203a Men \u203a Clothing \u203a Shirts \u203a T-Shirts",
+        "instruction_text": "Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: b-bk2, and size: 3x-large, and price lower than 40.00 dollars",
+        "attributes": [
+          "slim fit",
+          "loose fit",
+          "long sleeve",
+          "short sleeve",
+          "contrast color",
+          "classic fit",
+          "teen girls"
+        ],
+        "price_upper": 40.0,
+        "goal_options": {
+          "color": "b-bk2",
+          "size": "3x-large"
+        },
+        "weight": 0.002027250552457214
+      },
+      "goal_idx": 0,
+      "run_idx": 0,
+      "instruction": "Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: b-bk2, and size: 3x-large, and price lower than 40.00 dollars",
+      "reward": 0.8,
+      "steps": 6,
+      "cost": 0.0008200000000000001,
+      "invalid_actions": 1,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: b-bk2, and size: 3x-large, and price lower than 40.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[mens tuxedo shirts slim fit loose fit]",
+          "observation": "\n[B09NNMV9LN] \nJSPOYOU Mens Short Sleeve Crewneck 3D Graphic Tunic Shirts Big & Tall Tie Dye Summer Top Basic Designed Classic Cotton Shirt \n$3.99 to $10.99 \n[B09S3BN15C] \nMens Linen Shirt,Men's Striped Shirts Casual Short Sleeve Button Down Shirts Regular Fit Hawaiian Shirts Beach Tees Tops \n$3.78 to $11.38 \n[B09QQP3356] \nHAUKLIE Men's Sports Waffle Ribbed Polo Shirts Summer Short Sleeve Cotton Muscle Quarter-Zip Henley T-Shirt Tunics Tops \n$10.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "search[mens tuxedo shirts long sleeve short sleeve]",
+          "observation": "ERROR: Your action search[mens tuxedo shirts long sleeve short sleeve] is invalid here. HINT: You can only use 'search[]' once. you must choose an item from the search results.\n",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[B09NNMV9LN]",
+          "observation": "\n[< Prev] \ncolor [a-blue][a-green][b-black][b-gray][c-gray]\nsize [medium][large][x-large][xx-large][3x-large]\nJSPOYOU Mens Short Sleeve Crewneck 3D Graphic Tunic Shirts Big & Tall Tie Dye Summer Top Basic Designed Classic Cotton Shirt \nPrice: $3.99 to $10.99 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "click[b-black]",
+          "observation": "You have clicked b-black.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 5,
+          "action": "click[3x-large]",
+          "observation": "You have clicked 3x-large.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 6,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 0.8",
+          "reward": 0.8,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B09T756KQ5",
+        "category": "fashion",
+        "query": "men's tuxedo shirts",
+        "name": "WENKOMG1 Men's Crewneck Goth Tee Shirts Skull Print Tops Spring/Summer Long Sleeve Sports T-Shirt Baggy Y2K Soft Streetwear",
+        "product_category": "Clothing, Shoes & Jewelry \u203a Men \u203a Clothing \u203a Shirts \u203a T-Shirts",
+        "instruction_text": "Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: b-bk2, and size: xx-large, and price lower than 40.00 dollars",
+        "attributes": [
+          "slim fit",
+          "loose fit",
+          "long sleeve",
+          "short sleeve",
+          "contrast color",
+          "classic fit",
+          "teen girls"
+        ],
+        "price_upper": 40.0,
+        "goal_options": {
+          "color": "b-bk2",
+          "size": "xx-large"
+        },
+        "weight": 0.002027250552457214
+      },
+      "goal_idx": 1,
+      "run_idx": 0,
+      "instruction": "Find me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: b-bk2, and size: xx-large, and price lower than 40.00 dollars",
+      "reward": 0.8,
+      "steps": 6,
+      "cost": 0.0008100000000000001,
+      "invalid_actions": 1,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me slim fit, loose fit men's tuxedo shirts with long sleeve, short sleeve, contrast color, classic fit for teen girls with color: b-bk2, and size: xx-large, and price lower than 40.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[mens tuxedo shirts slim fit loose fit]",
+          "observation": "\n[B09NNMV9LN] \nJSPOYOU Mens Short Sleeve Crewneck 3D Graphic Tunic Shirts Big & Tall Tie Dye Summer Top Basic Designed Classic Cotton Shirt \n$3.99 to $10.99 \n[B09S3BN15C] \nMens Linen Shirt,Men's Striped Shirts Casual Short Sleeve Button Down Shirts Regular Fit Hawaiian Shirts Beach Tees Tops \n$3.78 to $11.38 \n[B09QQP3356] \nHAUKLIE Men's Sports Waffle Ribbed Polo Shirts Summer Short Sleeve Cotton Muscle Quarter-Zip Henley T-Shirt Tunics Tops \n$10.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "search[mens tuxedo shirts long sleeve short sleeve]",
+          "observation": "ERROR: Your action search[mens tuxedo shirts long sleeve short sleeve] is invalid here. HINT: You can only use 'search[]' once. you must choose an item from the search results.\n",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[B09NNMV9LN]",
+          "observation": "\n[< Prev] \ncolor [a-blue][a-green][b-black][b-gray][c-gray]\nsize [medium][large][x-large][xx-large][3x-large]\nJSPOYOU Mens Short Sleeve Crewneck 3D Graphic Tunic Shirts Big & Tall Tie Dye Summer Top Basic Designed Classic Cotton Shirt \nPrice: $3.99 to $10.99 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "click[b-black]",
+          "observation": "You have clicked b-black.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 5,
+          "action": "click[xx-large]",
+          "observation": "You have clicked xx-large.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 6,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 0.8",
+          "reward": 0.8,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B0969G2DH8",
+        "category": "fashion",
+        "query": "men's dress shirts",
+        "name": "The cool twins just showed up T-Shirt",
+        "product_category": "Clothing, Shoes & Jewelry \u203a Novelty & More \u203a Clothing \u203a Novelty \u203a Women \u203a Tops & Tees \u203a T-Shirts",
+        "instruction_text": "Find me machine wash men's dress shirts with polyester heathers, heathers cotton, cotton heather, needle sleeve, classic fit with color: dark heather, and fit type: women, and size: 3t, and price lower than 50.00 dollars",
+        "attributes": [
+          "machine wash",
+          "polyester heathers",
+          "heathers cotton",
+          "cotton heather",
+          "needle sleeve",
+          "classic fit"
+        ],
+        "price_upper": 50.0,
+        "goal_options": {
+          "color": "dark heather",
+          "fit type": "women",
+          "size": "3t"
+        },
+        "weight": 0.0007773492690577492
+      },
+      "goal_idx": 2,
+      "run_idx": 0,
+      "instruction": "Find me machine wash men's dress shirts with polyester heathers, heathers cotton, cotton heather, needle sleeve, classic fit with color: dark heather, and fit type: women, and size: 3t, and price lower than 50.00 dollars",
+      "reward": 0.2,
+      "steps": 3,
+      "cost": 0.00043999999999999996,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me machine wash men's dress shirts with polyester heathers, heathers cotton, cotton heather, needle sleeve, classic fit with color: dark heather, and fit type: women, and size: 3t, and price lower than 50.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[machine wash men's dress shirts]",
+          "observation": "\n[B09QQP3356] \nHAUKLIE Men's Sports Waffle Ribbed Polo Shirts Summer Short Sleeve Cotton Muscle Quarter-Zip Henley T-Shirt Tunics Tops \n$10.99 \n[B09ND9DP7J] \nInterestPrint Gold Horse Pattern Men's 2-Piece Sleepwear Set, Long Sleeve Shirt with Pants Loungewear \n$43.59 \n[B09S3BN15C] \nMens Linen Shirt,Men's Striped Shirts Casual Short Sleeve Button Down Shirts Regular Fit Hawaiian Shirts Beach Tees Tops \n$3.78 to $11.38 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B09QQP3356]",
+          "observation": "\n[< Prev] \ncolor [black][gray][light blue]\nsize [small][medium][large][x-large][xx-large][3x-large]\nHAUKLIE Men's Sports Waffle Ribbed Polo Shirts Summer Short Sleeve Cotton Muscle Quarter-Zip Henley T-Shirt Tunics Tops \nPrice: $10.99 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 0.2",
+          "reward": 0.2,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B09QSQ8RT9",
+        "category": "fashion",
+        "query": "men's shorts",
+        "name": "Mens Shorts Casual Printed Lace Up Pocket Beach Shorts Regular-fit Lightweight Lining Mens Sweatpants Hawaii Pants",
+        "product_category": "Clothing, Shoes & Jewelry \u203a Men \u203a Clothing \u203a Shorts \u203a Flat Front",
+        "instruction_text": "Find me loose fit, slim fit men's shorts with short sleeve, contrast color, regular fit, drawstring waist for gym workout with color: blue, and size: x-large, and price lower than 40.00 dollars",
+        "attributes": [
+          "loose fit",
+          "slim fit",
+          "short sleeve",
+          "contrast color",
+          "regular fit",
+          "drawstring waist",
+          "gym workout"
+        ],
+        "price_upper": 40.0,
+        "goal_options": {
+          "color": "blue",
+          "size": "x-large"
+        },
+        "weight": 0.01804071707043312
+      },
+      "goal_idx": 3,
+      "run_idx": 0,
+      "instruction": "Find me loose fit, slim fit men's shorts with short sleeve, contrast color, regular fit, drawstring waist for gym workout with color: blue, and size: x-large, and price lower than 40.00 dollars",
+      "reward": 0.04000000000000001,
+      "steps": 5,
+      "cost": 0.00077,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me loose fit, slim fit men's shorts with short sleeve, contrast color, regular fit, drawstring waist for gym workout with color: blue, and size: x-large, and price lower than 40.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[mens blue shorts gym workout]",
+          "observation": "\n[B096P77XMD] \nRunhit 2 in 1 Men\u2019s Running Shorts 5\" Quick Dry Workout Shorts for Men with Pockets Gym Athletic Shorts \n$14.98 to $17.98 \n[B09Q5ZHRVM] \nYinimo Mens Gym Shorts Fashionable Loose Beach Drawstring Turkey Print Beach Cool Shorts \n$19.19 \n[B09R9YCM6R] \nXXBR Summer T-shirts for Mens, Soldier Short Sleeve 3D Street Vintage Printed Shirt Slim Fit Muscle Casual Tee Tops \n$8.98 to $11.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B096P77XMD]",
+          "observation": "\n[< Prev] \ncolor [black 1][blue][grey]\nsize [small][medium][large][x-large][xx-large]\nRunhit 2 in 1 Men\u2019s Running Shorts 5\" Quick Dry Workout Shorts for Men with Pockets Gym Athletic Shorts \nPrice: $14.98 to $17.98 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[blue]",
+          "observation": "You have clicked blue.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "click[x-large]",
+          "observation": "You have clicked x-large.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 5,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 0.04000000000000001",
+          "reward": 0.04000000000000001,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B09HGFV91W",
+        "category": "fashion",
+        "query": "men's suits & sport coats",
+        "name": "ZHDD Tops for Mens, Men's Knight Punk Vintage Style Long Sleeve Asymmetric Hem Cowl Neck Teen Boys Gothic Pullover",
+        "product_category": "",
+        "instruction_text": "Find me slim fit men's suits & sport coats with long sleeve, short sleeve with color: 158- army green, and size: x-large, and price lower than 40.00 dollars",
+        "attributes": [
+          "slim fit",
+          "long sleeve",
+          "short sleeve"
+        ],
+        "price_upper": 40.0,
+        "goal_options": {
+          "color": "158- army green",
+          "size": "x-large"
+        },
+        "weight": 0.0009713219468298178
+      },
+      "goal_idx": 4,
+      "run_idx": 0,
+      "instruction": "Find me slim fit men's suits & sport coats with long sleeve, short sleeve with color: 158- army green, and size: x-large, and price lower than 40.00 dollars",
+      "reward": 0.4166666666666667,
+      "steps": 5,
+      "cost": 0.0007,
+      "invalid_actions": 1,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me slim fit men's suits & sport coats with long sleeve, short sleeve with color: 158- army green, and size: x-large, and price lower than 40.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[slim fit men's suits army green]",
+          "observation": "\n[B09NNMV9LN] \nJSPOYOU Mens Short Sleeve Crewneck 3D Graphic Tunic Shirts Big & Tall Tie Dye Summer Top Basic Designed Classic Cotton Shirt \n$3.99 to $10.99 \n[B09Q67H373] \nJSPOYOU 2022 Newly T-Shirt for Mens Funny 3D Graphics Pattern Crewneck Short Sleeve Tees Big and Tall Summer Casual Comfy Top \n$1.99 to $8.99 \n[B09HGFV91W] \nZHDD Tops for Mens, Men's Knight Punk Vintage Style Long Sleeve Asymmetric Hem Cowl Neck Teen Boys Gothic Pullover \n$4.98 to $7.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "search[men's suits sport coats army green]",
+          "observation": "ERROR: Your action search[men's suits sport coats army green] is invalid here. HINT: You can only use 'search[]' once. you must choose an item from the search results.\n",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[B09NNMV9LN]",
+          "observation": "\n[< Prev] \ncolor [a-blue][a-green][b-black][b-gray][c-gray]\nsize [medium][large][x-large][xx-large][3x-large]\nJSPOYOU Mens Short Sleeve Crewneck 3D Graphic Tunic Shirts Big & Tall Tie Dye Summer Top Basic Designed Classic Cotton Shirt \nPrice: $3.99 to $10.99 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "click[x-large]",
+          "observation": "You have clicked x-large.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 5,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 0.4166666666666667",
+          "reward": 0.4166666666666667,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B09MFZ726L",
+        "category": "fashion",
+        "query": "women's flats",
+        "name": "Olivia Miller Women\u2019s Fashion Ladies Shoes, Sara PU Vegan Leather & Rhinestones Double Strap Cutout Band Slip On Open Toe Trendy Casual Summer Slide Flat Sandals",
+        "product_category": "Clothing, Shoes & Jewelry \u203a Women \u203a Shoes \u203a Sandals \u203a Slides",
+        "instruction_text": "Find me open toe women's flats with rubber sole for daily wear with color: silver, and size: 6, and price lower than 60.00 dollars",
+        "attributes": [
+          "open toe",
+          "rubber sole",
+          "daily wear"
+        ],
+        "price_upper": 60.0,
+        "goal_options": {
+          "color": "silver",
+          "size": "6"
+        },
+        "weight": 0.006200749645957226
+      },
+      "goal_idx": 5,
+      "run_idx": 0,
+      "instruction": "Find me open toe women's flats with rubber sole for daily wear with color: silver, and size: 6, and price lower than 60.00 dollars",
+      "reward": 1.0,
+      "steps": 5,
+      "cost": 0.00076,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me open toe women's flats with rubber sole for daily wear with color: silver, and size: 6, and price lower than 60.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[womens silver open toe flats size 6]",
+          "observation": "\n[B09QXF3V3X] \nDEUVOUM Summer Trend Mesh Shoes Men's Sports Shoes Solid Color Lace-Up Sneakers Fashion All-Match Walking Shoes Outdoor Hiking Shoes Non-Slip Shock-Absorbing Casual Sports Shoes \n$100.0 \n[B09MFZ726L] \nOlivia Miller Women\u2019s Fashion Ladies Shoes, Sara PU Vegan Leather & Rhinestones Double Strap Cutout Band Slip On Open Toe Trendy Casual Summer Slide Flat Sandals \n$26.0 to $29.4 \n[B09QPX97VW] \nSandals For Women Gold Sandals Slippers Sandy From Grease Red Shoes Strap Platforms Golf Shoes Jeans Stretch Short Sleeve Shirts Midi Skirts Women Suede Pumps \n$100.0 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B09MFZ726L]",
+          "observation": "\n[< Prev] \nsize [6][7][8][9][10]\ncolor [black][natural | brown][silver]\nOlivia Miller Women\u2019s Fashion Ladies Shoes, Sara PU Vegan Leather & Rhinestones Double Strap Cutout Band Slip On Open Toe Trendy Casual Summer Slide Flat Sandals \nPrice: $26.0 to $29.4 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[silver]",
+          "observation": "You have clicked silver.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "click[6]",
+          "observation": "You have clicked 6.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 5,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 1.0",
+          "reward": 1.0,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B09DG3YTHY",
+        "category": "garden",
+        "query": "throw blankets",
+        "name": "Gogobebe Teal Green and Brown Flannel Fleece Throw Blanket for Sofa Couch Bed Retro Rustic Wood Grain Soft Cozy Lightweight Blanket for Adults/Kids 39x49inch",
+        "product_category": "Home & Kitchen \u203a Bedding \u203a Blankets & Throws \u203a Throws",
+        "instruction_text": "Find me eco friendly throw blankets with fleece throw with color: halloween-018goo7397, and size: 49x59in, and price lower than 60.00 dollars",
+        "attributes": [
+          "eco friendly",
+          "fleece throw"
+        ],
+        "price_upper": 60.0,
+        "goal_options": {
+          "color": "halloween-018goo7397",
+          "size": "49x59in"
+        },
+        "weight": 0.005991461270763821
+      },
+      "goal_idx": 6,
+      "run_idx": 0,
+      "instruction": "Find me eco friendly throw blankets with fleece throw with color: halloween-018goo7397, and size: 49x59in, and price lower than 60.00 dollars",
+      "reward": 1.0,
+      "steps": 5,
+      "cost": 0.00069,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me eco friendly throw blankets with fleece throw with color: halloween-018goo7397, and size: 49x59in, and price lower than 60.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[eco friendly fleece throw blanket]",
+          "observation": "\n[B09DG3YTHY] \nGogobebe Teal Green and Brown Flannel Fleece Throw Blanket for Sofa Couch Bed Retro Rustic Wood Grain Soft Cozy Lightweight Blanket for Adults/Kids 39x49inch \n$31.39 \n[B0836D6CW4] \nSunbeam Heated Electric Fleece Throw Comforter Blanket with Controller, Auto Off Setting, Thermofine Wiring, and 3 Heat Settings, Red Plaid \n$45.99 \n[B08FGWZZ8J] \nItachishop Flannel Fleece Blanket with Pompom Fringe, Fuzzy Throw Blanket Bed Blanket for Couch Home Decor, 60x50in \n$28.8 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B09DG3YTHY]",
+          "observation": "\n[< Prev] \nsize [39 x 49 in][39x49in][39x59in][49x59in][49x79in][59x79in]\ncolor [love32goo9557][cartoon2goo8633][christmas 2374lgoo8402][christmasgoo1747][christmasgoo2799][clovergoo4857][fish scale1goo8111][graffiti1goo9830][halloween-018goo7397][halloweengoo6082][halloweengoo7556][paris eiffel tower1goo8867][peacock2goo1111][shamrockgoo9573][snowflakegoo5851][snowflakesgoo3985][starfish beach8goo3481][thanksgiving1goo6115][thanksgivinggoo1780][thanksgivinggoo4573][thanksgivinggoo6016][thanksgivinggoo9948][tortoisegoo9511][wood grain4goo3989][wood grain5goo6823][you are my sunshinegoo1809][christmas-003goo3552]\nGogobebe Teal Green and Brown Flannel Fleece Throw Blanket for Sofa Couch Bed Retro Rustic Wood Grain Soft Cozy Lightweight Blanket for Adults/Kids 39x49inch \nPrice: $31.39 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[halloween-018goo7397]",
+          "observation": "You have clicked halloween-018goo7397.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "click[49x59in]",
+          "observation": "You have clicked 49x59in.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 5,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 1.0",
+          "reward": 1.0,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B09B2HN6NN",
+        "category": "fashion",
+        "query": "men's pants",
+        "name": "Men's 3/4 Workout Training Jogger Capri Pants Running Track Sweatpants Shorts with Pockets Summer Casual Sports Pants",
+        "product_category": "Clothing, Shoes & Jewelry \u203a Men \u203a Clothing \u203a Active \u203a Active Pants",
+        "instruction_text": "Find me machine wash men's pants with drawstring closure, elastic waist, polyester spandex with color: navy, and size: x-large, and price lower than 50.00 dollars",
+        "attributes": [
+          "machine wash",
+          "drawstring closure",
+          "elastic waist",
+          "polyester spandex"
+        ],
+        "price_upper": 50.0,
+        "goal_options": {
+          "color": "navy",
+          "size": "x-large"
+        },
+        "weight": 0.003435888619082382
+      },
+      "goal_idx": 7,
+      "run_idx": 0,
+      "instruction": "Find me machine wash men's pants with drawstring closure, elastic waist, polyester spandex with color: navy, and size: x-large, and price lower than 50.00 dollars",
+      "reward": 0.42857142857142855,
+      "steps": 3,
+      "cost": 0.00042999999999999994,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me machine wash men's pants with drawstring closure, elastic waist, polyester spandex with color: navy, and size: x-large, and price lower than 50.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[machine wash men's pants navy x-large]",
+          "observation": "\n[B099231V35] \nMens Casual Cargo Pants Hi Vis Viz Reflective Overalls High Visibility Safe Work Pants Outdoor Hiking Trousers Big and Tall \n$16.79 \n[B09B2HN6NN] \nMen's 3/4 Workout Training Jogger Capri Pants Running Track Sweatpants Shorts with Pockets Summer Casual Sports Pants \n$7.99 to $14.99 \n[B09QCVCYVY] \nBurband Womens High Waist Bike Shorts Tummy Control Workout Yoga Pants Running Exercise Running Shorts with Side Pockets \n$6.82 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B099231V35]",
+          "observation": "\n[< Prev] \ncolor [black][green][orange][yellow]\nsize [small][medium][large][x-large][xx-large][3x-large]\nMens Casual Cargo Pants Hi Vis Viz Reflective Overalls High Visibility Safe Work Pants Outdoor Hiking Trousers Big and Tall \nPrice: $16.79 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 0.42857142857142855",
+          "reward": 0.42857142857142855,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B09NPML43M",
+        "category": "fashion",
+        "query": "women's tops, tees & blouses",
+        "name": "Womens Short Sleeve Tops, Womens Casual Dandelion Printing T-Shirts Loose O-Neck Blouse Tops Funny Graphic Tee Shirts",
+        "product_category": "Clothing, Shoes & Jewelry \u203a Women \u203a Clothing \u203a Tops, Tees & Blouses \u203a T-Shirts",
+        "instruction_text": "Find me loose fit, day comfort, hand wash women's tops, tees & blouses with short sleeve, polyester spandex for teen girls with color: a3-navy, and size: x-large, and price lower than 30.00 dollars",
+        "attributes": [
+          "loose fit",
+          "day comfort",
+          "hand wash",
+          "short sleeve",
+          "polyester spandex",
+          "teen girls"
+        ],
+        "price_upper": 30.0,
+        "goal_options": {
+          "color": "a3-navy",
+          "size": "x-large"
+        },
+        "weight": 0.001680865775131393
+      },
+      "goal_idx": 8,
+      "run_idx": 0,
+      "instruction": "Find me loose fit, day comfort, hand wash women's tops, tees & blouses with short sleeve, polyester spandex for teen girls with color: a3-navy, and size: x-large, and price lower than 30.00 dollars",
+      "reward": 0.2222222222222222,
+      "steps": 4,
+      "cost": 0.00062,
+      "invalid_actions": 1,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me loose fit, day comfort, hand wash women's tops, tees & blouses with short sleeve, polyester spandex for teen girls with color: a3-navy, and size: x-large, and price lower than 30.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[teen girls navy tops short sleeve]",
+          "observation": "\n[B09QGK5XHZ] \nWENKOMG1 Men's Long Sleeve Undershirt with Mask Turtleneck Hooded T-Shirt Solid Color Workout Tops Zipper Side Slit Shirts Slim Fit Sweatshirt Spring/Summer Tee Shirts(Gray,) \n$8.39 \n[B09HGFV91W] \nZHDD Tops for Mens, Men's Knight Punk Vintage Style Long Sleeve Asymmetric Hem Cowl Neck Teen Boys Gothic Pullover \n$4.98 to $7.99 \n[B09S3BN15C] \nMens Linen Shirt,Men's Striped Shirts Casual Short Sleeve Button Down Shirts Regular Fit Hawaiian Shirts Beach Tees Tops \n$3.78 to $11.38 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "search[teen girls loose fit navy tops]",
+          "observation": "ERROR: Your action search[teen girls loose fit navy tops] is invalid here. HINT: You can only use 'search[]' once. you must choose an item from the search results.\n",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[B09QGK5XHZ]",
+          "observation": "\n[< Prev] \nWENKOMG1 Men's Long Sleeve Undershirt with Mask Turtleneck Hooded T-Shirt Solid Color Workout Tops Zipper Side Slit Shirts Slim Fit Sweatshirt Spring/Summer Tee Shirts(Gray,) \nPrice: $8.39 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 0.2222222222222222",
+          "reward": 0.2222222222222222,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B07MGB73NJ",
+        "category": "fashion",
+        "query": "women's tops, tees & blouses",
+        "name": "Viracy Women's Short Sleeve V-Neck Casual Flowy Tunic Shirt (M-3XL)",
+        "product_category": "",
+        "instruction_text": "Find me machine wash women's tops, tees & blouses with short sleeve, unique design, relaxed fit, button closure, polyester spandex with color: blue, and size: xx-large, and price lower than 50.00 dollars",
+        "attributes": [
+          "machine wash",
+          "short sleeve",
+          "unique design",
+          "relaxed fit",
+          "button closure",
+          "polyester spandex"
+        ],
+        "price_upper": 50.0,
+        "goal_options": {
+          "color": "blue",
+          "size": "xx-large"
+        },
+        "weight": 0.003337348549473127
+      },
+      "goal_idx": 9,
+      "run_idx": 0,
+      "instruction": "Find me machine wash women's tops, tees & blouses with short sleeve, unique design, relaxed fit, button closure, polyester spandex with color: blue, and size: xx-large, and price lower than 50.00 dollars",
+      "reward": 0.044444444444444446,
+      "steps": 4,
+      "cost": 0.00062,
+      "invalid_actions": 1,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me machine wash women's tops, tees & blouses with short sleeve, unique design, relaxed fit, button closure, polyester spandex with color: blue, and size: xx-large, and price lower than 50.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[womens blue tops short sleeve button closure]",
+          "observation": "\n[B09NDS8F4V] \nAODONG Onesie Pajamas for Women Onesies Romper Pajamas Printed Bodycon Jumpsuit Shorts Sexy One Piece Pjs Overall \n$2.99 to $7.99 \n[B09P5CRVQ6] \nWomens Tops Casual, Sweatshirt for Women Graphic, Womens Sweatshirt Hoodie, Women Love Print Sweatshirt Long Sleeve Cute Heart Sweater Pullover Tops Blouse \n$22.78 \n[B09QQP3356] \nHAUKLIE Men's Sports Waffle Ribbed Polo Shirts Summer Short Sleeve Cotton Muscle Quarter-Zip Henley T-Shirt Tunics Tops \n$10.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "search[womens blue short sleeve blouses button closure]",
+          "observation": "ERROR: Your action search[womens blue short sleeve blouses button closure] is invalid here. HINT: You can only use 'search[]' once. you must choose an item from the search results.\n",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[B09NDS8F4V]",
+          "observation": "\n[< Prev] \ncolor [hot pink][wine][red]\nsize [medium][large][x-large][xx-large]\nAODONG Onesie Pajamas for Women Onesies Romper Pajamas Printed Bodycon Jumpsuit Shorts Sexy One Piece Pjs Overall \nPrice: $2.99 to $7.99 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 0.044444444444444446",
+          "reward": 0.044444444444444446,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B098824K9T",
+        "category": "beauty",
+        "query": "bathing accessories",
+        "name": "Spa Savvy Shower Cap and Twist Hair Turban Duo, Enhance Your Shower Experience with this Complete Set, Fully Lined Shower Cap, Microfiber Turban (Green)",
+        "product_category": "Beauty & Personal Care \u203a Personal Care \u203a Bath & Bathing Accessories \u203a Bathing Accessories \u203a Shower Caps",
+        "instruction_text": "Find me easy use bathing accessories for dry hair with color: green, and price lower than 40.00 dollars",
+        "attributes": [
+          "easy use",
+          "dry hair"
+        ],
+        "price_upper": 40.0,
+        "goal_options": {
+          "color": "green"
+        },
+        "weight": 0.040522875816993466
+      },
+      "goal_idx": 10,
+      "run_idx": 0,
+      "instruction": "Find me easy use bathing accessories for dry hair with color: green, and price lower than 40.00 dollars",
+      "reward": 1.0,
+      "steps": 4,
+      "cost": 0.00059,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me easy use bathing accessories for dry hair with color: green, and price lower than 40.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[bathing accessories for dry hair green]",
+          "observation": "\n[B098824K9T] \nSpa Savvy Shower Cap and Twist Hair Turban Duo, Enhance Your Shower Experience with this Complete Set, Fully Lined Shower Cap, Microfiber Turban (Green) \n$11.99 \n[B094QGVQLK] \nZYUN Bathtub Cushion, Full Body Spa Bath Mat with Cushion, 3D Breathable Bathtub Mat, Non-Slip Bath Pillows, Neck and Back Support, for Parents, Children \n$32.99 \n[B08G14B779] \nNIUTA 2 Pack Hair Towel Wrap, Microfiber Quick Drying Hair Towels, Super Absorbent Quick Dry Hair Towel, Wrapped Bath Cap (Pink+Light Blue) \n$4.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B098824K9T]",
+          "observation": "\n[< Prev] \ncolor [green][purple]\nSpa Savvy Shower Cap and Twist Hair Turban Duo, Enhance Your Shower Experience with this Complete Set, Fully Lined Shower Cap, Microfiber Turban (Green) \nPrice: $11.99 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[green]",
+          "observation": "You have clicked green.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 1.0",
+          "reward": 1.0,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B07HRFSNL4",
+        "category": "fashion",
+        "query": "men's dress shirts",
+        "name": "Nautica Men's Solid Crew Neck Short-Sleeve Pocket T-Shirt",
+        "product_category": "Clothing, Shoes & Jewelry \u203a Men \u203a Clothing \u203a Shirts \u203a T-Shirts",
+        "instruction_text": "Find me machine wash men's dress shirts with cotton spandex, classic fit, short sleeve with color: patina green, and size: 5x-large tall, and price lower than 60.00 dollars",
+        "attributes": [
+          "machine wash",
+          "cotton spandex",
+          "classic fit",
+          "short sleeve"
+        ],
+        "price_upper": 60.0,
+        "goal_options": {
+          "color": "patina green",
+          "size": "5x-large tall"
+        },
+        "weight": 0.0008129621260382322
+      },
+      "goal_idx": 11,
+      "run_idx": 0,
+      "instruction": "Find me machine wash men's dress shirts with cotton spandex, classic fit, short sleeve with color: patina green, and size: 5x-large tall, and price lower than 60.00 dollars",
+      "reward": 0.42857142857142855,
+      "steps": 3,
+      "cost": 0.00043999999999999996,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me machine wash men's dress shirts with cotton spandex, classic fit, short sleeve with color: patina green, and size: 5x-large tall, and price lower than 60.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[machine wash men's dress shirts patina green]",
+          "observation": "\n[B09QQP3356] \nHAUKLIE Men's Sports Waffle Ribbed Polo Shirts Summer Short Sleeve Cotton Muscle Quarter-Zip Henley T-Shirt Tunics Tops \n$10.99 \n[B07HRFSNL4] \nNautica Men's Solid Crew Neck Short-Sleeve Pocket T-Shirt \n$16.05 to $40.98 \n[B09ND9DP7J] \nInterestPrint Gold Horse Pattern Men's 2-Piece Sleepwear Set, Long Sleeve Shirt with Pants Loungewear \n$43.59 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B09QQP3356]",
+          "observation": "\n[< Prev] \ncolor [black][gray][light blue]\nsize [small][medium][large][x-large][xx-large][3x-large]\nHAUKLIE Men's Sports Waffle Ribbed Polo Shirts Summer Short Sleeve Cotton Muscle Quarter-Zip Henley T-Shirt Tunics Tops \nPrice: $10.99 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 0.42857142857142855",
+          "reward": 0.42857142857142855,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B01MG1LTMS",
+        "category": "fashion",
+        "query": "men's polos",
+        "name": "Got Snow? Funny Snowmobile Snowboard Skiing Cold Weather Winter Sports Unisex Hooded Sweatshirt",
+        "product_category": "",
+        "instruction_text": "Find me men's polos with relaxed fit, needle sleeve with color: brown, and size: 4x-large, and price lower than 60.00 dollars",
+        "attributes": [
+          "relaxed fit",
+          "needle sleeve"
+        ],
+        "price_upper": 60.0,
+        "goal_options": {
+          "color": "brown",
+          "size": "4x-large"
+        },
+        "weight": 0.002312927690901455
+      },
+      "goal_idx": 12,
+      "run_idx": 0,
+      "instruction": "Find me men's polos with relaxed fit, needle sleeve with color: brown, and size: 4x-large, and price lower than 60.00 dollars",
+      "reward": 0.020000000000000004,
+      "steps": 3,
+      "cost": 0.00042,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me men's polos with relaxed fit, needle sleeve with color: brown, and size: 4x-large, and price lower than 60.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[mens brown polo relaxed fit 4x-large]",
+          "observation": "\n[B09QQP3356] \nHAUKLIE Men's Sports Waffle Ribbed Polo Shirts Summer Short Sleeve Cotton Muscle Quarter-Zip Henley T-Shirt Tunics Tops \n$10.99 \n[B00O30JLDK] \nLegendary Whitetails Men's Non-Typical Long Sleeve T-Shirt \n$10.52 to $40.5 \n[B09NNMV9LN] \nJSPOYOU Mens Short Sleeve Crewneck 3D Graphic Tunic Shirts Big & Tall Tie Dye Summer Top Basic Designed Classic Cotton Shirt \n$3.99 to $10.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B09QQP3356]",
+          "observation": "\n[< Prev] \ncolor [black][gray][light blue]\nsize [small][medium][large][x-large][xx-large][3x-large]\nHAUKLIE Men's Sports Waffle Ribbed Polo Shirts Summer Short Sleeve Cotton Muscle Quarter-Zip Henley T-Shirt Tunics Tops \nPrice: $10.99 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 0.020000000000000004",
+          "reward": 0.020000000000000004,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B07T3VMGDG",
+        "category": "fashion",
+        "query": "men's tuxedo shirts",
+        "name": "Tuxedo Cat 4th of July Hat Patriotic Gift Adults Kids Raglan Baseball Tee",
+        "product_category": "Clothing, Shoes & Jewelry \u203a Novelty & More \u203a Clothing \u203a Novelty \u203a Women \u203a Tops & Tees \u203a T-Shirts",
+        "instruction_text": "Find me machine wash men's tuxedo shirts with cotton heather, needle sleeve, classic fit with color: dark heather | white, and fit type: women, and size: medium, and price lower than 60.00 dollars",
+        "attributes": [
+          "machine wash",
+          "cotton heather",
+          "needle sleeve",
+          "classic fit"
+        ],
+        "price_upper": 60.0,
+        "goal_options": {
+          "color": "dark heather | white",
+          "fit type": "women",
+          "size": "medium"
+        },
+        "weight": 0.0006660239035866237
+      },
+      "goal_idx": 13,
+      "run_idx": 0,
+      "instruction": "Find me machine wash men's tuxedo shirts with cotton heather, needle sleeve, classic fit with color: dark heather | white, and fit type: women, and size: medium, and price lower than 60.00 dollars",
+      "reward": 0.0625,
+      "steps": 3,
+      "cost": 0.00043999999999999996,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me machine wash men's tuxedo shirts with cotton heather, needle sleeve, classic fit with color: dark heather | white, and fit type: women, and size: medium, and price lower than 60.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[mens tuxedo shirts cotton heather]",
+          "observation": "\n[B07JVVDJ6L] \nCanadian Tuxedo T Shirt - Novelty Denim Tux T-Shirt \n$19.99 \n[B07T3VMGDG] \nTuxedo Cat 4th of July Hat Patriotic Gift Adults Kids Raglan Baseball Tee \n$23.99 \n[B09RVF4JP1] \nOnce Upon A Time Queen Born In 1982 T Shirts It Was Me Tank Top \n$19.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B07JVVDJ6L]",
+          "observation": "\n[< Prev] \nfit type [men][women][youth]\ncolor [royal blue][baby blue][heather grey][heather blue]\nsize [small][medium][large][x-large][xx-large][3x-large][2t][3t][4t][x-small]\nCanadian Tuxedo T Shirt - Novelty Denim Tux T-Shirt \nPrice: $19.99 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 0.0625",
+          "reward": 0.0625,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B09R1T2P6V",
+        "category": "electronics",
+        "query": "wearable technology",
+        "name": "Bling Charm Pendant Bracelet Band Compatible with Apple Watch Bands 38mm 40mm 42mm 44mm,Adjustable Stainless Steel Smartwatch Band with Bling Diamond Case for iwatch Series SE Series 7 6 5 4 3 2 1",
+        "product_category": "Cell Phones & Accessories \u203a Accessories \u203a Smartwatch Accessories \u203a Smartwatch Bands",
+        "instruction_text": "Find me compatible apple wearable technology with stainless steel with color: silver, and size: 44mm, and price lower than 50.00 dollars",
+        "attributes": [
+          "compatible apple",
+          "stainless steel"
+        ],
+        "price_upper": 50.0,
+        "goal_options": {
+          "color": "silver",
+          "size": "44mm"
+        },
+        "weight": 0.03018018018018018
+      },
+      "goal_idx": 14,
+      "run_idx": 0,
+      "instruction": "Find me compatible apple wearable technology with stainless steel with color: silver, and size: 44mm, and price lower than 50.00 dollars",
+      "reward": 1.0,
+      "steps": 5,
+      "cost": 0.0007800000000000001,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me compatible apple wearable technology with stainless steel with color: silver, and size: 44mm, and price lower than 50.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[apple wearable technology stainless steel silver 44mm]",
+          "observation": "\n[B09R1T2P6V] \nBling Charm Pendant Bracelet Band Compatible with Apple Watch Bands 38mm 40mm 42mm 44mm,Adjustable Stainless Steel Smartwatch Band with Bling Diamond Case for iwatch Series SE Series 7 6 5 4 3 2 1 \n$13.99 to $16.99 \n[B0892Y9F83] \nMinkissy 2pcs Stainless Steel Eyebrow Tweezers Blackhead Acne Remover Portable Makeup Tweezers (Silver) \n$10.39 \n[B07KY5X445] \nProfessional Stainless Steel Oval Roaster with Wire Rack and High Dome for Turkey Ham Chicken Meat Roasts Casseroles & Vegetables | Induction Safe \n$54.95 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B09R1T2P6V]",
+          "observation": "\n[< Prev] \ncolor [gold][rose gold][silver]\nsize [38mm][40mm][42mm][44mm]\nBling Charm Pendant Bracelet Band Compatible with Apple Watch Bands 38mm 40mm 42mm 44mm,Adjustable Stainless Steel Smartwatch Band with Bling Diamond Case for iwatch Series SE Series 7 6 5 4 3 2 1 \nPrice: $13.99 to $16.99 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[silver]",
+          "observation": "You have clicked silver.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "click[44mm]",
+          "observation": "You have clicked 44mm.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 5,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 1.0",
+          "reward": 1.0,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B07S7HDC88",
+        "category": "fashion",
+        "query": "men's loafers & slip-ons",
+        "name": "VanciLin Mens Casual Leather Fashion Slip-on Loafers",
+        "product_category": "Clothing, Shoes & Jewelry \u203a Men \u203a Shoes \u203a Loafers & Slip-Ons",
+        "instruction_text": "Find me slip resistant, non slip men's loafers & slip-ons with rubber outsole, rubber sole with color: 1877black, and size: 13, and price lower than 70.00 dollars",
+        "attributes": [
+          "slip resistant",
+          "non slip",
+          "rubber outsole",
+          "rubber sole"
+        ],
+        "price_upper": 70.0,
+        "goal_options": {
+          "color": "1877black",
+          "size": "13"
+        },
+        "weight": 0.0020847525614866476
+      },
+      "goal_idx": 15,
+      "run_idx": 0,
+      "instruction": "Find me slip resistant, non slip men's loafers & slip-ons with rubber outsole, rubber sole with color: 1877black, and size: 13, and price lower than 70.00 dollars",
+      "reward": 0.8571428571428571,
+      "steps": 5,
+      "cost": 0.0006600000000000001,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me slip resistant, non slip men's loafers & slip-ons with rubber outsole, rubber sole with color: 1877black, and size: 13, and price lower than 70.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[men's slip resistant loafers size 13]",
+          "observation": "\n[B07CN9RZ1C] \nEcco Men's Melbourne Plain Toe Slip on Loafer \n$114.99 \n[B07S7HDC88] \nVanciLin Mens Casual Leather Fashion Slip-on Loafers \n$33.99 to $35.99 \n[B07HP6LVRS] \nMCICI Mens Loafers Moccasin Driving Shoes Premium Genuine Leather Casual Slip On Flats Fashion Slipper Breathable Big Size \n$15.99 to $32.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B07S7HDC88]",
+          "observation": "\n[< Prev] \nsize [6.5][7][8][8.5][9][9.5][10][10.5][11][11.5][12][13][14]\ncolor [1877black][1877blue][228black][black137][blue137][l.brown137][r.brown137][1877r.brown][228blue][r.brown-hole228][1877brown][228r.brown-a][y.brown-hole228][black-hole228][228l.brown][r.brown2070][228r.brown][black2070][r.brown2626][r.brown-hole1887][black2626][black1901][r.brown2060][l.brown2060]\nVanciLin Mens Casual Leather Fashion Slip-on Loafers \nPrice: $33.99 to $35.99 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[1877black]",
+          "observation": "You have clicked 1877black.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "click[13]",
+          "observation": "You have clicked 13.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 5,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 0.8571428571428571",
+          "reward": 0.8571428571428571,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B09NPML43M",
+        "category": "fashion",
+        "query": "women's tops, tees & blouses",
+        "name": "Womens Short Sleeve Tops, Womens Casual Dandelion Printing T-Shirts Loose O-Neck Blouse Tops Funny Graphic Tee Shirts",
+        "product_category": "Clothing, Shoes & Jewelry \u203a Women \u203a Clothing \u203a Tops, Tees & Blouses \u203a T-Shirts",
+        "instruction_text": "Find me loose fit, day comfort, hand wash women's tops, tees & blouses with short sleeve, polyester spandex for teen girls with color: a3-orange, and size: medium, and price lower than 30.00 dollars",
+        "attributes": [
+          "loose fit",
+          "day comfort",
+          "hand wash",
+          "short sleeve",
+          "polyester spandex",
+          "teen girls"
+        ],
+        "price_upper": 30.0,
+        "goal_options": {
+          "color": "a3-orange",
+          "size": "medium"
+        },
+        "weight": 0.001680865775131393
+      },
+      "goal_idx": 16,
+      "run_idx": 0,
+      "instruction": "Find me loose fit, day comfort, hand wash women's tops, tees & blouses with short sleeve, polyester spandex for teen girls with color: a3-orange, and size: medium, and price lower than 30.00 dollars",
+      "reward": 1.0,
+      "steps": 5,
+      "cost": 0.0008799999999999999,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me loose fit, day comfort, hand wash women's tops, tees & blouses with short sleeve, polyester spandex for teen girls with color: a3-orange, and size: medium, and price lower than 30.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[teen girls orange tops short sleeve]",
+          "observation": "\n[B09Q37JQZ6] \nWomen's Sexy Swimsuit One Piece High Neck Halter Bikini Floral Stiching See Through Monokini Tummy Control Beachwear \n$10.99 to $18.99 \n[B09NPML43M] \nWomens Short Sleeve Tops, Womens Casual Dandelion Printing T-Shirts Loose O-Neck Blouse Tops Funny Graphic Tee Shirts \n$1.01 to $1.74 \n[B09QGK5XHZ] \nWENKOMG1 Men's Long Sleeve Undershirt with Mask Turtleneck Hooded T-Shirt Solid Color Workout Tops Zipper Side Slit Shirts Slim Fit Sweatshirt Spring/Summer Tee Shirts(Gray,) \n$8.39 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B09NPML43M]",
+          "observation": "\n[< Prev] \ncolor [a1-black][a1-blue][a1-gray][a1-green][a1-purple][a1-wine\u00a0red][a1-yellow][a2-blue][a2-gray][a2-green][a2-white][a2-yellow][a3-army\u00a0green][a3-blue][a3-gray][a3-navy][a3-orange][a3-wine\u00a0red][a4-gray][a6-black][a6-blue][a6-red][a7-black][a7-blue][a7-red][b15-black][b15-blue][b15-red][b16-black][b16-blue][b16-red][b17-army\u00a0green][b17-black][b17-red][b17-wine\u00a0red][b18-a][b11-black][b13-a][b19-a][b14-a][b21-a][b12-a]\nsize [small][medium][large][x-large][xx-large][3x-large]\nWomens Short Sleeve Tops, Womens Casual Dandelion Printing T-Shirts Loose O-Neck Blouse Tops Funny Graphic Tee Shirts \nPrice: $1.01 to $1.74 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[a3-orange]",
+          "observation": "You have clicked a3-orange.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "click[medium]",
+          "observation": "You have clicked medium.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 5,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 1.0",
+          "reward": 1.0,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B09R7H66FC",
+        "category": "fashion",
+        "query": "men's suits & sport coats",
+        "name": "Men's Shiny Sequins Suit Jacket Blazer One Button Weddings Prom Dinner Party Tuxedo BZ07",
+        "product_category": "Clothing, Shoes & Jewelry \u203a Men \u203a Clothing \u203a Suits & Sport Coats \u203a Sport Coats & Blazers",
+        "instruction_text": "Find me slim fit men's suits & sport coats with button closure, classic fit with color: pink, and size: medium, and price lower than 70.00 dollars",
+        "attributes": [
+          "slim fit",
+          "button closure",
+          "classic fit"
+        ],
+        "price_upper": 70.0,
+        "goal_options": {
+          "color": "pink",
+          "size": "medium"
+        },
+        "weight": 0.0016742010421391753
+      },
+      "goal_idx": 17,
+      "run_idx": 0,
+      "instruction": "Find me slim fit men's suits & sport coats with button closure, classic fit with color: pink, and size: medium, and price lower than 70.00 dollars",
+      "reward": 0.08333333333333334,
+      "steps": 5,
+      "cost": 0.00075,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me slim fit men's suits & sport coats with button closure, classic fit with color: pink, and size: medium, and price lower than 70.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[pink slim fit men's suits]",
+          "observation": "\n[B09NNMV9LN] \nJSPOYOU Mens Short Sleeve Crewneck 3D Graphic Tunic Shirts Big & Tall Tie Dye Summer Top Basic Designed Classic Cotton Shirt \n$3.99 to $10.99 \n[B09Q67H373] \nJSPOYOU 2022 Newly T-Shirt for Mens Funny 3D Graphics Pattern Crewneck Short Sleeve Tees Big and Tall Summer Casual Comfy Top \n$1.99 to $8.99 \n[B07F2G93BJ] \nAmazon Essentials Men's Slim-fit Long-Sleeve Solid Pocket Oxford Shirt \n$18.5 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B07F2G93BJ]",
+          "observation": "\n[< Prev] \nsize [x-small][small][medium][large][x-large][xx-large]\ncolor [aqua blue][blue][grey][lavender][navy][pink][white][yellow]\nAmazon Essentials Men's Slim-fit Long-Sleeve Solid Pocket Oxford Shirt \nPrice: $18.5 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[pink]",
+          "observation": "You have clicked pink.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "click[medium]",
+          "observation": "You have clicked medium.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 5,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 0.08333333333333334",
+          "reward": 0.08333333333333334,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B07BB1FJV8",
+        "category": "beauty",
+        "query": "hair loss products",
+        "name": "Edna Wig Color FS4/30 - Foxy Silver Wigs Short Pixie Wispy Fringe Synthetic Straight Layers African American Women's Machine Wefted Lightweight Average Cap Bundle with MaxWigs Hairloss Booklet",
+        "product_category": "Beauty & Personal Care \u203a Hair Care \u203a Hair Extensions, Wigs & Accessories \u203a Wigs",
+        "instruction_text": "Find me long lasting, high quality hair loss products with color: 3t44, and price lower than 70.00 dollars",
+        "attributes": [
+          "long lasting",
+          "high quality"
+        ],
+        "price_upper": 70.0,
+        "goal_options": {
+          "color": "3t44"
+        },
+        "weight": 0.011058162267839688
+      },
+      "goal_idx": 18,
+      "run_idx": 0,
+      "instruction": "Find me long lasting, high quality hair loss products with color: 3t44, and price lower than 70.00 dollars",
+      "reward": 0.05,
+      "steps": 3,
+      "cost": 0.00044,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me long lasting, high quality hair loss products with color: 3t44, and price lower than 70.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[hair loss products 3t44]",
+          "observation": "\n[B09SHRV5JW] \nHerbal Hair Regrowth Spray, Hair-growth Essence Spray, Herbal Hair Growth Essence Spray, Hair Growth Treatement Germinal Oil, Hair Growth Maximizer Spray for Prevent Postpartum Hair Loss Men Women (10ml 4PC) \n$16.99 \n[B09PY89B1S] \nUpgraded Version Regrowth Organic Hair Serum Roller Set, Biotin Hair Growth Serum,Triple Roll-On Massager Hair Growth Essence,for Men Women of All Hair Types (5PCS) \n$21.99 \n[B082WKKPDH] \nRevita Tablets Hair Growth Vitamins by DS Laboratories, Supports Healthy Hair and Nails in Women and Men, Hair Loss & Hair Thinning Supplement, Biotin, Vitamin D, Iron, 90 Day Supply \n$96.0 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B09SHRV5JW]",
+          "observation": "\n[< Prev] \nsize [10ml][10ml 4pc][30ml][30ml 01][50ml]\nHerbal Hair Regrowth Spray, Hair-growth Essence Spray, Herbal Hair Growth Essence Spray, Hair Growth Treatement Germinal Oil, Hair Growth Maximizer Spray for Prevent Postpartum Hair Loss Men Women (10ml 4PC) \nPrice: $16.99 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 0.05",
+          "reward": 0.05,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B078WSND96",
+        "category": "fashion",
+        "query": "men's t-shirts & tanks",
+        "name": "Clearance Deals Retro T-Shirt Bee Printed Blouse, 2021 Summer Fashion Boys Men 3D Round Neck Short Sleeve Tee Tops",
+        "product_category": "Clothing, Shoes & Jewelry \u203a Novelty & More \u203a Clothing \u203a Novelty \u203a Men \u203a Shirts \u203a T-Shirts",
+        "instruction_text": "Find me men's t-shirts & tanks with short sleeve, fashion design, long sleeve, button closure with color: a-red, and size: x-large, and price lower than 40.00 dollars",
+        "attributes": [
+          "short sleeve",
+          "fashion design",
+          "long sleeve",
+          "button closure"
+        ],
+        "price_upper": 40.0,
+        "goal_options": {
+          "color": "a-red",
+          "size": "x-large"
+        },
+        "weight": 0.003394565790624488
+      },
+      "goal_idx": 19,
+      "run_idx": 0,
+      "instruction": "Find me men's t-shirts & tanks with short sleeve, fashion design, long sleeve, button closure with color: a-red, and size: x-large, and price lower than 40.00 dollars",
+      "reward": 0.42857142857142855,
+      "steps": 3,
+      "cost": 0.00043999999999999996,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me men's t-shirts & tanks with short sleeve, fashion design, long sleeve, button closure with color: a-red, and size: x-large, and price lower than 40.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[mens t-shirts short sleeve red x-large]",
+          "observation": "\n[B09QQP3356] \nHAUKLIE Men's Sports Waffle Ribbed Polo Shirts Summer Short Sleeve Cotton Muscle Quarter-Zip Henley T-Shirt Tunics Tops \n$10.99 \n[B085WQKRRJ] \nCLANMILUMS Men's Classic Comfort Soft Regular Fit Short Sleeve Henley T-Shirt Tee \n$17.99 to $19.99 \n[B07N7TDKXQ] \nSOCKS'NBULK Mens Cotton Crew Neck Short Sleeve T-Shirts Mix Colors Bulk \n$38.79 to $172.8 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B09QQP3356]",
+          "observation": "\n[< Prev] \ncolor [black][gray][light blue]\nsize [small][medium][large][x-large][xx-large][3x-large]\nHAUKLIE Men's Sports Waffle Ribbed Polo Shirts Summer Short Sleeve Cotton Muscle Quarter-Zip Henley T-Shirt Tunics Tops \nPrice: $10.99 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 0.42857142857142855",
+          "reward": 0.42857142857142855,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B08G8DXR5N",
+        "category": "fashion",
+        "query": "women's activewear",
+        "name": "Beninos Sports Bras for Women - Activewear Tops for Yoga Running Fitness",
+        "product_category": "Clothing, Shoes & Jewelry \u203a Women \u203a Clothing \u203a Lingerie, Sleep & Lounge \u203a Lingerie \u203a Bras \u203a Sports Bras",
+        "instruction_text": "Find me hand wash, machine wash women's activewear with nylon spandex with color: black, and size: medium, and price lower than 40.00 dollars",
+        "attributes": [
+          "hand wash",
+          "machine wash",
+          "nylon spandex"
+        ],
+        "price_upper": 40.0,
+        "goal_options": {
+          "color": "black",
+          "size": "medium"
+        },
+        "weight": 0.009004160560580794
+      },
+      "goal_idx": 20,
+      "run_idx": 0,
+      "instruction": "Find me hand wash, machine wash women's activewear with nylon spandex with color: black, and size: medium, and price lower than 40.00 dollars",
+      "reward": 1.0,
+      "steps": 5,
+      "cost": 0.0007199999999999999,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me hand wash, machine wash women's activewear with nylon spandex with color: black, and size: medium, and price lower than 40.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[womens black activewear nylon spandex]",
+          "observation": "\n[B015H77AF8] \nHanes Womens Silk Reflections Sheer Knee Highs 2-Pack_Jet_One Size \n$7.92 \n[B08G8DXR5N] \nBeninos Sports Bras for Women - Activewear Tops for Yoga Running Fitness \n$6.99 \n[B0861GWJV2] \nMeijunter Islamic Women Swimwear Burkini Muslim Hijab Swimsuit Modest Swim Surf Wear Sun Protection Swimming 3 Pieces Suit \n$100.0 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B08G8DXR5N]",
+          "observation": "\n[< Prev] \nsize [medium][large][x-large]\ncolor [green][naked][white][pink][black]\nBeninos Sports Bras for Women - Activewear Tops for Yoga Running Fitness \nPrice: $6.99 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[medium]",
+          "observation": "You have clicked medium.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "click[black]",
+          "observation": "You have clicked black.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 5,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 1.0",
+          "reward": 1.0,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B09QCP4579",
+        "category": "fashion",
+        "query": "women's shorts",
+        "name": "LWLW High Waist Yoga Shorts for Women,Tummy Control Biker Shorts Exercise Workout Butt Lifting Tights Women's Short Pants",
+        "product_category": "Clothing, Shoes & Jewelry \u203a Women \u203a Clothing \u203a Active \u203a Leggings",
+        "instruction_text": "Find me butt lifting, light weight women's shorts with high waist, tummy control with color: gray, and size: x-large, and price lower than 30.00 dollars",
+        "attributes": [
+          "butt lifting",
+          "light weight",
+          "high waist",
+          "tummy control"
+        ],
+        "price_upper": 30.0,
+        "goal_options": {
+          "color": "gray",
+          "size": "x-large"
+        },
+        "weight": 0.00992086000463998
+      },
+      "goal_idx": 21,
+      "run_idx": 0,
+      "instruction": "Find me butt lifting, light weight women's shorts with high waist, tummy control with color: gray, and size: x-large, and price lower than 30.00 dollars",
+      "reward": 1.0,
+      "steps": 5,
+      "cost": 0.00074,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me butt lifting, light weight women's shorts with high waist, tummy control with color: gray, and size: x-large, and price lower than 30.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[gray high waist women's shorts]",
+          "observation": "\n[B09QCVCYVY] \nBurband Womens High Waist Bike Shorts Tummy Control Workout Yoga Pants Running Exercise Running Shorts with Side Pockets \n$6.82 \n[B09QCP4579] \nLWLW High Waist Yoga Shorts for Women,Tummy Control Biker Shorts Exercise Workout Butt Lifting Tights Women's Short Pants \n$13.99 \n[B09B2HN6NN] \nMen's 3/4 Workout Training Jogger Capri Pants Running Track Sweatpants Shorts with Pockets Summer Casual Sports Pants \n$7.99 to $14.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B09QCP4579]",
+          "observation": "\n[< Prev] \ncolor [black][blue][gray][purple][wine]\nsize [small][medium][large][x-large][xx-large][3x-large]\nLWLW High Waist Yoga Shorts for Women,Tummy Control Biker Shorts Exercise Workout Butt Lifting Tights Women's Short Pants \nPrice: $13.99 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[gray]",
+          "observation": "You have clicked gray.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "click[x-large]",
+          "observation": "You have clicked x-large.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 5,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 1.0",
+          "reward": 1.0,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B08DXL22JN",
+        "category": "fashion",
+        "query": "women's suiting & blazers",
+        "name": "Cicy Bell Womens Casual Blazers Open Front Long Sleeve Work Office Jackets Blazer",
+        "product_category": "Clothing, Shoes & Jewelry \u203a Women \u203a Clothing \u203a Suiting & Blazers \u203a Blazers",
+        "instruction_text": "Find me wash cold, machine wash women's suiting & blazers with button closure, polyester spandex, long sleeve with color: z-khaki, and size: medium, and price lower than 70.00 dollars",
+        "attributes": [
+          "wash cold",
+          "machine wash",
+          "button closure",
+          "polyester spandex",
+          "long sleeve"
+        ],
+        "price_upper": 70.0,
+        "goal_options": {
+          "color": "z-khaki",
+          "size": "medium"
+        },
+        "weight": 0.001387185723005731
+      },
+      "goal_idx": 22,
+      "run_idx": 0,
+      "instruction": "Find me wash cold, machine wash women's suiting & blazers with button closure, polyester spandex, long sleeve with color: z-khaki, and size: medium, and price lower than 70.00 dollars",
+      "reward": 1.0,
+      "steps": 5,
+      "cost": 0.00071,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me wash cold, machine wash women's suiting & blazers with button closure, polyester spandex, long sleeve with color: z-khaki, and size: medium, and price lower than 70.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[womens suiting blazers z-khaki medium]",
+          "observation": "\n[B08DXL22JN] \nCicy Bell Womens Casual Blazers Open Front Long Sleeve Work Office Jackets Blazer \n$48.99 \n[B09R7H66FC] \nMen's Shiny Sequins Suit Jacket Blazer One Button Weddings Prom Dinner Party Tuxedo BZ07 \n$59.99 \n[B085HGD5Z3] \nhaoricu Womens Platform Sandals Summer Fashion Ladies Bow Tie Flats Rome Casual Basic Slipper \n$14.98 to $25.98 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B08DXL22JN]",
+          "observation": "\n[< Prev] \ncolor [black][cream | off white][dark grey][lavender][navy][orange][red][z-army green][z-black&grey][z-brown][z-burgundy][z-dark green][z-dark khaki][z-khaki][z-nude pink][z-pink][z-purple][z-royal blue]\nsize [x-small][small][medium][large][x-large][xx-large]\nCicy Bell Womens Casual Blazers Open Front Long Sleeve Work Office Jackets Blazer \nPrice: $48.99 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[z-khaki]",
+          "observation": "You have clicked z-khaki.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "click[medium]",
+          "observation": "You have clicked medium.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 5,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 1.0",
+          "reward": 1.0,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B09ND9DP7J",
+        "category": "fashion",
+        "query": "men's sleep & lounge",
+        "name": "InterestPrint Gold Horse Pattern Men's 2-Piece Sleepwear Set, Long Sleeve Shirt with Pants Loungewear",
+        "product_category": "Clothing, Shoes & Jewelry \u203a Men \u203a Clothing \u203a Sleep & Lounge \u203a Sleep Sets",
+        "instruction_text": "Find me men's sleep & lounge with long sleeve, elastic waistband for daily wear with color: multi 7, and size: small, and price lower than 70.00 dollars",
+        "attributes": [
+          "long sleeve",
+          "elastic waistband",
+          "daily wear"
+        ],
+        "price_upper": 70.0,
+        "goal_options": {
+          "color": "multi 7",
+          "size": "small"
+        },
+        "weight": 0.0025830660342119794
+      },
+      "goal_idx": 23,
+      "run_idx": 0,
+      "instruction": "Find me men's sleep & lounge with long sleeve, elastic waistband for daily wear with color: multi 7, and size: small, and price lower than 70.00 dollars",
+      "reward": 1.0,
+      "steps": 5,
+      "cost": 0.00078,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me men's sleep & lounge with long sleeve, elastic waistband for daily wear with color: multi 7, and size: small, and price lower than 70.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[mens sleep lounge long sleeve multi 7]",
+          "observation": "\n[B09ND8P2QR] \nInterestPrint Deer and Stars Men's Loungewear Pajama Sets - Long Sleeve Tee and Jogger Pant \n$43.59 \n[B09ND9DP7J] \nInterestPrint Gold Horse Pattern Men's 2-Piece Sleepwear Set, Long Sleeve Shirt with Pants Loungewear \n$43.59 \n[B09NDS8F4V] \nAODONG Onesie Pajamas for Women Onesies Romper Pajamas Printed Bodycon Jumpsuit Shorts Sexy One Piece Pjs Overall \n$2.99 to $7.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B09ND8P2QR]",
+          "observation": "\n[< Prev] \nsize [small][medium][large][x-large][xx-large]\ncolor [multi 1][multi 10][multi 2][multi 3][multi 4][multi 5][multi 6][multi 7][multi 8][multi 9]\nInterestPrint Deer and Stars Men's Loungewear Pajama Sets - Long Sleeve Tee and Jogger Pant \nPrice: $43.59 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[multi 7]",
+          "observation": "You have clicked multi 7.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "click[small]",
+          "observation": "You have clicked small.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 5,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 1.0",
+          "reward": 1.0,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B07L6DV555",
+        "category": "fashion",
+        "query": "men's boots",
+        "name": "Merrell Men's Primer Mid LTR Fashion Boot",
+        "product_category": "Clothing, Shoes & Jewelry \u203a Men \u203a Shoes \u203a Outdoor \u203a Hiking & Trekking \u203a Hiking Boots",
+        "instruction_text": "Find me men's boots with lace closure, rubber outsole, rubber sole with color: black, and size: 11, and price lower than 160.00 dollars",
+        "attributes": [
+          "lace closure",
+          "rubber outsole",
+          "rubber sole"
+        ],
+        "price_upper": 160.0,
+        "goal_options": {
+          "color": "black",
+          "size": "11"
+        },
+        "weight": 0.008741213770731076
+      },
+      "goal_idx": 24,
+      "run_idx": 0,
+      "instruction": "Find me men's boots with lace closure, rubber outsole, rubber sole with color: black, and size: 11, and price lower than 160.00 dollars",
+      "reward": 0.16666666666666666,
+      "steps": 4,
+      "cost": 0.00058,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me men's boots with lace closure, rubber outsole, rubber sole with color: black, and size: 11, and price lower than 160.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[mens black boots size 11]",
+          "observation": "\n[B00ITCBD3Y] \nLaredo Womens Spellbound Studded Square Toe Dress Boots Mid Calf Low Heel 1-2\" - Black \n$132.0 to $150.26 \n[B01EX1BWE4] \nMilwaukee Leather MBM9075 Men's Black 6-inch Plain Toe Dual Zipper Lock Leather Boots \n$99.82 to $134.99 \n[B07L6DV555] \nMerrell Men's Primer Mid LTR Fashion Boot \n$112.91 to $134.33 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B01EX1BWE4]",
+          "observation": "\n[< Prev] \nsize [7][7.5][8][8.5][9][9.5][10][10.5][11 wide][11.5][12][13][14][15]\nMilwaukee Leather MBM9075 Men's Black 6-inch Plain Toe Dual Zipper Lock Leather Boots \nPrice: $99.82 to $134.99 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[11 wide]",
+          "observation": "You have clicked 11 wide.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 0.16666666666666666",
+          "reward": 0.16666666666666666,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B01DJGWDBA",
+        "category": "fashion",
+        "query": "men's fashion sneakers",
+        "name": "Skechers Originals Men's Retros OG 90 Fashion Sneaker",
+        "product_category": "Clothing, Shoes & Jewelry \u203a Men \u203a Shoes \u203a Fashion Sneakers",
+        "instruction_text": "Find me men's fashion sneakers with memory foam, rubber sole with color: black, and size: 12, and price lower than 80.00 dollars",
+        "attributes": [
+          "memory foam",
+          "rubber sole"
+        ],
+        "price_upper": 80.0,
+        "goal_options": {
+          "color": "black",
+          "size": "12"
+        },
+        "weight": 0.005776194455439739
+      },
+      "goal_idx": 25,
+      "run_idx": 0,
+      "instruction": "Find me men's fashion sneakers with memory foam, rubber sole with color: black, and size: 12, and price lower than 80.00 dollars",
+      "reward": 0.8,
+      "steps": 4,
+      "cost": 0.00057,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me men's fashion sneakers with memory foam, rubber sole with color: black, and size: 12, and price lower than 80.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[mens black fashion sneakers size 12]",
+          "observation": "\n[B01DJGWDBA] \nSkechers Originals Men's Retros OG 90 Fashion Sneaker \n$51.96 to $55.0 \n[B07L6DV555] \nMerrell Men's Primer Mid LTR Fashion Boot \n$112.91 to $134.33 \n[B09QXF3V3X] \nDEUVOUM Summer Trend Mesh Shoes Men's Sports Shoes Solid Color Lace-Up Sneakers Fashion All-Match Walking Shoes Outdoor Hiking Shoes Non-Slip Shock-Absorbing Casual Sports Shoes \n$100.0 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B01DJGWDBA]",
+          "observation": "\n[< Prev] \nsize [9.5][10.5][11.5][12][13]\ncolor [black | white][burgundy][gray | navy][black]\nSkechers Originals Men's Retros OG 90 Fashion Sneaker \nPrice: $51.96 to $55.0 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[12]",
+          "observation": "You have clicked 12.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 0.8",
+          "reward": 0.8,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B07S7HDC88",
+        "category": "fashion",
+        "query": "men's loafers & slip-ons",
+        "name": "VanciLin Mens Casual Leather Fashion Slip-on Loafers",
+        "product_category": "Clothing, Shoes & Jewelry \u203a Men \u203a Shoes \u203a Loafers & Slip-Ons",
+        "instruction_text": "Find me slip resistant, non slip men's loafers & slip-ons with rubber outsole, rubber sole with color: 228blue, and size: 8.5, and price lower than 70.00 dollars",
+        "attributes": [
+          "slip resistant",
+          "non slip",
+          "rubber outsole",
+          "rubber sole"
+        ],
+        "price_upper": 70.0,
+        "goal_options": {
+          "color": "228blue",
+          "size": "8.5"
+        },
+        "weight": 0.0020847525614866476
+      },
+      "goal_idx": 26,
+      "run_idx": 0,
+      "instruction": "Find me slip resistant, non slip men's loafers & slip-ons with rubber outsole, rubber sole with color: 228blue, and size: 8.5, and price lower than 70.00 dollars",
+      "reward": 0.8571428571428571,
+      "steps": 4,
+      "cost": 0.00064,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me slip resistant, non slip men's loafers & slip-ons with rubber outsole, rubber sole with color: 228blue, and size: 8.5, and price lower than 70.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[mens slip resistant loafers 228blue size 8.5]",
+          "observation": "\n[B07S7HDC88] \nVanciLin Mens Casual Leather Fashion Slip-on Loafers \n$33.99 to $35.99 \n[B07HP6LVRS] \nMCICI Mens Loafers Moccasin Driving Shoes Premium Genuine Leather Casual Slip On Flats Fashion Slipper Breathable Big Size \n$15.99 to $32.99 \n[B07CN9RZ1C] \nEcco Men's Melbourne Plain Toe Slip on Loafer \n$114.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B07S7HDC88]",
+          "observation": "\n[< Prev] \nsize [6.5][7][8][8.5][9][9.5][10][10.5][11][11.5][12][13][14]\ncolor [1877black][1877blue][228black][black137][blue137][l.brown137][r.brown137][1877r.brown][228blue][r.brown-hole228][1877brown][228r.brown-a][y.brown-hole228][black-hole228][228l.brown][r.brown2070][228r.brown][black2070][r.brown2626][r.brown-hole1887][black2626][black1901][r.brown2060][l.brown2060]\nVanciLin Mens Casual Leather Fashion Slip-on Loafers \nPrice: $33.99 to $35.99 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[8.5]",
+          "observation": "You have clicked 8.5.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 0.8571428571428571",
+          "reward": 0.8571428571428571,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B00O30JLDK",
+        "category": "fashion",
+        "query": "men's t-shirts",
+        "name": "Legendary Whitetails Men's Non-Typical Long Sleeve T-Shirt",
+        "product_category": "Clothing, Shoes & Jewelry \u203a Novelty & More \u203a Clothing \u203a Novelty \u203a Men \u203a Shirts \u203a T-Shirts",
+        "instruction_text": "Find me machine wash men's t-shirts with long sleeve with color: charcoal heather, and size: x-large tall, and price lower than 70.00 dollars",
+        "attributes": [
+          "machine wash",
+          "long sleeve"
+        ],
+        "price_upper": 70.0,
+        "goal_options": {
+          "color": "charcoal heather",
+          "size": "x-large tall"
+        },
+        "weight": 0.0005102090948394451
+      },
+      "goal_idx": 27,
+      "run_idx": 0,
+      "instruction": "Find me machine wash men's t-shirts with long sleeve with color: charcoal heather, and size: x-large tall, and price lower than 70.00 dollars",
+      "reward": 1.0,
+      "steps": 5,
+      "cost": 0.0006900000000000001,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me machine wash men's t-shirts with long sleeve with color: charcoal heather, and size: x-large tall, and price lower than 70.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[machine wash men's long sleeve charcoal heather]",
+          "observation": "\n[B00O30JLDK] \nLegendary Whitetails Men's Non-Typical Long Sleeve T-Shirt \n$10.52 to $40.5 \n[B09Q8RD8YN] \nBungo Stray Anime Dogs Anime Character, Long Sleeve, Sweatshirt, Hoodie, T shirt \n$19.99 \n[B07HRFSNL4] \nNautica Men's Solid Crew Neck Short-Sleeve Pocket T-Shirt \n$16.05 to $40.98 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B00O30JLDK]",
+          "observation": "\n[< Prev] \ncolor [army][big game field camo][black][cardinal][charcoal heather][inferno][mossy oak bottomland][mossy oak country][mossy oak country dna][mossy oak coyote][slate][swamp][turkey][flag][country][fish]\nsize [small][medium][large][large tall][x-large][x-large tall][xx-large][xx-large big tall][3x-large big][3x-large big tall][4x-large big][4x-large big tall][5x-large big]\nLegendary Whitetails Men's Non-Typical Long Sleeve T-Shirt \nPrice: $10.52 to $40.5 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[charcoal heather]",
+          "observation": "You have clicked charcoal heather.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "click[x-large tall]",
+          "observation": "You have clicked x-large tall.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 5,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 1.0",
+          "reward": 1.0,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B097RK2B2Q",
+        "category": "fashion",
+        "query": "women's tops, tees & blouses",
+        "name": "FABIURT Summer Tops for Women, Women Fashion Graphic Plus Tank Top Sleeveless Casual Tunic Loose Cross Tee Shirt Blouses",
+        "product_category": "Clothing, Shoes & Jewelry \u203a Women \u203a Clothing \u203a Tops, Tees & Blouses \u203a Tanks & Camis",
+        "instruction_text": "Find me loose fit women's tops, tees & blouses with short sleeve, long sleeve with color: b1-wine, and size: x-large, and price lower than 50.00 dollars",
+        "attributes": [
+          "loose fit",
+          "short sleeve",
+          "long sleeve"
+        ],
+        "price_upper": 50.0,
+        "goal_options": {
+          "color": "b1-wine",
+          "size": "x-large"
+        },
+        "weight": 0.000825497497372351
+      },
+      "goal_idx": 28,
+      "run_idx": 0,
+      "instruction": "Find me loose fit women's tops, tees & blouses with short sleeve, long sleeve with color: b1-wine, and size: x-large, and price lower than 50.00 dollars",
+      "reward": 0.6666666666666666,
+      "steps": 3,
+      "cost": 0.00043999999999999996,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me loose fit women's tops, tees & blouses with short sleeve, long sleeve with color: b1-wine, and size: x-large, and price lower than 50.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[womens tops short sleeve long sleeve wine]",
+          "observation": "\n[B09NDS8F4V] \nAODONG Onesie Pajamas for Women Onesies Romper Pajamas Printed Bodycon Jumpsuit Shorts Sexy One Piece Pjs Overall \n$2.99 to $7.99 \n[B09NPML43M] \nWomens Short Sleeve Tops, Womens Casual Dandelion Printing T-Shirts Loose O-Neck Blouse Tops Funny Graphic Tee Shirts \n$1.01 to $1.74 \n[B09P5CRVQ6] \nWomens Tops Casual, Sweatshirt for Women Graphic, Womens Sweatshirt Hoodie, Women Love Print Sweatshirt Long Sleeve Cute Heart Sweater Pullover Tops Blouse \n$22.78 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B09P5CRVQ6]",
+          "observation": "\n[< Prev] \nWomens Tops Casual, Sweatshirt for Women Graphic, Womens Sweatshirt Hoodie, Women Love Print Sweatshirt Long Sleeve Cute Heart Sweater Pullover Tops Blouse \nPrice: $22.78 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 0.6666666666666666",
+          "reward": 0.6666666666666666,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B099WH1RTM",
+        "category": "garden",
+        "query": "wall art",
+        "name": "African American Wall Art Get Naked Fashion Black Girl And Bathtub Canvas Prints Gray Pink Painting Picture Modern Artwork For Bathroom Living Room Home Wall Decor Framed Ready To Hang 16x24 Inch",
+        "product_category": "Home & Kitchen \u203a Wall Art \u203a Posters & Prints",
+        "instruction_text": "Find me ready hang wall art with solid wood for living room with color: fashion black woman, and size: 8x10 inch, and price lower than 50.00 dollars",
+        "attributes": [
+          "ready hang",
+          "solid wood",
+          "living room"
+        ],
+        "price_upper": 50.0,
+        "goal_options": {
+          "color": "fashion black woman",
+          "size": "8x10 inch"
+        },
+        "weight": 0.016857078853046593
+      },
+      "goal_idx": 29,
+      "run_idx": 0,
+      "instruction": "Find me ready hang wall art with solid wood for living room with color: fashion black woman, and size: 8x10 inch, and price lower than 50.00 dollars",
+      "reward": 0.8333333333333334,
+      "steps": 5,
+      "cost": 0.00063,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me ready hang wall art with solid wood for living room with color: fashion black woman, and size: 8x10 inch, and price lower than 50.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[ready hang wall art black woman 8x10]",
+          "observation": "\n[B099WH1RTM] \nAfrican American Wall Art Get Naked Fashion Black Girl And Bathtub Canvas Prints Gray Pink Painting Picture Modern Artwork For Bathroom Living Room Home Wall Decor Framed Ready To Hang 16x24 Inch \n$39.99 \n[B092QQBW4Y] \nSencillez Canvas Wall Art Abstract Regalite Turquoise Marble Mixed Colors Blue Teal Gold Foil Digital Art Modern Art Bohemian Colorful Multicolor Ultra for Living Room Bedroom Office (20x30 inches) \n$59.99 \n[B09PJ6QZWW] \nFiretruck Canvas Wall Art Framed Transportation Fire Engine Painting Print Watercolor Nursery Fire Truck Canvas Wall Decor for Home Bedroom Office 12x12 Inch \n$19.98 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B099WH1RTM]",
+          "observation": "\n[< Prev] \ncolor [fashion black girl][fashion black girl01][fashion black girl02][fashion black woman][turtles and african american couple]\nsize [8x10 inch][12x16 inch][12x18 inch][12x18 inch][16x20 inch][16x24 inch]\nAfrican American Wall Art Get Naked Fashion Black Girl And Bathtub Canvas Prints Gray Pink Painting Picture Modern Artwork For Bathroom Living Room Home Wall Decor Framed Ready To Hang 16x24 Inch \nPrice: $39.99 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[fashion black woman]",
+          "observation": "You have clicked fashion black woman.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "click[8x10 inch]",
+          "observation": "You have clicked 8x10 inch.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 5,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 0.8333333333333334",
+          "reward": 0.8333333333333334,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B095KCTB3Y",
+        "category": "garden",
+        "query": "computer armoires",
+        "name": "Office Desk Pad, Writing Mat with Full Grip Fixation Lip, Non-Slip PU Leather Table Blotter Desk Protector Gaming Mat Laptop Keyboard Working Mat, Waterproof Table Protective Pad",
+        "product_category": "Office Products \u203a Office & School Supplies \u203a Desk Accessories & Workspace Organizers \u203a Desk Pads & Blotters",
+        "instruction_text": "Find me non slip, easy clean computer armoires with pu leather with color: gray, and size: 80x40, and price lower than 70.00 dollars",
+        "attributes": [
+          "non slip",
+          "easy clean",
+          "pu leather"
+        ],
+        "price_upper": 70.0,
+        "goal_options": {
+          "color": "gray",
+          "size": "80x40"
+        },
+        "weight": 0.012524727265605108
+      },
+      "goal_idx": 30,
+      "run_idx": 0,
+      "instruction": "Find me non slip, easy clean computer armoires with pu leather with color: gray, and size: 80x40, and price lower than 70.00 dollars",
+      "reward": 0.8333333333333334,
+      "steps": 4,
+      "cost": 0.0006000000000000001,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me non slip, easy clean computer armoires with pu leather with color: gray, and size: 80x40, and price lower than 70.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[gray pu leather computer armoire]",
+          "observation": "\n[B095KCTB3Y] \nOffice Desk Pad, Writing Mat with Full Grip Fixation Lip, Non-Slip PU Leather Table Blotter Desk Protector Gaming Mat Laptop Keyboard Working Mat, Waterproof Table Protective Pad \n$34.99 \n[B08FQTMCNM] \nYaheetech Swivel Accent Chair Height Adjustable Modern Round Back Tilt Chair with Chrome Frame for Lounge, Pub, Bar - Dark Grey \n$109.99 \n[B0893JSZHZ] \nAlien Storehouse Fashionable Square Cloth Modern Small Stool Table Stool Sofa Pier Ottoman Stool, A \n$36.58 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B095KCTB3Y]",
+          "observation": "\n[< Prev] \nsize [60x40cm][80x40][90x40cm][100x50cm][120x60cm]\ncolor [black][blue][gray][pink][red][white]\nOffice Desk Pad, Writing Mat with Full Grip Fixation Lip, Non-Slip PU Leather Table Blotter Desk Protector Gaming Mat Laptop Keyboard Working Mat, Waterproof Table Protective Pad \nPrice: $34.99 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[80x40]",
+          "observation": "You have clicked 80x40.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 0.8333333333333334",
+          "reward": 0.8333333333333334,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B08Q43LJKJ",
+        "category": "fashion",
+        "query": "women's pants",
+        "name": "Womens Winter Plus Velvet Thick Lamb Velvet Leggings Trousers High-Waisted Leggings Warm Pants",
+        "product_category": "Clothing, Shoes & Jewelry \u203a Novelty & More \u203a Clothing \u203a Novelty \u203a Women \u203a Leggings",
+        "instruction_text": "Find me fleece lined women's pants with long sleeve for teen girls with color: gray, and size: 4x-large, and price lower than 30.00 dollars",
+        "attributes": [
+          "fleece lined",
+          "long sleeve",
+          "teen girls"
+        ],
+        "price_upper": 30.0,
+        "goal_options": {
+          "color": "gray",
+          "size": "4x-large"
+        },
+        "weight": 0.013165501244416539
+      },
+      "goal_idx": 31,
+      "run_idx": 0,
+      "instruction": "Find me fleece lined women's pants with long sleeve for teen girls with color: gray, and size: 4x-large, and price lower than 30.00 dollars",
+      "reward": 0.3333333333333333,
+      "steps": 4,
+      "cost": 0.0006000000000000001,
+      "invalid_actions": 1,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me fleece lined women's pants with long sleeve for teen girls with color: gray, and size: 4x-large, and price lower than 30.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[fleece lined women's pants gray]",
+          "observation": "\n[B09MSZ4VS8] \nGoldweather Women Winter Leggings Printed Warm Fleece Lined Yoga Pants Trousers Thermal High Waist Thicken Cashmere Tights (Navy, L) \n$20.99 \n[B09QCVCYVY] \nBurband Womens High Waist Bike Shorts Tummy Control Workout Yoga Pants Running Exercise Running Shorts with Side Pockets \n$6.82 \n[B09NNMV9LN] \nJSPOYOU Mens Short Sleeve Crewneck 3D Graphic Tunic Shirts Big & Tall Tie Dye Summer Top Basic Designed Classic Cotton Shirt \n$3.99 to $10.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B09MSZ4VS8]",
+          "observation": "\n[< Prev] \nsize [medium][large][x-large][xx-large][3x-large]\ncolor [blue][dark blue][navy]\nGoldweather Women Winter Leggings Printed Warm Fleece Lined Yoga Pants Trousers Thermal High Waist Thicken Cashmere Tights (Navy, L) \nPrice: $20.99 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "search[fleece lined women's pants 4x-large gray]",
+          "observation": "ERROR: Your action search[fleece lined women's pants 4x-large gray] is invalid here. HINT: You can only use 'search[]' once. you must choose an item from the search results.\n",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 0.3333333333333333",
+          "reward": 0.3333333333333333,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B09PVNLVRW",
+        "category": "fashion",
+        "query": "women's jumpsuits, rompers & overalls",
+        "name": "Women's V-Neck Rompers Printed Jumpsuit Long Sleeve Homewear Butt Flap Pajamas One-Piece Onesies Nightwear Sexy Bodysuit",
+        "product_category": "Clothing, Shoes & Jewelry \u203a Women \u203a Clothing \u203a Jumpsuits, Rompers & Overalls \u203a Jumpsuits",
+        "instruction_text": "Find me slim fit women's jumpsuits, rompers & overalls with long sleeve for daily wear with color: black, and size: x-large, and price lower than 50.00 dollars",
+        "attributes": [
+          "slim fit",
+          "long sleeve",
+          "daily wear"
+        ],
+        "price_upper": 50.0,
+        "goal_options": {
+          "color": "black",
+          "size": "x-large"
+        },
+        "weight": 0.0015991571007478156
+      },
+      "goal_idx": 32,
+      "run_idx": 0,
+      "instruction": "Find me slim fit women's jumpsuits, rompers & overalls with long sleeve for daily wear with color: black, and size: x-large, and price lower than 50.00 dollars",
+      "reward": 1.0,
+      "steps": 5,
+      "cost": 0.00078,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me slim fit women's jumpsuits, rompers & overalls with long sleeve for daily wear with color: black, and size: x-large, and price lower than 50.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[womens black jumpsuits long sleeve]",
+          "observation": "\n[B09PVNLVRW] \nWomen's V-Neck Rompers Printed Jumpsuit Long Sleeve Homewear Butt Flap Pajamas One-Piece Onesies Nightwear Sexy Bodysuit \n$17.4 to $28.67 \n[B09NDS8F4V] \nAODONG Onesie Pajamas for Women Onesies Romper Pajamas Printed Bodycon Jumpsuit Shorts Sexy One Piece Pjs Overall \n$2.99 to $7.99 \n[B09Q37JQZ6] \nWomen's Sexy Swimsuit One Piece High Neck Halter Bikini Floral Stiching See Through Monokini Tummy Control Beachwear \n$10.99 to $18.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B09PVNLVRW]",
+          "observation": "\n[< Prev] \ncolor [black][red][yellow]\nsize [small][medium][large][x-large][xx-large]\nWomen's V-Neck Rompers Printed Jumpsuit Long Sleeve Homewear Butt Flap Pajamas One-Piece Onesies Nightwear Sexy Bodysuit \nPrice: $17.4 to $28.67 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[black]",
+          "observation": "You have clicked black.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "click[x-large]",
+          "observation": "You have clicked x-large.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 5,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 1.0",
+          "reward": 1.0,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B07S7HDC88",
+        "category": "fashion",
+        "query": "men's loafers & slip-ons",
+        "name": "VanciLin Mens Casual Leather Fashion Slip-on Loafers",
+        "product_category": "Clothing, Shoes & Jewelry \u203a Men \u203a Shoes \u203a Loafers & Slip-Ons",
+        "instruction_text": "Find me slip resistant, non slip men's loafers & slip-ons with rubber outsole, rubber sole with color: 228blue, and size: 10.5, and price lower than 70.00 dollars",
+        "attributes": [
+          "slip resistant",
+          "non slip",
+          "rubber outsole",
+          "rubber sole"
+        ],
+        "price_upper": 70.0,
+        "goal_options": {
+          "color": "228blue",
+          "size": "10.5"
+        },
+        "weight": 0.0020847525614866476
+      },
+      "goal_idx": 33,
+      "run_idx": 0,
+      "instruction": "Find me slip resistant, non slip men's loafers & slip-ons with rubber outsole, rubber sole with color: 228blue, and size: 10.5, and price lower than 70.00 dollars",
+      "reward": 0.8571428571428571,
+      "steps": 5,
+      "cost": 0.0007400000000000001,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me slip resistant, non slip men's loafers & slip-ons with rubber outsole, rubber sole with color: 228blue, and size: 10.5, and price lower than 70.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[men's slip resistant loafers 228blue]",
+          "observation": "\n[B07S7HDC88] \nVanciLin Mens Casual Leather Fashion Slip-on Loafers \n$33.99 to $35.99 \n[B07HP6LVRS] \nMCICI Mens Loafers Moccasin Driving Shoes Premium Genuine Leather Casual Slip On Flats Fashion Slipper Breathable Big Size \n$15.99 to $32.99 \n[B07CN9RZ1C] \nEcco Men's Melbourne Plain Toe Slip on Loafer \n$114.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B07S7HDC88]",
+          "observation": "\n[< Prev] \nsize [6.5][7][8][8.5][9][9.5][10][10.5][11][11.5][12][13][14]\ncolor [1877black][1877blue][228black][black137][blue137][l.brown137][r.brown137][1877r.brown][228blue][r.brown-hole228][1877brown][228r.brown-a][y.brown-hole228][black-hole228][228l.brown][r.brown2070][228r.brown][black2070][r.brown2626][r.brown-hole1887][black2626][black1901][r.brown2060][l.brown2060]\nVanciLin Mens Casual Leather Fashion Slip-on Loafers \nPrice: $33.99 to $35.99 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[228blue]",
+          "observation": "You have clicked 228blue.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "click[10.5]",
+          "observation": "You have clicked 10.5.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 5,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 0.8571428571428571",
+          "reward": 0.8571428571428571,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B09NPML43M",
+        "category": "fashion",
+        "query": "women's tops, tees & blouses",
+        "name": "Womens Short Sleeve Tops, Womens Casual Dandelion Printing T-Shirts Loose O-Neck Blouse Tops Funny Graphic Tee Shirts",
+        "product_category": "Clothing, Shoes & Jewelry \u203a Women \u203a Clothing \u203a Tops, Tees & Blouses \u203a T-Shirts",
+        "instruction_text": "Find me loose fit, day comfort, hand wash women's tops, tees & blouses with short sleeve, polyester spandex for teen girls with color: b12-a, and size: xx-large, and price lower than 30.00 dollars",
+        "attributes": [
+          "loose fit",
+          "day comfort",
+          "hand wash",
+          "short sleeve",
+          "polyester spandex",
+          "teen girls"
+        ],
+        "price_upper": 30.0,
+        "goal_options": {
+          "color": "b12-a",
+          "size": "xx-large"
+        },
+        "weight": 0.001680865775131393
+      },
+      "goal_idx": 34,
+      "run_idx": 0,
+      "instruction": "Find me loose fit, day comfort, hand wash women's tops, tees & blouses with short sleeve, polyester spandex for teen girls with color: b12-a, and size: xx-large, and price lower than 30.00 dollars",
+      "reward": 1.0,
+      "steps": 5,
+      "cost": 0.00069,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me loose fit, day comfort, hand wash women's tops, tees & blouses with short sleeve, polyester spandex for teen girls with color: b12-a, and size: xx-large, and price lower than 30.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[loose fit women's tops short sleeve]",
+          "observation": "\n[B09NDS8F4V] \nAODONG Onesie Pajamas for Women Onesies Romper Pajamas Printed Bodycon Jumpsuit Shorts Sexy One Piece Pjs Overall \n$2.99 to $7.99 \n[B09QQP3356] \nHAUKLIE Men's Sports Waffle Ribbed Polo Shirts Summer Short Sleeve Cotton Muscle Quarter-Zip Henley T-Shirt Tunics Tops \n$10.99 \n[B09NPML43M] \nWomens Short Sleeve Tops, Womens Casual Dandelion Printing T-Shirts Loose O-Neck Blouse Tops Funny Graphic Tee Shirts \n$1.01 to $1.74 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B09NPML43M]",
+          "observation": "\n[< Prev] \ncolor [a1-black][a1-blue][a1-gray][a1-green][a1-purple][a1-wine\u00a0red][a1-yellow][a2-blue][a2-gray][a2-green][a2-white][a2-yellow][a3-army\u00a0green][a3-blue][a3-gray][a3-navy][a3-orange][a3-wine\u00a0red][a4-gray][a6-black][a6-blue][a6-red][a7-black][a7-blue][a7-red][b15-black][b15-blue][b15-red][b16-black][b16-blue][b16-red][b17-army\u00a0green][b17-black][b17-red][b17-wine\u00a0red][b18-a][b11-black][b13-a][b19-a][b14-a][b21-a][b12-a]\nsize [small][medium][large][x-large][xx-large][3x-large]\nWomens Short Sleeve Tops, Womens Casual Dandelion Printing T-Shirts Loose O-Neck Blouse Tops Funny Graphic Tee Shirts \nPrice: $1.01 to $1.74 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[b12-a]",
+          "observation": "You have clicked b12-a.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "click[xx-large]",
+          "observation": "You have clicked xx-large.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 5,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 1.0",
+          "reward": 1.0,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B09NPML43M",
+        "category": "fashion",
+        "query": "women's tops, tees & blouses",
+        "name": "Womens Short Sleeve Tops, Womens Casual Dandelion Printing T-Shirts Loose O-Neck Blouse Tops Funny Graphic Tee Shirts",
+        "product_category": "Clothing, Shoes & Jewelry \u203a Women \u203a Clothing \u203a Tops, Tees & Blouses \u203a T-Shirts",
+        "instruction_text": "Find me loose fit, day comfort, hand wash women's tops, tees & blouses with short sleeve, polyester spandex for teen girls with color: b16-black, and size: x-large, and price lower than 30.00 dollars",
+        "attributes": [
+          "loose fit",
+          "day comfort",
+          "hand wash",
+          "short sleeve",
+          "polyester spandex",
+          "teen girls"
+        ],
+        "price_upper": 30.0,
+        "goal_options": {
+          "color": "b16-black",
+          "size": "x-large"
+        },
+        "weight": 0.001680865775131393
+      },
+      "goal_idx": 35,
+      "run_idx": 0,
+      "instruction": "Find me loose fit, day comfort, hand wash women's tops, tees & blouses with short sleeve, polyester spandex for teen girls with color: b16-black, and size: x-large, and price lower than 30.00 dollars",
+      "reward": 1.0,
+      "steps": 5,
+      "cost": 0.0007700000000000001,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me loose fit, day comfort, hand wash women's tops, tees & blouses with short sleeve, polyester spandex for teen girls with color: b16-black, and size: x-large, and price lower than 30.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[loose fit black women's tops]",
+          "observation": "\n[B09KP78G37] \nWomen Faux Fur Lined Jacket Coat Winter Warm Thick Fleece Outwear Trench Zipper Plus Size Long Sleeve Plush Overcoat \n$47.41 to $59.07 \n[B09NPML43M] \nWomens Short Sleeve Tops, Womens Casual Dandelion Printing T-Shirts Loose O-Neck Blouse Tops Funny Graphic Tee Shirts \n$1.01 to $1.74 \n[B09QCVCYVY] \nBurband Womens High Waist Bike Shorts Tummy Control Workout Yoga Pants Running Exercise Running Shorts with Side Pockets \n$6.82 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B09NPML43M]",
+          "observation": "\n[< Prev] \ncolor [a1-black][a1-blue][a1-gray][a1-green][a1-purple][a1-wine\u00a0red][a1-yellow][a2-blue][a2-gray][a2-green][a2-white][a2-yellow][a3-army\u00a0green][a3-blue][a3-gray][a3-navy][a3-orange][a3-wine\u00a0red][a4-gray][a6-black][a6-blue][a6-red][a7-black][a7-blue][a7-red][b15-black][b15-blue][b15-red][b16-black][b16-blue][b16-red][b17-army\u00a0green][b17-black][b17-red][b17-wine\u00a0red][b18-a][b11-black][b13-a][b19-a][b14-a][b21-a][b12-a]\nsize [small][medium][large][x-large][xx-large][3x-large]\nWomens Short Sleeve Tops, Womens Casual Dandelion Printing T-Shirts Loose O-Neck Blouse Tops Funny Graphic Tee Shirts \nPrice: $1.01 to $1.74 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[b16-black]",
+          "observation": "You have clicked b16-black.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "click[x-large]",
+          "observation": "You have clicked x-large.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 5,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 1.0",
+          "reward": 1.0,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B07GYWW3NY",
+        "category": "fashion",
+        "query": "men's jeans",
+        "name": "J. Crew - Men's - Sutton Straight-Fit Flex Chino (Multiple Size/Color Options)",
+        "product_category": "Clothing, Shoes & Jewelry \u203a Men \u203a Clothing \u203a Jeans",
+        "instruction_text": "Find me straight leg, machine washable men's jeans with color: khaki, and size: 32w x 32l, and price lower than 80.00 dollars",
+        "attributes": [
+          "straight leg",
+          "machine washable"
+        ],
+        "price_upper": 80.0,
+        "goal_options": {
+          "color": "khaki",
+          "size": "32w x 32l"
+        },
+        "weight": 0.007372862536087052
+      },
+      "goal_idx": 36,
+      "run_idx": 0,
+      "instruction": "Find me straight leg, machine washable men's jeans with color: khaki, and size: 32w x 32l, and price lower than 80.00 dollars",
+      "reward": 1.0,
+      "steps": 5,
+      "cost": 0.00078,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me straight leg, machine washable men's jeans with color: khaki, and size: 32w x 32l, and price lower than 80.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[mens khaki straight leg jeans 32w 32l]",
+          "observation": "\n[B07GYWW3NY] \nJ. Crew - Men's - Sutton Straight-Fit Flex Chino (Multiple Size/Color Options) \n$59.5 \n[B01MSP2B0I] \nWrangler Men's Retro Slim Fit Straight Leg Jean, Black, 42W x 32L \n$63.05 \n[B08LKKSL8F] \nBOCOMAL FR Pants for Men Cargo Flame Resistant Pants(2112&CAT2) 100% C 7.5oz Utility Fire Resistant Pants \n$45.99 to $49.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B07GYWW3NY]",
+          "observation": "\n[< Prev] \nsize [32w x 30l][32w x 32l][34w x 30l][34w x 32l][36w x 30l][36w x 32l]\ncolor [charcoal dust][coal grey][navy][overcast blue][khaki]\nJ. Crew - Men's - Sutton Straight-Fit Flex Chino (Multiple Size/Color Options) \nPrice: $59.5 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[khaki]",
+          "observation": "You have clicked khaki.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "click[32w x 32l]",
+          "observation": "You have clicked 32w x 32l.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 5,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 1.0",
+          "reward": 1.0,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B09NPML43M",
+        "category": "fashion",
+        "query": "women's tops, tees & blouses",
+        "name": "Womens Short Sleeve Tops, Womens Casual Dandelion Printing T-Shirts Loose O-Neck Blouse Tops Funny Graphic Tee Shirts",
+        "product_category": "Clothing, Shoes & Jewelry \u203a Women \u203a Clothing \u203a Tops, Tees & Blouses \u203a T-Shirts",
+        "instruction_text": "Find me loose fit, day comfort, hand wash women's tops, tees & blouses with short sleeve, polyester spandex for teen girls with color: a3-blue, and size: 3x-large, and price lower than 30.00 dollars",
+        "attributes": [
+          "loose fit",
+          "day comfort",
+          "hand wash",
+          "short sleeve",
+          "polyester spandex",
+          "teen girls"
+        ],
+        "price_upper": 30.0,
+        "goal_options": {
+          "color": "a3-blue",
+          "size": "3x-large"
+        },
+        "weight": 0.001680865775131393
+      },
+      "goal_idx": 37,
+      "run_idx": 0,
+      "instruction": "Find me loose fit, day comfort, hand wash women's tops, tees & blouses with short sleeve, polyester spandex for teen girls with color: a3-blue, and size: 3x-large, and price lower than 30.00 dollars",
+      "reward": 0.4444444444444444,
+      "steps": 5,
+      "cost": 0.0008100000000000001,
+      "invalid_actions": 1,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me loose fit, day comfort, hand wash women's tops, tees & blouses with short sleeve, polyester spandex for teen girls with color: a3-blue, and size: 3x-large, and price lower than 30.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[teen girls loose fit tops]",
+          "observation": "\n[B09S3BN15C] \nMens Linen Shirt,Men's Striped Shirts Casual Short Sleeve Button Down Shirts Regular Fit Hawaiian Shirts Beach Tees Tops \n$3.78 to $11.38 \n[B09KP78G37] \nWomen Faux Fur Lined Jacket Coat Winter Warm Thick Fleece Outwear Trench Zipper Plus Size Long Sleeve Plush Overcoat \n$47.41 to $59.07 \n[B08YNND3LN] \n2Pack Airpods Pro Case, Soft Silicone Cute Funny Fun Star War Boba Fett Cartoon Character Cover with Keychain, AirPod Pro Skin Set for Kids Teens Boys Girls(PS5 Game Controller+Mandalorian Helmet) \n$11.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "search[hand wash women's tops short sleeve]",
+          "observation": "ERROR: Your action search[hand wash women's tops short sleeve] is invalid here. HINT: You can only use 'search[]' once. you must choose an item from the search results.\n",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[B09S3BN15C]",
+          "observation": "\n[< Prev] \nsize [medium][large][x-large][xx-large][3x-large]\ncolor [white][yellow]\nMens Linen Shirt,Men's Striped Shirts Casual Short Sleeve Button Down Shirts Regular Fit Hawaiian Shirts Beach Tees Tops \nPrice: $3.78 to $11.38 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "click[3x-large]",
+          "observation": "You have clicked 3x-large.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 5,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 0.4444444444444444",
+          "reward": 0.4444444444444444,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B09DG3YTHY",
+        "category": "garden",
+        "query": "throw blankets",
+        "name": "Gogobebe Teal Green and Brown Flannel Fleece Throw Blanket for Sofa Couch Bed Retro Rustic Wood Grain Soft Cozy Lightweight Blanket for Adults/Kids 39x49inch",
+        "product_category": "Home & Kitchen \u203a Bedding \u203a Blankets & Throws \u203a Throws",
+        "instruction_text": "Find me eco friendly throw blankets with fleece throw with color: snowflakesgoo3985, and size: 39x49in, and price lower than 60.00 dollars",
+        "attributes": [
+          "eco friendly",
+          "fleece throw"
+        ],
+        "price_upper": 60.0,
+        "goal_options": {
+          "color": "snowflakesgoo3985",
+          "size": "39x49in"
+        },
+        "weight": 0.005991461270763821
+      },
+      "goal_idx": 38,
+      "run_idx": 0,
+      "instruction": "Find me eco friendly throw blankets with fleece throw with color: snowflakesgoo3985, and size: 39x49in, and price lower than 60.00 dollars",
+      "reward": 0.8,
+      "steps": 4,
+      "cost": 0.00067,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me eco friendly throw blankets with fleece throw with color: snowflakesgoo3985, and size: 39x49in, and price lower than 60.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[eco friendly fleece throw blanket]",
+          "observation": "\n[B09DG3YTHY] \nGogobebe Teal Green and Brown Flannel Fleece Throw Blanket for Sofa Couch Bed Retro Rustic Wood Grain Soft Cozy Lightweight Blanket for Adults/Kids 39x49inch \n$31.39 \n[B0836D6CW4] \nSunbeam Heated Electric Fleece Throw Comforter Blanket with Controller, Auto Off Setting, Thermofine Wiring, and 3 Heat Settings, Red Plaid \n$45.99 \n[B08FGWZZ8J] \nItachishop Flannel Fleece Blanket with Pompom Fringe, Fuzzy Throw Blanket Bed Blanket for Couch Home Decor, 60x50in \n$28.8 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B09DG3YTHY]",
+          "observation": "\n[< Prev] \nsize [39 x 49 in][39x49in][39x59in][49x59in][49x79in][59x79in]\ncolor [love32goo9557][cartoon2goo8633][christmas 2374lgoo8402][christmasgoo1747][christmasgoo2799][clovergoo4857][fish scale1goo8111][graffiti1goo9830][halloween-018goo7397][halloweengoo6082][halloweengoo7556][paris eiffel tower1goo8867][peacock2goo1111][shamrockgoo9573][snowflakegoo5851][snowflakesgoo3985][starfish beach8goo3481][thanksgiving1goo6115][thanksgivinggoo1780][thanksgivinggoo4573][thanksgivinggoo6016][thanksgivinggoo9948][tortoisegoo9511][wood grain4goo3989][wood grain5goo6823][you are my sunshinegoo1809][christmas-003goo3552]\nGogobebe Teal Green and Brown Flannel Fleece Throw Blanket for Sofa Couch Bed Retro Rustic Wood Grain Soft Cozy Lightweight Blanket for Adults/Kids 39x49inch \nPrice: $31.39 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[snowflakesgoo3985]",
+          "observation": "You have clicked snowflakesgoo3985.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 0.8",
+          "reward": 0.8,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B01MG1LTMS",
+        "category": "fashion",
+        "query": "men's polos",
+        "name": "Got Snow? Funny Snowmobile Snowboard Skiing Cold Weather Winter Sports Unisex Hooded Sweatshirt",
+        "product_category": "",
+        "instruction_text": "Find me men's polos with relaxed fit, needle sleeve with color: military green, and size: medium, and price lower than 60.00 dollars",
+        "attributes": [
+          "relaxed fit",
+          "needle sleeve"
+        ],
+        "price_upper": 60.0,
+        "goal_options": {
+          "color": "military green",
+          "size": "medium"
+        },
+        "weight": 0.002312927690901455
+      },
+      "goal_idx": 39,
+      "run_idx": 0,
+      "instruction": "Find me men's polos with relaxed fit, needle sleeve with color: military green, and size: medium, and price lower than 60.00 dollars",
+      "reward": 0.0,
+      "steps": 3,
+      "cost": 0.00041,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me men's polos with relaxed fit, needle sleeve with color: military green, and size: medium, and price lower than 60.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[mens military green polo relaxed fit]",
+          "observation": "\n[B09KXCHWGD] \nCustom Polo Shirts for Men Design Your Own Personalized Logo Text Photo Polo Shirt Customize Classic Polo Shirt \n$5.99 \n[B01MG1LTMS] \nGot Snow? Funny Snowmobile Snowboard Skiing Cold Weather Winter Sports Unisex Hooded Sweatshirt \n$24.99 to $29.99 \n[B09NNMV9LN] \nJSPOYOU Mens Short Sleeve Crewneck 3D Graphic Tunic Shirts Big & Tall Tie Dye Summer Top Basic Designed Classic Cotton Shirt \n$3.99 to $10.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B09KXCHWGD]",
+          "observation": "\n[< Prev] \ncolor [black][dark green][green][light blue][navy blue][orange][white][wine red][yellow]\nCustom Polo Shirts for Men Design Your Own Personalized Logo Text Photo Polo Shirt Customize Classic Polo Shirt \nPrice: $5.99 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 0.0",
+          "reward": 0.0,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B07PVZPS58",
+        "category": "fashion",
+        "query": "men's underwear",
+        "name": "BRIEF INSANITY Hot Rod Boxer Briefs for Men and Women | Vintage Car Print Boxer Shorts - Funny, Humorous, Novelty Underwear",
+        "product_category": "Clothing, Shoes & Jewelry \u203a Men \u203a Clothing \u203a Underwear \u203a Boxers",
+        "instruction_text": "Find me machine wash men's underwear with polyester spandex with size: small, and price lower than 50.00 dollars",
+        "attributes": [
+          "machine wash",
+          "polyester spandex"
+        ],
+        "price_upper": 50.0,
+        "goal_options": {
+          "size": "small"
+        },
+        "weight": 0.0008823104383988353
+      },
+      "goal_idx": 40,
+      "run_idx": 0,
+      "instruction": "Find me machine wash men's underwear with polyester spandex with size: small, and price lower than 50.00 dollars",
+      "reward": 1.0,
+      "steps": 4,
+      "cost": 0.00059,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me machine wash men's underwear with polyester spandex with size: small, and price lower than 50.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[machine wash men's underwear small]",
+          "observation": "\n[B07PVZPS58] \nBRIEF INSANITY Hot Rod Boxer Briefs for Men and Women | Vintage Car Print Boxer Shorts - Funny, Humorous, Novelty Underwear \n$19.95 \n[B093K5JK25] \nSet of 2 Mesh Laundry Bags Rainbow Leopard Seamless-1 Medium & 1 Small Bags Laundry,Blouse, Hosiery, Stocking, Underwear, Bra Lingerie, Travel Laundry Bag(8rp7j) \n$15.99 \n[B093KBGC44] \nSet of 2 Mesh Laundry Bags Cute Colorful Llama-1 Medium & 1 Small Bags Laundry,Blouse, Hosiery, Stocking, Underwear, Bra Lingerie, Travel Laundry Bag(8rp7d) \n$15.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B07PVZPS58]",
+          "observation": "\n[< Prev] \nsize [small][medium][large][x-large][xx-large]\nBRIEF INSANITY Hot Rod Boxer Briefs for Men and Women | Vintage Car Print Boxer Shorts - Funny, Humorous, Novelty Underwear \nPrice: $19.95 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[small]",
+          "observation": "You have clicked small.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 1.0",
+          "reward": 1.0,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B07S7HDC88",
+        "category": "fashion",
+        "query": "men's loafers & slip-ons",
+        "name": "VanciLin Mens Casual Leather Fashion Slip-on Loafers",
+        "product_category": "Clothing, Shoes & Jewelry \u203a Men \u203a Shoes \u203a Loafers & Slip-Ons",
+        "instruction_text": "Find me slip resistant, non slip men's loafers & slip-ons with rubber outsole, rubber sole with color: black2070, and size: 13, and price lower than 70.00 dollars",
+        "attributes": [
+          "slip resistant",
+          "non slip",
+          "rubber outsole",
+          "rubber sole"
+        ],
+        "price_upper": 70.0,
+        "goal_options": {
+          "color": "black2070",
+          "size": "13"
+        },
+        "weight": 0.0020847525614866476
+      },
+      "goal_idx": 41,
+      "run_idx": 0,
+      "instruction": "Find me slip resistant, non slip men's loafers & slip-ons with rubber outsole, rubber sole with color: black2070, and size: 13, and price lower than 70.00 dollars",
+      "reward": 0.8571428571428571,
+      "steps": 5,
+      "cost": 0.0007400000000000001,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me slip resistant, non slip men's loafers & slip-ons with rubber outsole, rubber sole with color: black2070, and size: 13, and price lower than 70.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[mens slip resistant loafers size 13]",
+          "observation": "\n[B07CN9RZ1C] \nEcco Men's Melbourne Plain Toe Slip on Loafer \n$114.99 \n[B07S7HDC88] \nVanciLin Mens Casual Leather Fashion Slip-on Loafers \n$33.99 to $35.99 \n[B07HP6LVRS] \nMCICI Mens Loafers Moccasin Driving Shoes Premium Genuine Leather Casual Slip On Flats Fashion Slipper Breathable Big Size \n$15.99 to $32.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B07S7HDC88]",
+          "observation": "\n[< Prev] \nsize [6.5][7][8][8.5][9][9.5][10][10.5][11][11.5][12][13][14]\ncolor [1877black][1877blue][228black][black137][blue137][l.brown137][r.brown137][1877r.brown][228blue][r.brown-hole228][1877brown][228r.brown-a][y.brown-hole228][black-hole228][228l.brown][r.brown2070][228r.brown][black2070][r.brown2626][r.brown-hole1887][black2626][black1901][r.brown2060][l.brown2060]\nVanciLin Mens Casual Leather Fashion Slip-on Loafers \nPrice: $33.99 to $35.99 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[black2070]",
+          "observation": "You have clicked black2070.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "click[13]",
+          "observation": "You have clicked 13.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 5,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 0.8571428571428571",
+          "reward": 0.8571428571428571,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B07FKGQKZ1",
+        "category": "garden",
+        "query": "home office furniture sets",
+        "name": "Home Dynamix Lyndhurst Rotana Modern Area Rug, Contemporary Blue/Gray/Ivory 5'2\"x7'4\"",
+        "product_category": "Home & Kitchen \u203a Home D\u00e9cor Products \u203a Rugs, Pads & Protectors \u203a Area Rugs",
+        "instruction_text": "Find me home office furniture sets for dining room, living room with color: navy | red, and item shape: runner, and size: 7 ft 9 in x 10 ft 8 in, and price lower than 80.00 dollars",
+        "attributes": [
+          "dining room",
+          "living room"
+        ],
+        "price_upper": 80.0,
+        "goal_options": {
+          "color": "navy | red",
+          "item shape": "runner",
+          "size": "7 ft 9 in x 10 ft 8 in"
+        },
+        "weight": 0.002378778656928383
+      },
+      "goal_idx": 42,
+      "run_idx": 0,
+      "instruction": "Find me home office furniture sets for dining room, living room with color: navy | red, and item shape: runner, and size: 7 ft 9 in x 10 ft 8 in, and price lower than 80.00 dollars",
+      "reward": 0.8333333333333334,
+      "steps": 5,
+      "cost": 0.0007,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me home office furniture sets for dining room, living room with color: navy | red, and item shape: runner, and size: 7 ft 9 in x 10 ft 8 in, and price lower than 80.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[home office furniture sets navy red]",
+          "observation": "\n[B08P8LRFZ4] \nMTFY Cute Faux Fur Desk Chair for Girls Women, Comfy Fluffy Modern Home Office Chair with Wheels, Elegant Swivel Fuzzy Vanity Chair Makeup Arm Chair for Living Room, Bedroom \n$95.99 \n[B07FKGQKZ1] \nHome Dynamix Lyndhurst Rotana Modern Area Rug, Contemporary Blue/Gray/Ivory 5'2\"x7'4\" \n$44.99 to $33.98 \n[B09CQ45ZRB] \nMerry Christmas Kitchen Mat 2 PCS Cushioned Anti Fatigue Kitchen Runner Rugs Truck with Xmas Tree Red and Black Buffalo Plaid Comfort Standing Desk Mat for Office Floor Mat 19.7\"x31.5\"+19.7\"x47.2\" \n$15.9 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B07FKGQKZ1]",
+          "observation": "\n[< Prev] \nsize [1 ft 9 in x 7 ft 2 in][3 ft 7 in x 5 ft 2 in][5 ft 2 in x 7 ft 4 in][5 ft 3 in x 7 ft 5 in][7 ft 8 in][7 ft 8 in x 10 ft 7 in][7 ft 9 in x 10 ft 8 in][9 ft 2 in x 12 ft 5 in][21 in x 35 in]\nitem shape [runner][rectangular][round]\ncolor [black-gray][blue | gray][brown | black][blue][navy | red][taupe | orange][black | gray][brown | beige][navy-multi][taupe]\nHome Dynamix Lyndhurst Rotana Modern Area Rug, Contemporary Blue/Gray/Ivory 5'2\"x7'4\" \nPrice: $44.99 to $33.98 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[7 ft 9 in x 10 ft 8 in]",
+          "observation": "You have clicked 7 ft 9 in x 10 ft 8 in.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "click[runner]",
+          "observation": "You have clicked runner.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 5,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 0.8333333333333334",
+          "reward": 0.8333333333333334,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B09QKJHF4Q",
+        "category": "fashion",
+        "query": "women's oxfords",
+        "name": "LIUEONG Lady Metal Buckle Platform Shoes Booties Comfortable High Top Boots Casual Shoes Comfort Women's Closed Toe Ankle Strap",
+        "product_category": "Clothing, Shoes & Jewelry \u203a Women \u203a Shoes \u203a Boots \u203a Ankle & Bootie",
+        "instruction_text": "Find me day comfort, anti slip, non slip women's oxfords with high heel, closed toe, ankle strap, memory foam, rubber sole with color: brown, and size: 6, and price lower than 60.00 dollars",
+        "attributes": [
+          "day comfort",
+          "anti slip",
+          "non slip",
+          "high heel",
+          "closed toe",
+          "ankle strap",
+          "memory foam",
+          "rubber sole"
+        ],
+        "price_upper": 60.0,
+        "goal_options": {
+          "color": "brown",
+          "size": "6"
+        },
+        "weight": 0.0084689738863064
+      },
+      "goal_idx": 43,
+      "run_idx": 0,
+      "instruction": "Find me day comfort, anti slip, non slip women's oxfords with high heel, closed toe, ankle strap, memory foam, rubber sole with color: brown, and size: 6, and price lower than 60.00 dollars",
+      "reward": 0.8181818181818182,
+      "steps": 3,
+      "cost": 0.00045,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me day comfort, anti slip, non slip women's oxfords with high heel, closed toe, ankle strap, memory foam, rubber sole with color: brown, and size: 6, and price lower than 60.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[brown women's oxfords high heel size 6]",
+          "observation": "\n[B09QKJHF4Q] \nLIUEONG Lady Metal Buckle Platform Shoes Booties Comfortable High Top Boots Casual Shoes Comfort Women's Closed Toe Ankle Strap \n$37.99 \n[B09P5V8ZSK] \nWomen's High Heel Sandals Sexy Patent Leather Peep Toe Breathable Ankle Boots Minimalistic Thick High Heels Rear Zipper Sandals Casual Ladies Pump \n$32.99 to $40.99 \n[B07N325S5H] \nVan Eli Laren Women's Oxford 10 C/D US White \n$64.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B09QKJHF4Q]",
+          "observation": "\n[< Prev] \nsize [6][6.5][7.5][8][8.5][9][9.5][10.5]\ncolor [beige][black][brown][navy]\nLIUEONG Lady Metal Buckle Platform Shoes Booties Comfortable High Top Boots Casual Shoes Comfort Women's Closed Toe Ankle Strap \nPrice: $37.99 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 0.8181818181818182",
+          "reward": 0.8181818181818182,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B09Q8RD8YN",
+        "category": "fashion",
+        "query": "men's fashion hoodies & sweatshirts",
+        "name": "Bungo Stray Anime Dogs Anime Character, Long Sleeve, Sweatshirt, Hoodie, T shirt",
+        "product_category": "Clothing, Shoes & Jewelry \u203a Novelty & More \u203a Clothing \u203a Novelty \u203a Men \u203a Hoodies",
+        "instruction_text": "Find me wash cold, machine wash men's fashion hoodies & sweatshirts with long sleeve, and price lower than 40.00 dollars",
+        "attributes": [
+          "wash cold",
+          "machine wash",
+          "long sleeve"
+        ],
+        "price_upper": 40.0,
+        "goal_options": {},
+        "weight": 0.0009301098980345563
+      },
+      "goal_idx": 44,
+      "run_idx": 0,
+      "instruction": "Find me wash cold, machine wash men's fashion hoodies & sweatshirts with long sleeve, and price lower than 40.00 dollars",
+      "reward": 0.25,
+      "steps": 3,
+      "cost": 0.00042,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me wash cold, machine wash men's fashion hoodies & sweatshirts with long sleeve, and price lower than 40.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[mens fashion hoodies long sleeve]",
+          "observation": "\n[B09S3BN15C] \nMens Linen Shirt,Men's Striped Shirts Casual Short Sleeve Button Down Shirts Regular Fit Hawaiian Shirts Beach Tees Tops \n$3.78 to $11.38 \n[B09HGFV91W] \nZHDD Tops for Mens, Men's Knight Punk Vintage Style Long Sleeve Asymmetric Hem Cowl Neck Teen Boys Gothic Pullover \n$4.98 to $7.99 \n[B09QQP3356] \nHAUKLIE Men's Sports Waffle Ribbed Polo Shirts Summer Short Sleeve Cotton Muscle Quarter-Zip Henley T-Shirt Tunics Tops \n$10.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B09HGFV91W]",
+          "observation": "\n[< Prev] \ncolor [157- army green][157- black][157- dark gray][158- army green][158- black][158- white]\nsize [small][medium][large][x-large][xx-large]\nZHDD Tops for Mens, Men's Knight Punk Vintage Style Long Sleeve Asymmetric Hem Cowl Neck Teen Boys Gothic Pullover \nPrice: $4.98 to $7.99 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 0.25",
+          "reward": 0.25,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B07ZXBGDXF",
+        "category": "fashion",
+        "query": "women's shorts",
+        "name": "Women's Coat, FORUU Winter Faux Fur Fleece Outwear Warm Lapel Biker Motor Aviator Jacket",
+        "product_category": "Clothing, Shoes & Jewelry \u203a Women \u203a Clothing \u203a Coats, Jackets & Vests \u203a Fur & Faux Fur",
+        "instruction_text": "Find me loose fit women's shorts with elastic closure, faux fur with color: gray, and size: xx-large, and price lower than 50.00 dollars",
+        "attributes": [
+          "loose fit",
+          "elastic closure",
+          "faux fur"
+        ],
+        "price_upper": 50.0,
+        "goal_options": {
+          "color": "gray",
+          "size": "xx-large"
+        },
+        "weight": 0.010643826575618659
+      },
+      "goal_idx": 45,
+      "run_idx": 0,
+      "instruction": "Find me loose fit women's shorts with elastic closure, faux fur with color: gray, and size: xx-large, and price lower than 50.00 dollars",
+      "reward": 0.0,
+      "steps": 6,
+      "cost": 0.00093,
+      "invalid_actions": 1,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me loose fit women's shorts with elastic closure, faux fur with color: gray, and size: xx-large, and price lower than 50.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[loose fit women's shorts gray]",
+          "observation": "\n[B09QCVCYVY] \nBurband Womens High Waist Bike Shorts Tummy Control Workout Yoga Pants Running Exercise Running Shorts with Side Pockets \n$6.82 \n[B09NPML43M] \nWomens Short Sleeve Tops, Womens Casual Dandelion Printing T-Shirts Loose O-Neck Blouse Tops Funny Graphic Tee Shirts \n$1.01 to $1.74 \n[B099231V35] \nMens Casual Cargo Pants Hi Vis Viz Reflective Overalls High Visibility Safe Work Pants Outdoor Hiking Trousers Big and Tall \n$16.79 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "search[loose fit women's shorts elastic closure gray]",
+          "observation": "ERROR: Your action search[loose fit women's shorts elastic closure gray] is invalid here. HINT: You can only use 'search[]' once. you must choose an item from the search results.\n",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[B09QCVCYVY]",
+          "observation": "\n[< Prev] \ncolor [black][blue][dark gray][gray][navy][red][silver]\nsize [small][medium][large][x-large][xx-large]\nBurband Womens High Waist Bike Shorts Tummy Control Workout Yoga Pants Running Exercise Running Shorts with Side Pockets \nPrice: $6.82 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "click[gray]",
+          "observation": "You have clicked gray.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 5,
+          "action": "click[xx-large]",
+          "observation": "You have clicked xx-large.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 6,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 0.0",
+          "reward": 0.0,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B09P7H5YK7",
+        "category": "fashion",
+        "query": "men's dress shirts",
+        "name": "It's In My DNA Palestinian Shirt Arabic Gifts Palestine Flag Tank Top",
+        "product_category": "Clothing, Shoes & Jewelry \u203a Novelty & More \u203a Clothing \u203a Novelty \u203a Women \u203a Tops & Tees \u203a Tanks & Camis",
+        "instruction_text": "Find me machine wash men's dress shirts with polyester heathers, heathers cotton, cotton heather, needle sleeve, classic fit with color: black, and fit type: women, and size: xx-large, and price lower than 50.00 dollars",
+        "attributes": [
+          "machine wash",
+          "polyester heathers",
+          "heathers cotton",
+          "cotton heather",
+          "needle sleeve",
+          "classic fit"
+        ],
+        "price_upper": 50.0,
+        "goal_options": {
+          "color": "black",
+          "fit type": "women",
+          "size": "xx-large"
+        },
+        "weight": 0.0007773492690577492
+      },
+      "goal_idx": 46,
+      "run_idx": 0,
+      "instruction": "Find me machine wash men's dress shirts with polyester heathers, heathers cotton, cotton heather, needle sleeve, classic fit with color: black, and fit type: women, and size: xx-large, and price lower than 50.00 dollars",
+      "reward": 0.3,
+      "steps": 4,
+      "cost": 0.00062,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me machine wash men's dress shirts with polyester heathers, heathers cotton, cotton heather, needle sleeve, classic fit with color: black, and fit type: women, and size: xx-large, and price lower than 50.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[machine wash men's dress shirts black]",
+          "observation": "\n[B09QQP3356] \nHAUKLIE Men's Sports Waffle Ribbed Polo Shirts Summer Short Sleeve Cotton Muscle Quarter-Zip Henley T-Shirt Tunics Tops \n$10.99 \n[B09ND9DP7J] \nInterestPrint Gold Horse Pattern Men's 2-Piece Sleepwear Set, Long Sleeve Shirt with Pants Loungewear \n$43.59 \n[B09S3BN15C] \nMens Linen Shirt,Men's Striped Shirts Casual Short Sleeve Button Down Shirts Regular Fit Hawaiian Shirts Beach Tees Tops \n$3.78 to $11.38 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B09ND9DP7J]",
+          "observation": "\n[< Prev] \nsize [small][medium][large][x-large][xx-large]\ncolor [multi 1][multi 10][multi 2][multi 3][multi 5][multi 6][multi 7][multi 8][multi 9][multi 4]\nInterestPrint Gold Horse Pattern Men's 2-Piece Sleepwear Set, Long Sleeve Shirt with Pants Loungewear \nPrice: $43.59 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[xx-large]",
+          "observation": "You have clicked xx-large.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 0.3",
+          "reward": 0.3,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B095KCTB3Y",
+        "category": "garden",
+        "query": "computer armoires",
+        "name": "Office Desk Pad, Writing Mat with Full Grip Fixation Lip, Non-Slip PU Leather Table Blotter Desk Protector Gaming Mat Laptop Keyboard Working Mat, Waterproof Table Protective Pad",
+        "product_category": "Office Products \u203a Office & School Supplies \u203a Desk Accessories & Workspace Organizers \u203a Desk Pads & Blotters",
+        "instruction_text": "Find me non slip, easy clean computer armoires with pu leather with color: white, and size: 90x40cm, and price lower than 70.00 dollars",
+        "attributes": [
+          "non slip",
+          "easy clean",
+          "pu leather"
+        ],
+        "price_upper": 70.0,
+        "goal_options": {
+          "color": "white",
+          "size": "90x40cm"
+        },
+        "weight": 0.012524727265605108
+      },
+      "goal_idx": 47,
+      "run_idx": 0,
+      "instruction": "Find me non slip, easy clean computer armoires with pu leather with color: white, and size: 90x40cm, and price lower than 70.00 dollars",
+      "reward": 0.8333333333333334,
+      "steps": 5,
+      "cost": 0.0006900000000000001,
+      "invalid_actions": 1,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me non slip, easy clean computer armoires with pu leather with color: white, and size: 90x40cm, and price lower than 70.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[white pu leather computer armoire]",
+          "observation": "\n[B08FQTMCNM] \nYaheetech Swivel Accent Chair Height Adjustable Modern Round Back Tilt Chair with Chrome Frame for Lounge, Pub, Bar - Dark Grey \n$109.99 \n[B095KCTB3Y] \nOffice Desk Pad, Writing Mat with Full Grip Fixation Lip, Non-Slip PU Leather Table Blotter Desk Protector Gaming Mat Laptop Keyboard Working Mat, Waterproof Table Protective Pad \n$34.99 \n[B0893JSZHZ] \nAlien Storehouse Fashionable Square Cloth Modern Small Stool Table Stool Sofa Pier Ottoman Stool, A \n$36.58 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "search[non slip easy clean computer armoire]",
+          "observation": "ERROR: Your action search[non slip easy clean computer armoire] is invalid here. HINT: You can only use 'search[]' once. you must choose an item from the search results.\n",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[B095KCTB3Y]",
+          "observation": "\n[< Prev] \nsize [60x40cm][80x40][90x40cm][100x50cm][120x60cm]\ncolor [black][blue][gray][pink][red][white]\nOffice Desk Pad, Writing Mat with Full Grip Fixation Lip, Non-Slip PU Leather Table Blotter Desk Protector Gaming Mat Laptop Keyboard Working Mat, Waterproof Table Protective Pad \nPrice: $34.99 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "click[90x40cm]",
+          "observation": "You have clicked 90x40cm.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 5,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 0.8333333333333334",
+          "reward": 0.8333333333333334,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B00O30JLDK",
+        "category": "fashion",
+        "query": "men's t-shirts",
+        "name": "Legendary Whitetails Men's Non-Typical Long Sleeve T-Shirt",
+        "product_category": "Clothing, Shoes & Jewelry \u203a Novelty & More \u203a Clothing \u203a Novelty \u203a Men \u203a Shirts \u203a T-Shirts",
+        "instruction_text": "Find me machine wash men's t-shirts with long sleeve with color: big game field camo, and size: medium, and price lower than 70.00 dollars",
+        "attributes": [
+          "machine wash",
+          "long sleeve"
+        ],
+        "price_upper": 70.0,
+        "goal_options": {
+          "color": "big game field camo",
+          "size": "medium"
+        },
+        "weight": 0.0005102090948394451
+      },
+      "goal_idx": 48,
+      "run_idx": 0,
+      "instruction": "Find me machine wash men's t-shirts with long sleeve with color: big game field camo, and size: medium, and price lower than 70.00 dollars",
+      "reward": 1.0,
+      "steps": 5,
+      "cost": 0.0006500000000000001,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me machine wash men's t-shirts with long sleeve with color: big game field camo, and size: medium, and price lower than 70.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[machine wash men's long sleeve t-shirts big game camo]",
+          "observation": "\n[B00O30JLDK] \nLegendary Whitetails Men's Non-Typical Long Sleeve T-Shirt \n$10.52 to $40.5 \n[B09QQP3356] \nHAUKLIE Men's Sports Waffle Ribbed Polo Shirts Summer Short Sleeve Cotton Muscle Quarter-Zip Henley T-Shirt Tunics Tops \n$10.99 \n[B09QGK5XHZ] \nWENKOMG1 Men's Long Sleeve Undershirt with Mask Turtleneck Hooded T-Shirt Solid Color Workout Tops Zipper Side Slit Shirts Slim Fit Sweatshirt Spring/Summer Tee Shirts(Gray,) \n$8.39 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B00O30JLDK]",
+          "observation": "\n[< Prev] \ncolor [army][big game field camo][black][cardinal][charcoal heather][inferno][mossy oak bottomland][mossy oak country][mossy oak country dna][mossy oak coyote][slate][swamp][turkey][flag][country][fish]\nsize [small][medium][large][large tall][x-large][x-large tall][xx-large][xx-large big tall][3x-large big][3x-large big tall][4x-large big][4x-large big tall][5x-large big]\nLegendary Whitetails Men's Non-Typical Long Sleeve T-Shirt \nPrice: $10.52 to $40.5 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[big game field camo]",
+          "observation": "You have clicked big game field camo.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "click[medium]",
+          "observation": "You have clicked medium.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 5,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 1.0",
+          "reward": 1.0,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B01MQH5VGR",
+        "category": "electronics",
+        "query": "hdmi cables",
+        "name": "QualGear High Speed Long HDMI 2.0 Cable with Ethernet (50 Feet) - 100% OFC Copper, 24 Awg, 24K Gold Plated Contacts, CL3 Rated, Triple-Shielded. Supports 4K UHD, 3D, 18 Gbps, ARC (QG-CBL-HD20-50FT)",
+        "product_category": "Electronics \u203a Accessories & Supplies \u203a Audio & Video Accessories \u203a Cables & Interconnects \u203a Video Cables \u203a HDMI Cables",
+        "instruction_text": "Find me gold plated, high speed hdmi cables with size: 100 feet, and price lower than 50.00 dollars",
+        "attributes": [
+          "gold plated",
+          "high speed"
+        ],
+        "price_upper": 50.0,
+        "goal_options": {
+          "size": "100 feet"
+        },
+        "weight": 0.026094276094276093
+      },
+      "goal_idx": 49,
+      "run_idx": 0,
+      "instruction": "Find me gold plated, high speed hdmi cables with size: 100 feet, and price lower than 50.00 dollars",
+      "reward": 1.0,
+      "steps": 4,
+      "cost": 0.00064,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nFind me gold plated, high speed hdmi cables with size: 100 feet, and price lower than 50.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[gold plated 100 feet hdmi cable]",
+          "observation": "\n[B01MQH5VGR] \nQualGear High Speed Long HDMI 2.0 Cable with Ethernet (50 Feet) - 100% OFC Copper, 24 Awg, 24K Gold Plated Contacts, CL3 Rated, Triple-Shielded. Supports 4K UHD, 3D, 18 Gbps, ARC (QG-CBL-HD20-50FT) \n$39.45 \n[B00YZ5KT98] \nNavePoint HDMI 1.4 Male to Male Cable Black 30 Ft Woven Black Blue \n$10.8 \n[B08QSNM69H] \n4K HDMI Cables, Short Cord, 1ft [3 Pack] Braided Cord & Gold Connectors, 1ft High-Speed HDMI 2.0 with Ethernet, for Playstation PS5, PS4, PS3, Xbox, Roku, Apple TV, HDTV, Blu-ray, Laptop, PC, Monitor \n$15.49 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B01MQH5VGR]",
+          "observation": "\n[< Prev] \nsize [25 feet][30 feet][40 feet][50 feet][60 feet][75 feet][100 feet]\nQualGear High Speed Long HDMI 2.0 Cable with Ethernet (50 Feet) - 100% OFC Copper, 24 Awg, 24K Gold Plated Contacts, CL3 Rated, Triple-Shielded. Supports 4K UHD, 3D, 18 Gbps, ARC (QG-CBL-HD20-50FT) \nPrice: $39.45 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[100 feet]",
+          "observation": "You have clicked 100 feet.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 1.0",
+          "reward": 1.0,
+          "done": true
+        }
+      ]
+    }
+  ]
+}

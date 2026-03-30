@@ -1,0 +1,910 @@
+{
+  "config": {
+    "max_steps": 15,
+    "goal_indices": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "num_goals": 10,
+    "runs_per_goal": 1
+  },
+  "summary": {
+    "overall_avg_reward": 0.5083333333333333,
+    "success_rate": 0.2,
+    "total_cost": 0.01031
+  },
+  "per_goal_avg": [
+    {
+      "goal_idx": 0,
+      "avg_reward": 0.3333333333333333
+    },
+    {
+      "goal_idx": 1,
+      "avg_reward": 0.0
+    },
+    {
+      "goal_idx": 2,
+      "avg_reward": 0.75
+    },
+    {
+      "goal_idx": 3,
+      "avg_reward": 0.0
+    },
+    {
+      "goal_idx": 4,
+      "avg_reward": 1.0
+    },
+    {
+      "goal_idx": 5,
+      "avg_reward": 0.0
+    },
+    {
+      "goal_idx": 6,
+      "avg_reward": 0.6666666666666666
+    },
+    {
+      "goal_idx": 7,
+      "avg_reward": 0.6666666666666666
+    },
+    {
+      "goal_idx": 8,
+      "avg_reward": 0.6666666666666666
+    },
+    {
+      "goal_idx": 9,
+      "avg_reward": 1.0
+    }
+  ],
+  "all_results": [
+    {
+      "goal": {
+        "asin": "B08KYBVQ46",
+        "category": "fashion",
+        "query": "women's pants",
+        "name": "adidas Originals Women's Adicolor Essentials Tights",
+        "product_category": "Clothing, Shoes & Jewelry \u203a Women \u203a Clothing \u203a Active \u203a Leggings",
+        "instruction_text": "Find me machine wash women's pants with elastic waist with color: orbit green, and size: xx-small, and price lower than 60.00 dollars",
+        "attributes": [
+          "machine wash",
+          "elastic waist"
+        ],
+        "price_upper": 60.0,
+        "goal_options": {
+          "color": "orbit green",
+          "size": "xx-small"
+        },
+        "weight": 0.002586897026790535
+      },
+      "goal_idx": 0,
+      "run_idx": 0,
+      "instruction": "Find me machine wash women's pants with elastic waist with color: orbit green, and size: xx-small, and price lower than 60.00 dollars",
+      "reward": 0.3333333333333333,
+      "steps": 3,
+      "cost": 0.00026000000000000003,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \ni am looking for blue color toothbrushes that helps to maintain my oral hygiene, and price lower than 60.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[blue toothbrushes]",
+          "observation": "\n[Back to Search] \nPage 1 (Total results: 10) \n[B09JT3Z6JV] \nHoomall Kids U-Shaped Toothbrush, Manual Toothbrush with U-Shaped Bristles Food Grade Silicone Toothbrush Head, 360\u00b0 Oral Teeth Cleaning Design for Toddlers and Children(Blue-Dinosaur\uff0c9545mm) \n$10.95 \n[B09GXPBPLG] \nSKNG U-Shaped Children's Soft Silicone Toothbrush, 360\u00b0 Silicone Toothbrush Set 2-6 Years Old Baby Toothbrush (Pink) \n$100.0 \n[B09MW563KN] \nSWAGOFKGys Travel Toothbrushes\uff0c Double Side Tongue Cleaner Brush for Tongue Cleaning Oral Care Tool Silicone Tongue Scraper Toothbrush Fresh Breath (Color : Yellow) \n$22.9 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B09JT3Z6JV]",
+          "observation": "\n[Back to Search] \n[< Prev] \ncolor [blue-dinosaur][blue-donut][pink-dinosaur][pink-donut][white-dinosaur]\nHoomall Kids U-Shaped Toothbrush, Manual Toothbrush with U-Shaped Bristles Food Grade Silicone Toothbrush Head, 360\u00b0 Oral Teeth Cleaning Design for Toddlers and Children(Blue-Dinosaur\uff0c9545mm) \nPrice: $10.95 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 0.3333333333333333",
+          "reward": 0.3333333333333333,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B07NZ173GY",
+        "category": "fashion",
+        "query": "men's sandals",
+        "name": "FitFlop Men's Hollis Neoprene Sport Sandal",
+        "product_category": "Clothing, Shoes & Jewelry \u203a Men \u203a Shoes \u203a Sandals",
+        "instruction_text": "Find me day comfort men's sandals with rubber sole with color: black, and size: 11, and price lower than 60.00 dollars",
+        "attributes": [
+          "day comfort",
+          "rubber sole"
+        ],
+        "price_upper": 60.0,
+        "goal_options": {
+          "color": "black",
+          "size": "11"
+        },
+        "weight": 0.002432174046572913
+      },
+      "goal_idx": 1,
+      "run_idx": 0,
+      "instruction": "Find me day comfort men's sandals with rubber sole with color: black, and size: 11, and price lower than 60.00 dollars",
+      "reward": 0.0,
+      "steps": 15,
+      "cost": 0.0020499999999999997,
+      "invalid_actions": 13,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nplace order for a pack of 12 blue diamond almonds that is gluten free and has the pecan flavor, and price lower than 70.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[12 pack blue diamond almonds gluten free pecan flavor]",
+          "observation": "\n[Back to Search] \nPage 1 (Total results: 10) \n[B003I567W4] \nBlue Diamond Almonds Nut Thins Gluten Free Cracker Crisps, Hint of Sea Salt, 4.25 Oz Boxes (Pack of 12) \n$34.44 \n[B09DBYG4XD] \nItalian Herb Nuts - Vegan, Kosher, Gluten-free, GMO-free - 12oz (PACK OF 3 BAGS), Satisfaction Guarantee \n$17.95 \n[B07HYF111T] \nKETO BARS : The Original High Fat, Low Carb, Ketogenic Bar. Gluten Free, Vegan, Homemade with simple ingredients. [Chocolate Peanut Butter, 10 Pack] \n$29.95 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "search[12 pack blue diamond almonds gluten free pecan]",
+          "observation": "Invalid action! \n[Back to Search] \nPage 1 (Total results: 10) \n[B003I567W4] \nBlue Diamond Almonds Nut Thins Gluten Free Cracker Crisps, Hint of Sea Salt, 4.25 Oz Boxes (Pack of 12) \n$34.44 \n[B09DBYG4XD] \nItalian Herb Nuts - Vegan, Kosher, Gluten-free, GMO-free - 12oz (PACK OF 3 BAGS), Satisfaction Guarantee \n$17.95 \n[B07HYF111T] \nKETO BARS : The Original High Fat, Low Carb, Ketogenic Bar. Gluten Free, Vegan, Homemade with simple ingredients. [Chocolate Peanut Butter, 10 Pack] \n$29.95 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "think[There are no results for the specific request of 12 pack blue diamond almonds gluten free pecan flavor.]",
+          "observation": "OK.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "search[blue diamond almonds gluten free]",
+          "observation": "Invalid action! OK.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 5,
+          "action": "search[blue diamond almonds]",
+          "observation": "Invalid action! Invalid action! OK.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 6,
+          "action": "search[almonds]",
+          "observation": "Invalid action! Invalid action! Invalid action! OK.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 7,
+          "action": "search[blue diamond almonds gluten free nut thins]",
+          "observation": "Invalid action! Invalid action! Invalid action! Invalid action! OK.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 8,
+          "action": "search[blue diamond almonds gluten free pecan]",
+          "observation": "Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! OK.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 9,
+          "action": "search[blue diamond almonds gluten free snacks]",
+          "observation": "Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! OK.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 10,
+          "action": "search[blue diamond almonds gluten free snacks pecan]",
+          "observation": "Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! OK.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 11,
+          "action": "search[blue diamond almonds gluten free pecan flavor]",
+          "observation": "Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! OK.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 12,
+          "action": "search[blue diamond almonds gluten free snacks pecan flavor]",
+          "observation": "Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! OK.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 13,
+          "action": "search[blue diamond almonds gluten free snacks]",
+          "observation": "Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! OK.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 14,
+          "action": "search[blue diamond almonds gluten free nut thins]",
+          "observation": "Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! OK.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 15,
+          "action": "search[blue diamond almonds gluten free snacks]",
+          "observation": "Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! OK.",
+          "reward": 0.0,
+          "done": false
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B01N37FSYX",
+        "category": "grocery",
+        "query": "cheeses",
+        "name": "Delicious & Sons - Organic - Non-GMO - Gluten-free - Italian Basil Pesto Genovese Sauce with Parmigiano Reggiano PDO Cheese (6.70 oz.)",
+        "product_category": "Grocery & Gourmet Food \u203a Pantry Staples \u203a Sauces, Gravies & Marinades \u203a Sauces \u203a Italian \u203a Pesto",
+        "instruction_text": "Find me non gmo, gluten free, easy use cheeses with natural ingredients, and price lower than 50.00 dollars",
+        "attributes": [
+          "non gmo",
+          "gluten free",
+          "easy use",
+          "natural ingredients"
+        ],
+        "price_upper": 50.0,
+        "goal_options": {},
+        "weight": 0.031166863128438083
+      },
+      "goal_idx": 2,
+      "run_idx": 0,
+      "instruction": "Find me non gmo, gluten free, easy use cheeses with natural ingredients, and price lower than 50.00 dollars",
+      "reward": 0.75,
+      "steps": 4,
+      "cost": 0.00034,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \ni am looking for a pair of men's size 10.5 black loafers with rubber soles, and price lower than 70.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[mens size 10.5 black loafers rubber soles]",
+          "observation": "\n[Back to Search] \nPage 1 (Total results: 10) \n[B082MT9162] \nGLOBALWIN Men's Casual Slip On Penny Loafers Lightweight Driving Shoes \n$29.99 to $49.99 \n[B07HP6LVRS] \nMCICI Mens Loafers Moccasin Driving Shoes Premium Genuine Leather Casual Slip On Flats Fashion Slipper Breathable Big Size \n$15.99 to $32.99 \n[B09F2MFG1Q] \nWomens Mens house slippers Memory Foam Garden Plush Lining Slip On Rubber sole Indoor Outdoor House Casual Shoes \uff08Black adult-10.5-11) \n$100.0 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B082MT9162]",
+          "observation": "\n[Back to Search] \n[< Prev] \nsize [7][7.5][8][8.5][9][9.5][10][10.5][11][12][13]\ncolor [2005brown][2005grey][2005black]\nGLOBALWIN Men's Casual Slip On Penny Loafers Lightweight Driving Shoes \nPrice: $29.99 to $49.99 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[10.5]",
+          "observation": "You have clicked 10.5.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 0.75",
+          "reward": 0.75,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B09688C4XM",
+        "category": "garden",
+        "query": "sofa tables",
+        "name": "Lifestyle Furniture Sectional Recliner Sofa Set Living Room Reclining Couch with Drop Down Table (Single Piece or Combination) (GS2900, 3PCS)",
+        "product_category": "Home & Kitchen \u203a Furniture \u203a Living Room Furniture \u203a Living Room Sets",
+        "instruction_text": "Find me high density, space saving sofa tables for living room with color: gs2900, and size: 3psc",
+        "attributes": [
+          "high density",
+          "space saving",
+          "living room"
+        ],
+        "price_upper": 1000000,
+        "goal_options": {
+          "color": "gs2900",
+          "size": "3psc"
+        },
+        "weight": 0.01739587195649487
+      },
+      "goal_idx": 3,
+      "run_idx": 0,
+      "instruction": "Find me high density, space saving sofa tables for living room with color: gs2900, and size: 3psc",
+      "reward": 0.0,
+      "steps": 15,
+      "cost": 0.00297,
+      "invalid_actions": 13,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \ni want to buy a folding storage box ottoman which i can easily install and has faux leather, the size of it should be 60x40x40cm, and price lower than 160.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[folding storage box ottoman faux leather 60x40x40cm]",
+          "observation": "\n[Back to Search] \nPage 1 (Total results: 10) \n[B09NTCCVGX] \nOttoman Footstools Folding Storage Box with Lid, Large Storage Seat Faux Leather Footstool Toy Storage Box, Yellow, 40x40x40cm (Color : Yellow, Size : 40X40X40cm) \n$149.97 \n[B07G4HJR5V] \nBest Choice Products Tufted Faux Leather 3-Seat L-Shape Sectional Sofa Couch Set w/Chaise Lounge, Ottoman Coffee Table Bench, Black \n$699.99 \n[B0893JSZHZ] \nAlien Storehouse Fashionable Square Cloth Modern Small Stool Table Stool Sofa Pier Ottoman Stool, A \n$36.58 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "search[folding storage box ottoman faux leather]",
+          "observation": "Invalid action! \n[Back to Search] \nPage 1 (Total results: 10) \n[B09NTCCVGX] \nOttoman Footstools Folding Storage Box with Lid, Large Storage Seat Faux Leather Footstool Toy Storage Box, Yellow, 40x40x40cm (Color : Yellow, Size : 40X40X40cm) \n$149.97 \n[B07G4HJR5V] \nBest Choice Products Tufted Faux Leather 3-Seat L-Shape Sectional Sofa Couch Set w/Chaise Lounge, Ottoman Coffee Table Bench, Black \n$699.99 \n[B0893JSZHZ] \nAlien Storehouse Fashionable Square Cloth Modern Small Stool Table Stool Sofa Pier Ottoman Stool, A \n$36.58 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[B09NTCCVGX]",
+          "observation": "\n[Back to Search] \n[< Prev] \nsize [40x40x40cm][60x40x40cm][80x40x40cm][90x40x40cm][100x40x40cm][110x40x40cm][120x40x40cm]\nOttoman Footstools Folding Storage Box with Lid, Large Storage Seat Faux Leather Footstool Toy Storage Box, Yellow, 40x40x40cm (Color : Yellow, Size : 40X40X40cm) \nPrice: $149.97 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "search[folding storage box ottoman faux leather 60x40x40cm]",
+          "observation": "Invalid action! \n[Back to Search] \n[< Prev] \nsize [40x40x40cm][60x40x40cm][80x40x40cm][90x40x40cm][100x40x40cm][110x40x40cm][120x40x40cm]\nOttoman Footstools Folding Storage Box with Lid, Large Storage Seat Faux Leather Footstool Toy Storage Box, Yellow, 40x40x40cm (Color : Yellow, Size : 40X40X40cm) \nPrice: $149.97 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 5,
+          "action": "search[folding storage box ottoman 60x40x40cm]",
+          "observation": "Invalid action! Invalid action! \n[Back to Search] \n[< Prev] \nsize [40x40x40cm][60x40x40cm][80x40x40cm][90x40x40cm][100x40x40cm][110x40x40cm][120x40x40cm]\nOttoman Footstools Folding Storage Box with Lid, Large Storage Seat Faux Leather Footstool Toy Storage Box, Yellow, 40x40x40cm (Color : Yellow, Size : 40X40X40cm) \nPrice: $149.97 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 6,
+          "action": "search[folding storage box ottoman faux leather 60x40x40cm]",
+          "observation": "Invalid action! Invalid action! Invalid action! \n[Back to Search] \n[< Prev] \nsize [40x40x40cm][60x40x40cm][80x40x40cm][90x40x40cm][100x40x40cm][110x40x40cm][120x40x40cm]\nOttoman Footstools Folding Storage Box with Lid, Large Storage Seat Faux Leather Footstool Toy Storage Box, Yellow, 40x40x40cm (Color : Yellow, Size : 40X40X40cm) \nPrice: $149.97 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 7,
+          "action": "search[folding storage box ottoman]",
+          "observation": "Invalid action! Invalid action! Invalid action! Invalid action! \n[Back to Search] \n[< Prev] \nsize [40x40x40cm][60x40x40cm][80x40x40cm][90x40x40cm][100x40x40cm][110x40x40cm][120x40x40cm]\nOttoman Footstools Folding Storage Box with Lid, Large Storage Seat Faux Leather Footstool Toy Storage Box, Yellow, 40x40x40cm (Color : Yellow, Size : 40X40X40cm) \nPrice: $149.97 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 8,
+          "action": "search[folding storage box ottoman faux leather]",
+          "observation": "Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! \n[Back to Search] \n[< Prev] \nsize [40x40x40cm][60x40x40cm][80x40x40cm][90x40x40cm][100x40x40cm][110x40x40cm][120x40x40cm]\nOttoman Footstools Folding Storage Box with Lid, Large Storage Seat Faux Leather Footstool Toy Storage Box, Yellow, 40x40x40cm (Color : Yellow, Size : 40X40X40cm) \nPrice: $149.97 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 9,
+          "action": "search[folding storage box ottoman faux leather 60x40x40cm]",
+          "observation": "Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! \n[Back to Search] \n[< Prev] \nsize [40x40x40cm][60x40x40cm][80x40x40cm][90x40x40cm][100x40x40cm][110x40x40cm][120x40x40cm]\nOttoman Footstools Folding Storage Box with Lid, Large Storage Seat Faux Leather Footstool Toy Storage Box, Yellow, 40x40x40cm (Color : Yellow, Size : 40X40X40cm) \nPrice: $149.97 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 10,
+          "action": "search[folding storage box ottoman]",
+          "observation": "Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! \n[Back to Search] \n[< Prev] \nsize [40x40x40cm][60x40x40cm][80x40x40cm][90x40x40cm][100x40x40cm][110x40x40cm][120x40x40cm]\nOttoman Footstools Folding Storage Box with Lid, Large Storage Seat Faux Leather Footstool Toy Storage Box, Yellow, 40x40x40cm (Color : Yellow, Size : 40X40X40cm) \nPrice: $149.97 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 11,
+          "action": "search[folding storage box ottoman faux leather]",
+          "observation": "Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! \n[Back to Search] \n[< Prev] \nsize [40x40x40cm][60x40x40cm][80x40x40cm][90x40x40cm][100x40x40cm][110x40x40cm][120x40x40cm]\nOttoman Footstools Folding Storage Box with Lid, Large Storage Seat Faux Leather Footstool Toy Storage Box, Yellow, 40x40x40cm (Color : Yellow, Size : 40X40X40cm) \nPrice: $149.97 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 12,
+          "action": "search[high density space saving sofa tables living room gs2900 3psc]",
+          "observation": "Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! \n[Back to Search] \n[< Prev] \nsize [40x40x40cm][60x40x40cm][80x40x40cm][90x40x40cm][100x40x40cm][110x40x40cm][120x40x40cm]\nOttoman Footstools Folding Storage Box with Lid, Large Storage Seat Faux Leather Footstool Toy Storage Box, Yellow, 40x40x40cm (Color : Yellow, Size : 40X40X40cm) \nPrice: $149.97 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 13,
+          "action": "search[high density space saving sofa tables]",
+          "observation": "Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! \n[Back to Search] \n[< Prev] \nsize [40x40x40cm][60x40x40cm][80x40x40cm][90x40x40cm][100x40x40cm][110x40x40cm][120x40x40cm]\nOttoman Footstools Folding Storage Box with Lid, Large Storage Seat Faux Leather Footstool Toy Storage Box, Yellow, 40x40x40cm (Color : Yellow, Size : 40X40X40cm) \nPrice: $149.97 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 14,
+          "action": "search[sofa tables for living room]",
+          "observation": "Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! \n[Back to Search] \n[< Prev] \nsize [40x40x40cm][60x40x40cm][80x40x40cm][90x40x40cm][100x40x40cm][110x40x40cm][120x40x40cm]\nOttoman Footstools Folding Storage Box with Lid, Large Storage Seat Faux Leather Footstool Toy Storage Box, Yellow, 40x40x40cm (Color : Yellow, Size : 40X40X40cm) \nPrice: $149.97 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 15,
+          "action": "search[deodorant sensitive skin under 50]",
+          "observation": "Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! \n[Back to Search] \n[< Prev] \nsize [40x40x40cm][60x40x40cm][80x40x40cm][90x40x40cm][100x40x40cm][110x40x40cm][120x40x40cm]\nOttoman Footstools Folding Storage Box with Lid, Large Storage Seat Faux Leather Footstool Toy Storage Box, Yellow, 40x40x40cm (Color : Yellow, Size : 40X40X40cm) \nPrice: $149.97 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B08XQWJX8P",
+        "category": "beauty",
+        "query": "men's fragrance",
+        "name": "Oriental Eau de Toilette \u2013 Natural Eau de Toilette for Men Woody Eau de Toilette Infused with Essential Oils Fragrance for Men with Oriental Woody Tones NOU Oliban Eau de Toilette for Men \u2013 1.7 Fl Oz",
+        "product_category": "Beauty & Personal Care \u203a Fragrance",
+        "instruction_text": "Find me long lasting men's fragrance with natural ingredients, and price lower than 50.00 dollars",
+        "attributes": [
+          "long lasting",
+          "natural ingredients"
+        ],
+        "price_upper": 50.0,
+        "goal_options": {},
+        "weight": 0.035093582887700536
+      },
+      "goal_idx": 4,
+      "run_idx": 0,
+      "instruction": "Find me long lasting men's fragrance with natural ingredients, and price lower than 50.00 dollars",
+      "reward": 1.0,
+      "steps": 3,
+      "cost": 0.00025,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \ni am looking for a gluten free, 100% vegan plant based protein shake that is soy-free, and price lower than 50.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[gluten free vegan plant based protein shake soy-free]",
+          "observation": "\n[Back to Search] \nPage 1 (Total results: 10) \n[B07FYPSNH8] \nOWYN - 100% Vegan Plant-Based Protein Shakes | Cold Brew Coffee, 12 Fl Oz | Dairy-Free, Gluten-Free, Soy-Free, Tree Nut-Free, Egg-Free, Allergy-Free, Vegetarian \n$11.07 \n[B08BPTT8MX] \nPediasure Grow & Gain with Immune Support, Kids Protein Shake, 27 Vitamins and Minerals, 7g Protein, Helps Kids Catch Up On Growth, Non-GMO, Gluten-Free, Chocolate, 8 Fl Oz, 16 Count \n$100.0 \n[B07HYF111T] \nKETO BARS : The Original High Fat, Low Carb, Ketogenic Bar. Gluten Free, Vegan, Homemade with simple ingredients. [Chocolate Peanut Butter, 10 Pack] \n$29.95 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B07FYPSNH8]",
+          "observation": "\n[Back to Search] \n[< Prev] \nOWYN - 100% Vegan Plant-Based Protein Shakes | Cold Brew Coffee, 12 Fl Oz | Dairy-Free, Gluten-Free, Soy-Free, Tree Nut-Free, Egg-Free, Allergy-Free, Vegetarian \nPrice: $11.07 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 1.0",
+          "reward": 1.0,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B09R1T2P6V",
+        "category": "electronics",
+        "query": "wearable technology",
+        "name": "Bling Charm Pendant Bracelet Band Compatible with Apple Watch Bands 38mm 40mm 42mm 44mm,Adjustable Stainless Steel Smartwatch Band with Bling Diamond Case for iwatch Series SE Series 7 6 5 4 3 2 1",
+        "product_category": "Cell Phones & Accessories \u203a Accessories \u203a Smartwatch Accessories \u203a Smartwatch Bands",
+        "instruction_text": "Find me compatible apple wearable technology with stainless steel with color: gold, and size: 38mm, and price lower than 30.00 dollars",
+        "attributes": [
+          "compatible apple",
+          "stainless steel"
+        ],
+        "price_upper": 30.0,
+        "goal_options": {
+          "color": "gold",
+          "size": "38mm"
+        },
+        "weight": 0.03018018018018018
+      },
+      "goal_idx": 5,
+      "run_idx": 0,
+      "instruction": "Find me compatible apple wearable technology with stainless steel with color: gold, and size: 38mm, and price lower than 30.00 dollars",
+      "reward": 0.0,
+      "steps": 15,
+      "cost": 0.0032299999999999994,
+      "invalid_actions": 14,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \ni need a 120 ml hair mask treatment, and price lower than 130.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[120 ml hair mask treatment]",
+          "observation": "\n[Back to Search] \nPage 1 (Total results: 10) \n[B09R4RJSFP] \nMagical Hair Treatment Mask 5 Seconds Repairs Damage Hair Advanced Molecular Hair deep Conditioner Roots Treatment Return Bouncy Restore Elasticity Hair Care Essence (60ML) \n$100.0 \n[B09FYBZNQL] \n7pcs Hair Conditioner For Damaged Dry Hair, Hair Mask Repairing Hair Deep Conditioner Conditioning Treatment for Damaged Hair \n$11.99 \n[B07T3PZ3S9] \nDaeng Gi Meo Ri Jin Gi Vitalizing Treatment 500 ML Anti Dandruff and Itchiness Made In Korea (Treatment) \n$32.0 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[7pcs Hair Conditioner For Damaged Dry Hair, Hair Mask Repairing Hair Deep Conditioner Conditioning Treatment for Damaged Hair]",
+          "observation": "Invalid action! \n[Back to Search] \nPage 1 (Total results: 10) \n[B09R4RJSFP] \nMagical Hair Treatment Mask 5 Seconds Repairs Damage Hair Advanced Molecular Hair deep Conditioner Roots Treatment Return Bouncy Restore Elasticity Hair Care Essence (60ML) \n$100.0 \n[B09FYBZNQL] \n7pcs Hair Conditioner For Damaged Dry Hair, Hair Mask Repairing Hair Deep Conditioner Conditioning Treatment for Damaged Hair \n$11.99 \n[B07T3PZ3S9] \nDaeng Gi Meo Ri Jin Gi Vitalizing Treatment 500 ML Anti Dandruff and Itchiness Made In Korea (Treatment) \n$32.0 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "search[120 ml hair mask]",
+          "observation": "Invalid action! Invalid action! \n[Back to Search] \nPage 1 (Total results: 10) \n[B09R4RJSFP] \nMagical Hair Treatment Mask 5 Seconds Repairs Damage Hair Advanced Molecular Hair deep Conditioner Roots Treatment Return Bouncy Restore Elasticity Hair Care Essence (60ML) \n$100.0 \n[B09FYBZNQL] \n7pcs Hair Conditioner For Damaged Dry Hair, Hair Mask Repairing Hair Deep Conditioner Conditioning Treatment for Damaged Hair \n$11.99 \n[B07T3PZ3S9] \nDaeng Gi Meo Ri Jin Gi Vitalizing Treatment 500 ML Anti Dandruff and Itchiness Made In Korea (Treatment) \n$32.0 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "search[hair mask treatment]",
+          "observation": "Invalid action! Invalid action! Invalid action! \n[Back to Search] \nPage 1 (Total results: 10) \n[B09R4RJSFP] \nMagical Hair Treatment Mask 5 Seconds Repairs Damage Hair Advanced Molecular Hair deep Conditioner Roots Treatment Return Bouncy Restore Elasticity Hair Care Essence (60ML) \n$100.0 \n[B09FYBZNQL] \n7pcs Hair Conditioner For Damaged Dry Hair, Hair Mask Repairing Hair Deep Conditioner Conditioning Treatment for Damaged Hair \n$11.99 \n[B07T3PZ3S9] \nDaeng Gi Meo Ri Jin Gi Vitalizing Treatment 500 ML Anti Dandruff and Itchiness Made In Korea (Treatment) \n$32.0 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 5,
+          "action": "search[120 ml hair mask treatment under 130 dollars]",
+          "observation": "Invalid action! Invalid action! Invalid action! Invalid action! \n[Back to Search] \nPage 1 (Total results: 10) \n[B09R4RJSFP] \nMagical Hair Treatment Mask 5 Seconds Repairs Damage Hair Advanced Molecular Hair deep Conditioner Roots Treatment Return Bouncy Restore Elasticity Hair Care Essence (60ML) \n$100.0 \n[B09FYBZNQL] \n7pcs Hair Conditioner For Damaged Dry Hair, Hair Mask Repairing Hair Deep Conditioner Conditioning Treatment for Damaged Hair \n$11.99 \n[B07T3PZ3S9] \nDaeng Gi Meo Ri Jin Gi Vitalizing Treatment 500 ML Anti Dandruff and Itchiness Made In Korea (Treatment) \n$32.0 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 6,
+          "action": "search[hair mask treatment 120 ml]",
+          "observation": "Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! \n[Back to Search] \nPage 1 (Total results: 10) \n[B09R4RJSFP] \nMagical Hair Treatment Mask 5 Seconds Repairs Damage Hair Advanced Molecular Hair deep Conditioner Roots Treatment Return Bouncy Restore Elasticity Hair Care Essence (60ML) \n$100.0 \n[B09FYBZNQL] \n7pcs Hair Conditioner For Damaged Dry Hair, Hair Mask Repairing Hair Deep Conditioner Conditioning Treatment for Damaged Hair \n$11.99 \n[B07T3PZ3S9] \nDaeng Gi Meo Ri Jin Gi Vitalizing Treatment 500 ML Anti Dandruff and Itchiness Made In Korea (Treatment) \n$32.0 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 7,
+          "action": "search[hair mask treatment 120 ml under 130 dollars]",
+          "observation": "Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! \n[Back to Search] \nPage 1 (Total results: 10) \n[B09R4RJSFP] \nMagical Hair Treatment Mask 5 Seconds Repairs Damage Hair Advanced Molecular Hair deep Conditioner Roots Treatment Return Bouncy Restore Elasticity Hair Care Essence (60ML) \n$100.0 \n[B09FYBZNQL] \n7pcs Hair Conditioner For Damaged Dry Hair, Hair Mask Repairing Hair Deep Conditioner Conditioning Treatment for Damaged Hair \n$11.99 \n[B07T3PZ3S9] \nDaeng Gi Meo Ri Jin Gi Vitalizing Treatment 500 ML Anti Dandruff and Itchiness Made In Korea (Treatment) \n$32.0 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 8,
+          "action": "search[120 ml hair mask treatment under 130]",
+          "observation": "Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! \n[Back to Search] \nPage 1 (Total results: 10) \n[B09R4RJSFP] \nMagical Hair Treatment Mask 5 Seconds Repairs Damage Hair Advanced Molecular Hair deep Conditioner Roots Treatment Return Bouncy Restore Elasticity Hair Care Essence (60ML) \n$100.0 \n[B09FYBZNQL] \n7pcs Hair Conditioner For Damaged Dry Hair, Hair Mask Repairing Hair Deep Conditioner Conditioning Treatment for Damaged Hair \n$11.99 \n[B07T3PZ3S9] \nDaeng Gi Meo Ri Jin Gi Vitalizing Treatment 500 ML Anti Dandruff and Itchiness Made In Korea (Treatment) \n$32.0 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 9,
+          "action": "search[hair mask treatment]",
+          "observation": "Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! \n[Back to Search] \nPage 1 (Total results: 10) \n[B09R4RJSFP] \nMagical Hair Treatment Mask 5 Seconds Repairs Damage Hair Advanced Molecular Hair deep Conditioner Roots Treatment Return Bouncy Restore Elasticity Hair Care Essence (60ML) \n$100.0 \n[B09FYBZNQL] \n7pcs Hair Conditioner For Damaged Dry Hair, Hair Mask Repairing Hair Deep Conditioner Conditioning Treatment for Damaged Hair \n$11.99 \n[B07T3PZ3S9] \nDaeng Gi Meo Ri Jin Gi Vitalizing Treatment 500 ML Anti Dandruff and Itchiness Made In Korea (Treatment) \n$32.0 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 10,
+          "action": "search[deodorant for sensitive skin]",
+          "observation": "Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! \n[Back to Search] \nPage 1 (Total results: 10) \n[B09R4RJSFP] \nMagical Hair Treatment Mask 5 Seconds Repairs Damage Hair Advanced Molecular Hair deep Conditioner Roots Treatment Return Bouncy Restore Elasticity Hair Care Essence (60ML) \n$100.0 \n[B09FYBZNQL] \n7pcs Hair Conditioner For Damaged Dry Hair, Hair Mask Repairing Hair Deep Conditioner Conditioning Treatment for Damaged Hair \n$11.99 \n[B07T3PZ3S9] \nDaeng Gi Meo Ri Jin Gi Vitalizing Treatment 500 ML Anti Dandruff and Itchiness Made In Korea (Treatment) \n$32.0 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 11,
+          "action": "search[deodorant sensitive skin under 50 dollars]",
+          "observation": "Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! \n[Back to Search] \nPage 1 (Total results: 10) \n[B09R4RJSFP] \nMagical Hair Treatment Mask 5 Seconds Repairs Damage Hair Advanced Molecular Hair deep Conditioner Roots Treatment Return Bouncy Restore Elasticity Hair Care Essence (60ML) \n$100.0 \n[B09FYBZNQL] \n7pcs Hair Conditioner For Damaged Dry Hair, Hair Mask Repairing Hair Deep Conditioner Conditioning Treatment for Damaged Hair \n$11.99 \n[B07T3PZ3S9] \nDaeng Gi Meo Ri Jin Gi Vitalizing Treatment 500 ML Anti Dandruff and Itchiness Made In Korea (Treatment) \n$32.0 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 12,
+          "action": "search[deodorant for sensitive skin under 50]",
+          "observation": "Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! \n[Back to Search] \nPage 1 (Total results: 10) \n[B09R4RJSFP] \nMagical Hair Treatment Mask 5 Seconds Repairs Damage Hair Advanced Molecular Hair deep Conditioner Roots Treatment Return Bouncy Restore Elasticity Hair Care Essence (60ML) \n$100.0 \n[B09FYBZNQL] \n7pcs Hair Conditioner For Damaged Dry Hair, Hair Mask Repairing Hair Deep Conditioner Conditioning Treatment for Damaged Hair \n$11.99 \n[B07T3PZ3S9] \nDaeng Gi Meo Ri Jin Gi Vitalizing Treatment 500 ML Anti Dandruff and Itchiness Made In Korea (Treatment) \n$32.0 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 13,
+          "action": "search[apple wearable technology stainless steel gold 38mm under 30 dollars]",
+          "observation": "Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! \n[Back to Search] \nPage 1 (Total results: 10) \n[B09R4RJSFP] \nMagical Hair Treatment Mask 5 Seconds Repairs Damage Hair Advanced Molecular Hair deep Conditioner Roots Treatment Return Bouncy Restore Elasticity Hair Care Essence (60ML) \n$100.0 \n[B09FYBZNQL] \n7pcs Hair Conditioner For Damaged Dry Hair, Hair Mask Repairing Hair Deep Conditioner Conditioning Treatment for Damaged Hair \n$11.99 \n[B07T3PZ3S9] \nDaeng Gi Meo Ri Jin Gi Vitalizing Treatment 500 ML Anti Dandruff and Itchiness Made In Korea (Treatment) \n$32.0 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 14,
+          "action": "search[apple wearable technology]",
+          "observation": "Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! \n[Back to Search] \nPage 1 (Total results: 10) \n[B09R4RJSFP] \nMagical Hair Treatment Mask 5 Seconds Repairs Damage Hair Advanced Molecular Hair deep Conditioner Roots Treatment Return Bouncy Restore Elasticity Hair Care Essence (60ML) \n$100.0 \n[B09FYBZNQL] \n7pcs Hair Conditioner For Damaged Dry Hair, Hair Mask Repairing Hair Deep Conditioner Conditioning Treatment for Damaged Hair \n$11.99 \n[B07T3PZ3S9] \nDaeng Gi Meo Ri Jin Gi Vitalizing Treatment 500 ML Anti Dandruff and Itchiness Made In Korea (Treatment) \n$32.0 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 15,
+          "action": "search[apple wearable technology stainless steel gold 38mm]",
+          "observation": "Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! Invalid action! \n[Back to Search] \nPage 1 (Total results: 10) \n[B09R4RJSFP] \nMagical Hair Treatment Mask 5 Seconds Repairs Damage Hair Advanced Molecular Hair deep Conditioner Roots Treatment Return Bouncy Restore Elasticity Hair Care Essence (60ML) \n$100.0 \n[B09FYBZNQL] \n7pcs Hair Conditioner For Damaged Dry Hair, Hair Mask Repairing Hair Deep Conditioner Conditioning Treatment for Damaged Hair \n$11.99 \n[B07T3PZ3S9] \nDaeng Gi Meo Ri Jin Gi Vitalizing Treatment 500 ML Anti Dandruff and Itchiness Made In Korea (Treatment) \n$32.0 ",
+          "reward": 0.0,
+          "done": false
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B09NNMV9LN",
+        "category": "fashion",
+        "query": "men's henleys",
+        "name": "JSPOYOU Mens Short Sleeve Crewneck 3D Graphic Tunic Shirts Big & Tall Tie Dye Summer Top Basic Designed Classic Cotton Shirt",
+        "product_category": "Clothing, Shoes & Jewelry \u203a Men \u203a Clothing \u203a Shirts \u203a Henleys",
+        "instruction_text": "Find me loose fit, light weight, slim fit men's henleys with long sleeve, short sleeve, contrast color, unique design for gym workout, teen girls with color: a-blue, and size: medium, and price lower than 40.00 dollars",
+        "attributes": [
+          "loose fit",
+          "light weight",
+          "slim fit",
+          "long sleeve",
+          "short sleeve",
+          "contrast color",
+          "unique design",
+          "gym workout",
+          "teen girls"
+        ],
+        "price_upper": 40.0,
+        "goal_options": {
+          "color": "a-blue",
+          "size": "medium"
+        },
+        "weight": 0.004756120809375458
+      },
+      "goal_idx": 6,
+      "run_idx": 0,
+      "instruction": "Find me loose fit, light weight, slim fit men's henleys with long sleeve, short sleeve, contrast color, unique design for gym workout, teen girls with color: a-blue, and size: medium, and price lower than 40.00 dollars",
+      "reward": 0.6666666666666666,
+      "steps": 3,
+      "cost": 0.00027,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \ni want a pink niuta 2 pack hair towel wrap for dry hair, and price lower than 20.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[pink niuta 2 pack hair towel wrap]",
+          "observation": "\n[Back to Search] \nPage 1 (Total results: 10) \n[B08G14B779] \nNIUTA 2 Pack Hair Towel Wrap, Microfiber Quick Drying Hair Towels, Super Absorbent Quick Dry Hair Towel, Wrapped Bath Cap (Pink+Light Blue) \n$4.99 \n[B083YVHBXH] \nSpa Headbands, Coral Fleece Makeup Headband Cosmetic Headband, Lovely Face Washing Headband Shower Headbands Headwraps, Soft Bowknot Spa Hair Band Spa Birthday Party Supplies (9 Colors) \n$12.99 \n[B09DD2C1XD] \nBeaupretty 8pcs Kids Nightcaps Hair Bonnets Sleeping Caps Hair Protection Wide Rim Hat Bath Shower Accessories for Home \n$19.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B08G14B779]",
+          "observation": "\n[Back to Search] \n[< Prev] \ncolor [pink][pink light blue][pink purple][pink rose]\nsize [26 inch x 10 inch][26 inch x 10 inch]\nNIUTA 2 Pack Hair Towel Wrap, Microfiber Quick Drying Hair Towels, Super Absorbent Quick Dry Hair Towel, Wrapped Bath Cap (Pink+Light Blue) \nPrice: $4.99 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 0.6666666666666666",
+          "reward": 0.6666666666666666,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B09SWLPPVQ",
+        "category": "electronics",
+        "query": "signal boosters",
+        "name": "2022 WiFi Extender - Wireless Signal Repeater Booster up to 4500 sq.ft - 1200Mbps Wall-Through Strong WiFi Booster-Dual Band 2.4G and 5G - 4 Antennas 360\u00b0 Full C6541-11",
+        "product_category": "Electronics \u203a Computers & Accessories \u203a Networking Products \u203a Repeaters",
+        "instruction_text": "Find me dual band, high speed signal boosters, and price lower than 140.00 dollars",
+        "attributes": [
+          "dual band",
+          "high speed"
+        ],
+        "price_upper": 140.0,
+        "goal_options": {},
+        "weight": 0.25757575757575757
+      },
+      "goal_idx": 7,
+      "run_idx": 0,
+      "instruction": "Find me dual band, high speed signal boosters, and price lower than 140.00 dollars",
+      "reward": 0.6666666666666666,
+      "steps": 3,
+      "cost": 0.00023,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \ni need some draw string shorts that are official cleveland university. the need to be small and charcoal along with being machine washable, and price lower than 60.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[official Cleveland University drawstring shorts small charcoal machine washable]",
+          "observation": "\n[Back to Search] \nPage 1 (Total results: 10) \n[B09HX5CD2D] \nCSU Cleveland State University Vikings Property Fleece Drawstring Shorts Heather Charcoal \n$39.95 \n[B07XPR3R7N] \nMarvel Avengers: Endgame Captain America America's Language T-Shirt \n$22.99 \n[B09QCVCYVY] \nBurband Womens High Waist Bike Shorts Tummy Control Workout Yoga Pants Running Exercise Running Shorts with Side Pockets \n$6.82 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B09HX5CD2D]",
+          "observation": "\n[Back to Search] \n[< Prev] \ncolor [heather charcoal][heather grey]\nsize [small][medium][large][x-large][xx-large]\nCSU Cleveland State University Vikings Property Fleece Drawstring Shorts Heather Charcoal \nPrice: $39.95 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 0.6666666666666666",
+          "reward": 0.6666666666666666,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B09P5CRVQ6",
+        "category": "fashion",
+        "query": "women's activewear",
+        "name": "Womens Tops Casual, Sweatshirt for Women Graphic, Womens Sweatshirt Hoodie, Women Love Print Sweatshirt Long Sleeve Cute Heart Sweater Pullover Tops Blouse",
+        "product_category": "Clothing, Shoes & Jewelry \u203a Women \u203a Clothing \u203a Active \u203a Active Base Layers",
+        "instruction_text": "Find me fleece lined women's activewear with long sleeve, classic fit for daily wear, and price lower than 60.00 dollars",
+        "attributes": [
+          "fleece lined",
+          "long sleeve",
+          "classic fit",
+          "daily wear"
+        ],
+        "price_upper": 60.0,
+        "goal_options": {},
+        "weight": 0.010161171892866637
+      },
+      "goal_idx": 8,
+      "run_idx": 0,
+      "instruction": "Find me fleece lined women's activewear with long sleeve, classic fit for daily wear, and price lower than 60.00 dollars",
+      "reward": 0.6666666666666666,
+      "steps": 3,
+      "cost": 0.00025,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \nshow me an one organic hair growth serum roller set for all hair types, and price lower than 60.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[organic hair growth serum roller set]",
+          "observation": "\n[Back to Search] \nPage 1 (Total results: 10) \n[B09PY89B1S] \nUpgraded Version Regrowth Organic Hair Serum Roller Set, Biotin Hair Growth Serum,Triple Roll-On Massager Hair Growth Essence,for Men Women of All Hair Types (5PCS) \n$21.99 \n[B09MDQ4HBT] \nLom-style Moroccan Hair Serum - Repairing Anti-frizz Serum No Silicones, Sulfates or Pbens with Organic Argan Oil 100 ml/3.38 oz Model (3301-9145) \n$100.0 \n[B08Q42DTN1] \nTHANN Aromatic Wood Aromatherapy Shampoo and Conditioner with Organic Olive Oil, Organic Grape Oil and Coix Extract, Organic Jojoba Oil, Organic Corn Silk Extract and Wheat Protein - Set B. \n$155.7 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B09PY89B1S]",
+          "observation": "\n[Back to Search] \n[< Prev] \nsize [1pcs][3pcs][5pcs]\nUpgraded Version Regrowth Organic Hair Serum Roller Set, Biotin Hair Growth Serum,Triple Roll-On Massager Hair Growth Essence,for Men Women of All Hair Types (5PCS) \nPrice: $21.99 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 0.6666666666666666",
+          "reward": 0.6666666666666666,
+          "done": true
+        }
+      ]
+    },
+    {
+      "goal": {
+        "asin": "B07XRDD75B",
+        "category": "grocery",
+        "query": "breakfast foods",
+        "name": "Arya Farm Certified Organic Bajra Flakes ( Crunch ) 300 g ( Pack of 2 ) Breakfast Cereal Without Chemicals",
+        "product_category": "Grocery & Gourmet Food \u203a Breakfast Foods \u203a Cereals \u203a Muesli",
+        "instruction_text": "Find me certified organic, high protein, gluten free breakfast foods with dietary fiber, and price lower than 30.00 dollars",
+        "attributes": [
+          "certified organic",
+          "high protein",
+          "gluten free",
+          "dietary fiber"
+        ],
+        "price_upper": 30.0,
+        "goal_options": {},
+        "weight": 0.2135551948051948
+      },
+      "goal_idx": 9,
+      "run_idx": 0,
+      "instruction": "Find me certified organic, high protein, gluten free breakfast foods with dietary fiber, and price lower than 30.00 dollars",
+      "reward": 1.0,
+      "steps": 5,
+      "cost": 0.00046,
+      "invalid_actions": 0,
+      "log": [
+        {
+          "step": 0,
+          "action": "reset",
+          "observation": "\nWebShop \nInstruction:  \ni am looking for x-large, red color women faux fur lined winter warm jacket coat, and price lower than 90.00 dollars \n[Search] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 1,
+          "action": "search[x-large red women faux fur lined winter warm jacket coat]",
+          "observation": "\n[Back to Search] \nPage 1 (Total results: 10) \n[B09KP78G37] \nWomen Faux Fur Lined Jacket Coat Winter Warm Thick Fleece Outwear Trench Zipper Plus Size Long Sleeve Plush Overcoat \n$47.41 to $59.07 \n[B07ZXBGDXF] \nWomen's Coat, FORUU Winter Faux Fur Fleece Outwear Warm Lapel Biker Motor Aviator Jacket \n$21.49 to $24.99 \n[B09MSZ4VS8] \nGoldweather Women Winter Leggings Printed Warm Fleece Lined Yoga Pants Trousers Thermal High Waist Thicken Cashmere Tights (Navy, L) \n$20.99 ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 2,
+          "action": "click[B09KP78G37]",
+          "observation": "\n[Back to Search] \n[< Prev] \ncolor [black][navy][red][yellow]\nsize [small][medium][large][x-large][xx-large][3x-large]\nWomen Faux Fur Lined Jacket Coat Winter Warm Thick Fleece Outwear Trench Zipper Plus Size Long Sleeve Plush Overcoat \nPrice: $47.41 to $59.07 \nRating: N.A. \n[Buy Now] ",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 3,
+          "action": "click[red]",
+          "observation": "You have clicked red.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 4,
+          "action": "click[x-large]",
+          "observation": "You have clicked x-large.",
+          "reward": 0.0,
+          "done": false
+        },
+        {
+          "step": 5,
+          "action": "click[Buy Now]",
+          "observation": "Your score (min 0.0, max 1.0): 1.0",
+          "reward": 1.0,
+          "done": true
+        }
+      ]
+    }
+  ]
+}
